@@ -52,6 +52,16 @@ Grid transformation from NTF to RGF93 in France.
 
 * ntf_r93.gsb
 
+### Germany: DE_DHDN -> ETRS89
+
+Grid transformation from DE_DHDN to ETRS89 in Germany.
+
+*Source*: [BKG](http://crs.bkg.bund.de/crseu/crs/descrtrans/BeTA/de_dhdn2etrs_beta.php)
+*Format*: NTv2
+*License*: Free redistribution is allowed and welcome
+
+* BETA2007.gsb
+
 ## Vertical grids
 
 1-dimensional transformation grids for vertical datum shifts.
