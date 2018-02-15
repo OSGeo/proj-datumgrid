@@ -4,6 +4,45 @@
 
 2-dimensional transformation grids for horizontal datum shifts.
 
+### Australia: AGD66 -> GDA94
+
+*Source*: ICSM - https://github.com/icsm-au/transformation_grids
+*Format*: NTv2
+*License*: Creative Commons Attribution 4.0
+
+Full national coverage two-way transformation file – see Appendix B
+in the GDA2020 Technical Manual available at
+http://www.icsm.gov.au/gda/tech.html for details.
+
+* A66_National_13_09_01.gsb
+
+### Australia: AGD66 -> GDA94
+
+*Source*: ICSM - https://github.com/icsm-au/transformation_grids
+*Format*: NTv2
+*License*: Creative Commons Attribution 4.0
+
+Full coverage two-way transformation file in those states that
+originally adopted AGD84 - West Australia, South Australia, Queensland
+- see Appendix B in the GDA2020 Technical Manual available at
+http://www.icsm.gov.au/gda/tech.html for details.
+
+* National_84_02_07_01.gsb
+
+### Australia: GDA94 -> GDA2020
+
+*Source*: ICSM - https://github.com/icsm-au/transformation_grids
+*Format*: NTv2
+*License*: Creative Commons Attribution 4.0
+
+Full national coverage two-way transformation files – See Sections 3.2
+and 3.7 in the GDA2020 Technical Manual available at
+http://www.icsm.gov.au/gda/tech.html for details.
+Table 3.4 details which grid to use.
+
+* GDA94_GDA2020_conformal.gsb
+* GDA94_GDA2020_conformal_and_distortion.gsb
+
 ### USA: NAD27 -> NAD83
 
 *Source*: USGS
