@@ -65,7 +65,7 @@ Grid data for high precision conversion of geographic coordinates from
 NAD83 to NAD83.
 
 * FL - Florida
-* MD -  Maryland
+* MD - Maryland
 * TN - Tennessee
 * WI - Wisconsin
 * WO - Washington, Oregon, N. California
