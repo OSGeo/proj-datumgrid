@@ -104,3 +104,36 @@ Grid transformation from DE_DHDN to ETRS89 in Germany.
 ## Vertical grids
 
 1-dimensional transformation grids for vertical datum shifts.
+
+### Denmark: GRS80 ellipsoidal heights -> DVR90 heights
+
+*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)
+*Format*: GTX
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Transform ellipsoidal heights to the local height system DVR90. The horizontal
+grid coordinates are referenced to ETRS89.
+
+* dvr90.gtx
+
+### Faroe Islands: GRS80 ellipsoidal heights -> FVR09
+
+*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)
+*Format*: GTX
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Transform ellipsoidal heights to the local height system FVR09. The horizontal
+grid coordinates are referenced to ETRS89.
+
+* fvr09.gtx
+
+### Greenland: GRS80 ellipsoidal heights -> GVR2016
+
+*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)
+*Format*: GTX
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Transform ellipsoidal heights to the local height system GVR2016. The horizontal
+grid coordinates are referenced to GR96.
+
+* gvr2016.gtx
