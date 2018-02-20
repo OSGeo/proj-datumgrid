@@ -6,8 +6,8 @@
 
 ### Australia: AGD66 -> GDA94
 
-*Source*: [ICSM](https://github.com/icsm-au/transformation_grids)
-*Format*: NTv2
+*Source*: [ICSM](https://github.com/icsm-au/transformation_grids)  
+*Format*: NTv2  
 *License*: [Creative Commons Attribution 4.0]((https://creativecommons.org/licenses/by/4.0/))
 
 Full national coverage two-way transformation file – see Appendix B
@@ -17,8 +17,8 @@ in the [GDA2020 Technical Manual](http://www.icsm.gov.au/gda/tech.html) for deta
 
 ### Australia: AGD66 -> GDA94
 
-*Source*: [ICSM](https://github.com/icsm-au/transformation_grids)
-*Format*: NTv2
+*Source*: [ICSM](https://github.com/icsm-au/transformation_grids)  
+*Format*: NTv2  
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Full coverage two-way transformation file in those states that
@@ -30,8 +30,8 @@ for details.
 
 ### Australia: GDA94 -> GDA2020
 
-*Source*: [ICSM](https://github.com/icsm-au/transformation_grids)
-*Format*: NTv2
+*Source*: [ICSM](https://github.com/icsm-au/transformation_grids)  
+*Format*: NTv2  
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Full national coverage two-way transformation files – See Sections 3.2
@@ -43,8 +43,8 @@ Table 3.4 details which grid to use.
 
 ### USA: NAD27 -> NAD83
 
-*Source*: USGS
-*Format*: CTable2
+*Source*: USGS  
+*Format*: CTable2  
 *License*: Public Domain
 
 * alaska - Alaska
@@ -57,8 +57,8 @@ Table 3.4 details which grid to use.
 
 ### USA: NAD83 -> NAD83
 
-*Source*: USGS
-*Format*: CTable2
+*Source*: USGS  
+*Format*: CTable2  
 *License*: Public Domain
 
 Grid data for high precision conversion of geographic coordinates from
@@ -72,8 +72,8 @@ NAD83 to NAD83.
 
 ### Canada: NAD27 -> NAD83
 
-*Source*: [Natural Resources Canada](http://www.nrcan.gc.ca/earth-sciences/geomatics/geodetic-reference-systems/18766)
-*Format* NTv1
+*Source*: [Natural Resources Canada](http://www.nrcan.gc.ca/earth-sciences/geomatics/geodetic-reference-systems/18766)  
+*Format* NTv1  
 *License*: Public Domain
 * ntv1_can.dat
 
@@ -83,16 +83,16 @@ Grid conversion from NAD27 to NAD83 in Canada
 
 Grid transformation from NTF to RGF93 in France.
 
-*Source*: [IGN](http://www.ign.fr/)
-*Format*: NTv2
+*Source*: [IGN](http://www.ign.fr/)  
+*Format*: NTv2  
 *License*: Public Domain
 
 * ntf_r93.gsb
 
 ### Germany: DE_DHDN -> ETRS89
 
-*Source*: [BKG](http://crs.bkg.bund.de/crseu/crs/descrtrans/BeTA/de_dhdn2etrs_beta.php)
-*Format*: NTv2
+*Source*: [BKG](http://crs.bkg.bund.de/crseu/crs/descrtrans/BeTA/de_dhdn2etrs_beta.php)  
+*Format*: NTv2  
 *License*: Free redistribution is allowed and welcome
 
 Grid transformation from DE_DHDN to ETRS89 in Germany.
@@ -105,8 +105,8 @@ Grid transformation from DE_DHDN to ETRS89 in Germany.
 
 ### Denmark: GRS80 ellipsoidal heights -> DVR90 heights
 
-*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)
-*Format*: GTX
+*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
+*Format*: GTX  
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ellipsoidal heights to the local height system DVR90. The horizontal
@@ -116,8 +116,8 @@ grid coordinates are referenced to ETRS89.
 
 ### Faroe Islands: GRS80 ellipsoidal heights -> FVR09
 
-*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)
-*Format*: GTX
+*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
+*Format*: GTX  
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ellipsoidal heights to the local height system FVR09. The horizontal
@@ -127,8 +127,8 @@ grid coordinates are referenced to ETRS89.
 
 ### Greenland: GRS80 ellipsoidal heights -> GVR2016
 
-*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)
-*Format*: GTX
+*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
+*Format*: GTX  
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transform ellipsoidal heights to the local height system GVR2016. The horizontal
