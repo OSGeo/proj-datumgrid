@@ -24,8 +24,8 @@ is clearly stated and verifiable. Suitable licenses include:
   * X/MIT
   * BSD 2/3/4 clause
   * CC0
-  * CC-BY
-  * CC-BY-SA
+  * CC-BY (v3.0 or later)
+  * CC-BY-SA (v3.0 or later)
 
 ## Horizontal grids
 
