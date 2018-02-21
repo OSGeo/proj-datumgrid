@@ -1,4 +1,31 @@
-# Grid listing
+# PROJ-DATUMGRID
+
+The files in this package can be unpacked in the PROJ data directory.
+For an installed PROJ this may be /usr/local/share/proj or /usr/share/proj
+on unix style operating systems.
+
+Note that this package includes "CTable2" format grid shift files for
+NAD27 in the USA and require PROJ 4.8.0 or newer.  On the plus side there
+is no need to compile ascii files into binary files with this version as
+CTable2 files are not system dependent (as distinct from the CTable files
+produced in PROJ 4.7.0 and older).
+
+## About the Datum Grid package
+
+The datum grid package for PROJ is maintained on the OSGeo proj-datumgrid
+repository on [GitHub](https://github.com/OSGeo/proj-datumgrid).
+All grids in the package are released under
+permissives licenses. New grids are accepted into the package as long as
+they are released under a license that is compatible with the [Open Source
+Definition](https://opensource.org/osd-annotated) and the source of the grid
+is clearly stated and verifiable. Suitable licenses include:
+
+  * Public domain
+  * X/MIT
+  * BSD 2/3/4 clause
+  * CC0
+  * CC-BY
+  * CC-BY-SA
 
 ## Horizontal grids
 
