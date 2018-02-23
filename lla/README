@@ -12,17 +12,18 @@ Second line:
 <grid_size_x> <grid_size_y> <ignore> <lowleft_longitude> <resolution_longitude>
 <lowleft_latitude> <resolution_latitude>
 
-Angles are in decimal degrees.
+Coordinates are grid centered with decimal degree units.
 
 
 Subsequent lines are:
 
 <line_no>: <x_shift> <y_shift> *
 
-The <line_no> is zero based, and will vary from 0 to <grid_size_y>-1.  The 
+The <line_no> is zero based, and will start from 0 at the lower left grid cell
+and end at <grid_size_y> - 1 for the upper right grid cell.  The
 number of x/y shift pairs will match <grid_size_x>.  Grid lines can be
 split over multiple physical text lines.  Use the colon to identify starts
-of new grid lines.  The shift values are in millionths of a secondc of arc. 
+of new grid lines.  The shift values are in millionths of a seconds of arc.
 
 
 For example, from MD.lla:
@@ -39,7 +40,6 @@ Maryland - HP
 -2899 724
 
 
-The grid is 25x7, and covers the region with a lower left corner of
-80d00'W 37d00'N and an upper right corner of 73d45'W 43d15'N.  
-
+The grid is 25x17, and covers the region with a lower left grid cell at
+80d00'W 37d00'N and an upper right grid cell at 73d45'W 41d30'N.  
 

@@ -15,7 +15,7 @@ produced in PROJ 4.7.0 and older).
 The datum grid package for PROJ is maintained on the OSGeo proj-datumgrid
 repository on [GitHub](https://github.com/OSGeo/proj-datumgrid).
 All grids in the package are released under
-permissives licenses. New grids are accepted into the package as long as
+permissive licenses. New grids are accepted into the package as long as
 they are released under a license that is compatible with the [Open Source
 Definition](https://opensource.org/osd-annotated) and the source of the grid
 is clearly stated and verifiable. Suitable licenses include:
