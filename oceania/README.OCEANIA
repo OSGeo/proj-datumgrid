@@ -1,10 +1,10 @@
-# PROJ-DATUMGRID-AUSTRALIA
+# PROJ-DATUMGRID-OCEANIA
 
 The files in this package can be unpacked in the PROJ data directory.
 For an installed PROJ this may be /usr/local/share/proj or /usr/share/proj
 on unix style operating systems.
 
-## About the Australian Datum Grid package
+## About the Oceania Datum Grid package
 
 Due to the large size of the Australian grid files, these files are
 distributed separately.

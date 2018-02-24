@@ -44,7 +44,7 @@ in the [GDA2020 Technical Manual](http://www.icsm.gov.au/gda/tech.html) for deta
 
 * A66_National_13_09_01.gsb
 
-*Package*: proj-datumgrid-australia
+*Package*: proj-datumgrid-oceania
 
 ### Australia: AGD66 -> GDA94
 
@@ -59,7 +59,7 @@ for details.
 
 * National_84_02_07_01.gsb
 
-*Package*: proj-datumgrid-australia
+*Package*: proj-datumgrid-oceania
 
 ### Australia: GDA94 -> GDA2020
 
@@ -74,7 +74,7 @@ Table 3.4 details which grid to use.
 * GDA94_GDA2020_conformal.gsb
 * GDA94_GDA2020_conformal_and_distortion.gsb
 
-*Package*: proj-datumgrid-australia
+*Package*: proj-datumgrid-oceania
 
 ### Canada: NAD27 -> NAD83
 
