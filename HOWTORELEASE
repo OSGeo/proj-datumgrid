@@ -44,7 +44,7 @@ Prerequisites:
 
     Only do this for final releases.
 
-    $ git tag $(echo $(grep "set(PROJ_DATUMGRID_VERSION_MAJOR" ../CMakeLists.txt | awk '{print $2}' | sed 's/)//').$(grep "set(PROJ_DATUMGRID_VERSION_MINOR" ../CMakeLists.txt | awk '{print $2}' | sed 's/)//'))
+    $ git tag $(echo $(grep "set(PROJ_DATUMGRID_VERSION_MAJOR" CMakeLists.txt | awk '{print $2}' | sed 's/)//').$(grep "set(PROJ_DATUMGRID_VERSION_MINOR" CMakeLists.txt | awk '{print $2}' | sed 's/)//'))
     $ git push --tags
 
     Create a release on GitHub.
