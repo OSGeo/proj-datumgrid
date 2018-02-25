@@ -68,35 +68,6 @@ Table 3.4 details which grid to use.
 * GDA94_GDA2020_conformal.gsb
 * GDA94_GDA2020_conformal_and_distortion.gsb
 
-### USA: NAD27 -> NAD83
-
-*Source*: USGS  
-*Format*: CTable2  
-*License*: Public Domain
-
-* alaska - Alaska
-* conus - Conterminous U.S.
-* hawaii - Hawaii
-* prvi - Puerto Rico, Virgin Is.
-* stgeorge - St. George Is, Alaska
-* stlrnc - St. Lawrence Is., Alaska
-* stpaul - St. Paul Is., Alaska
-
-### USA: NAD83 -> NAD83
-
-*Source*: USGS  
-*Format*: CTable2  
-*License*: Public Domain
-
-Grid data for high precision conversion of geographic coordinates from
-NAD83 to NAD83.
-
-* FL - Florida
-* MD - Maryland
-* TN - Tennessee
-* WI - Wisconsin
-* WO - Washington, Oregon, N. California
-
 ### Canada: NAD27 -> NAD83
 
 *Source*: [Natural Resources Canada](http://www.nrcan.gc.ca/earth-sciences/geomatics/geodetic-reference-systems/18766)  
@@ -125,6 +96,46 @@ Grid transformation from NTF to RGF93 in France.
 Grid transformation from DE_DHDN to ETRS89 in Germany.
 
 * BETA2007.gsb
+
+### New Zealand: NZGD49 -> NZGD2000
+
+*Source*: [LINZ](https://www.linz.govt.nz/data/geodetic-system/download-geodetic-software/gd2000it-download)  
+*Format*: NTv2  
+*License*: [Creative Commons Attribution 3.0 New Zealand](https://creativecommons.org/licenses/by/3.0/nz/)
+
+This grid file was computed by Land Information New Zealand at approximately
+a 20 km interval for the conversion between NZGD49 and NZGD2000.
+
+* nzgd2kgrid0005.gsb
+
+### USA: NAD27 -> NAD83
+
+*Source*: USGS  
+*Format*: CTable2  
+*License*: Public Domain
+
+* alaska - Alaska
+* conus - Conterminous U.S.
+* hawaii - Hawaii
+* prvi - Puerto Rico, Virgin Is.
+* stgeorge - St. George Is, Alaska
+* stlrnc - St. Lawrence Is., Alaska
+* stpaul - St. Paul Is., Alaska
+
+### USA: NAD83 -> NAD83
+
+*Source*: USGS  
+*Format*: CTable2  
+*License*: Public Domain
+
+Grid data for high precision conversion of geographic coordinates from
+NAD83 to NAD83.
+
+* FL - Florida
+* MD - Maryland
+* TN - Tennessee
+* WI - Wisconsin
+* WO - Washington, Oregon, N. California
 
 ## Vertical grids
 
