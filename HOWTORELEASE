@@ -44,7 +44,7 @@ Prerequisites:
 
     Only do this for final releases.
 
-    $ git tag $(echo $(grep "set(PROJ_DATUMGRID_VERSION_MAJOR" ../CMakeLists.txt | awk '{print $2}' | sed 's/)//').$(grep "set(PROJ_DATUMGRID_VERSION_MINOR" ../CMakeLists.txt | awk '{print $2}' | sed 's/)//'))
+    $ git tag $(echo $(grep "set(PROJ_DATUMGRID_VERSION_MAJOR" CMakeLists.txt | awk '{print $2}' | sed 's/)//').$(grep "set(PROJ_DATUMGRID_VERSION_MINOR" CMakeLists.txt | awk '{print $2}' | sed 's/)//'))
     $ git push --tags
 
     Create a release on GitHub.
@@ -61,3 +61,64 @@ Prerequisites:
         set(PROJ_DATUMGRID_VERSION_MINOR 8-prerelease)
 
     Commit the updated CMakeLists.txt
+
+9. Repeat the above stepts for the region specific archives
+   if there were changes since the last release
+
+9.1. Oceania
+
+    $ cd oceania
+
+9.1.1. Adjust the version number
+
+    If preparing a release candidate "RCx" should be added
+    to PROJ_DATUMGRID_OCEANIA_VERSION_MINOR in CMakeLists.txt.
+
+    If preparing the final release any postfixes to the version
+    number should be stripped.
+
+9.1.2. Create tarball and zip:
+
+    $ mkdir build
+    $ cd build
+    $ cmake ..
+    $ make dist
+
+9.1.3. Check repo for grid changes:
+
+    $ git status
+
+9.1.4. Check contents of tarball and zip:
+
+    $ tar tvf proj-datumgrid-oceania-*.tar.gz
+    $ unzip -l proj-datumgrid-oceania-*.tar.gz
+
+9.1.5. Upload the files to download.osgeo.org/proj
+
+    If you are preparing a release, you know how to do this.
+
+9.1.6. Cleanup
+
+    $ cd ..
+    $ rm -rf build
+
+9.1.7. Create git tag
+
+    $ git tag oceania-$(echo $(grep "set(PROJ_DATUMGRID_OCEANIA_VERSION_MAJOR" CMakeLists.txt | awk '{print $2}' | sed 's/)//').$(grep "set(PROJ_DATUMGRID_OCEANIA_VERSION_MINOR" CMakeLists.txt | awk '{print $2}' | sed 's/)//'))
+    $ git push --tags
+
+    Create a release on GitHub
+
+9.1.8. Bump the version number:
+
+    In CMakeLists.txt add 1 to PROJ_DATUMGRID_OCEANIA_VERSION_MINOR
+    and add a prerelease postfix so that
+
+        set(PROJ_DATUMGRID_OCEANIA_VERSION_MINOR 0)
+
+    becomes
+
+        set(PROJ_DATUMGRID_OCEANIA_VERSION_MINOR 1-prerelease)
+
+    Commit the updated CMakeLists.txt
+

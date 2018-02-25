@@ -27,6 +27,8 @@ is clearly stated and verifiable. Suitable licenses include:
   * CC-BY (v3.0 or later)
   * CC-BY-SA (v3.0 or later)
 
+Some large grid files are distributed in separate packages.
+
 ## Horizontal grids
 
 2-dimensional transformation grids for horizontal datum shifts.
@@ -42,6 +44,8 @@ in the [GDA2020 Technical Manual](http://www.icsm.gov.au/gda/tech.html) for deta
 
 * A66_National_13_09_01.gsb
 
+*Package*: proj-datumgrid-oceania
+
 ### Australia: AGD66 -> GDA94
 
 *Source*: [ICSM](https://github.com/icsm-au/transformation_grids)  
@@ -54,6 +58,8 @@ originally adopted AGD84 - West Australia, South Australia, Queensland
 for details.
 
 * National_84_02_07_01.gsb
+
+*Package*: proj-datumgrid-oceania
 
 ### Australia: GDA94 -> GDA2020
 
@@ -68,6 +74,8 @@ Table 3.4 details which grid to use.
 * GDA94_GDA2020_conformal.gsb
 * GDA94_GDA2020_conformal_and_distortion.gsb
 
+*Package*: proj-datumgrid-oceania
+
 ### Canada: NAD27 -> NAD83
 
 *Source*: [Natural Resources Canada](http://www.nrcan.gc.ca/earth-sciences/geomatics/geodetic-reference-systems/18766)  
@@ -76,6 +84,8 @@ Table 3.4 details which grid to use.
 * ntv1_can.dat
 
 Grid conversion from NAD27 to NAD83 in Canada
+
+*Package*: proj-datumgrid
 
 ### France: NTF -> RGF93
 
@@ -87,6 +97,8 @@ Grid transformation from NTF to RGF93 in France.
 
 * ntf_r93.gsb
 
+*Package*: proj-datumgrid
+
 ### Germany: DE_DHDN -> ETRS89
 
 *Source*: [BKG](http://crs.bkg.bund.de/crseu/crs/descrtrans/BeTA/de_dhdn2etrs_beta.php)  
@@ -96,6 +108,8 @@ Grid transformation from NTF to RGF93 in France.
 Grid transformation from DE_DHDN to ETRS89 in Germany.
 
 * BETA2007.gsb
+
+*Package*: proj-datumgrid
 
 ### New Zealand: NZGD49 -> NZGD2000
 
@@ -107,6 +121,8 @@ This grid file was computed by Land Information New Zealand at approximately
 a 20 km interval for the conversion between NZGD49 and NZGD2000.
 
 * nzgd2kgrid0005.gsb
+
+*Package*: proj-datumgrid
 
 ### USA: NAD27 -> NAD83
 
@@ -121,6 +137,8 @@ a 20 km interval for the conversion between NZGD49 and NZGD2000.
 * stgeorge - St. George Is, Alaska
 * stlrnc - St. Lawrence Is., Alaska
 * stpaul - St. Paul Is., Alaska
+
+*Package*: proj-datumgrid
 
 ### USA: NAD83 -> NAD83
 
@@ -137,6 +155,8 @@ NAD83 to NAD83.
 * WI - Wisconsin
 * WO - Washington, Oregon, N. California
 
+*Package*: proj-datumgrid
+
 ## Vertical grids
 
 1-dimensional transformation grids for vertical datum shifts.
@@ -152,6 +172,8 @@ grid coordinates are referenced to ETRS89.
 
 * dvr90.gtx
 
+*Package*: proj-datumgrid
+
 ### Faroe Islands: GRS80 ellipsoidal heights -> FVR09
 
 *Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
@@ -163,6 +185,8 @@ grid coordinates are referenced to ETRS89.
 
 * fvr09.gtx
 
+*Package*: proj-datumgrid
+
 ### Greenland: GRS80 ellipsoidal heights -> GVR2016
 
 *Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
@@ -173,3 +197,6 @@ Transform ellipsoidal heights to the local height system GVR2016. The horizontal
 grid coordinates are referenced to GR96.
 
 * gvr2016.gtx
+
+*Package*: proj-datumgrid
+
