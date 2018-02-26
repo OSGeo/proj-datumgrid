@@ -37,7 +37,7 @@ endforeach(GRIDFILE)
 set(CPACK_SOURCE_GENERATOR "TGZ;ZIP")
 set(CPACK_INCLUDE_TOPLEVEL_DIRECTORY 0)
 set(CPACK_SOURCE_PACKAGE_FILE_NAME "proj-datumgrid-${PROJ_DATUMGRID_VERSION_MAJOR}.${PROJ_DATUMGRID_VERSION_MINOR}")
-set(CPACK_SOURCE_IGNORE_FILES "/oceania/;/build/;/cmake/;CMakeLists.txt;/lla/;HOWTORELEASE;/.github/;/.git/;.swp$;.*~;${CPACK_SOURCE_IGNORE_FILES}")
+set(CPACK_SOURCE_IGNORE_FILES "/oceania/;/north-america/;/build/;/cmake/;CMakeLists.txt;/lla/;HOWTORELEASE;/.github/;/.git/;.swp$;.*~;${CPACK_SOURCE_IGNORE_FILES}")
 
 include(CPack)
 

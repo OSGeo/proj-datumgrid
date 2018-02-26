@@ -139,18 +139,6 @@ grid coordinates are referenced to ETRS89.
 
 * fvr09.gtx
 
-### Greenland: GRS80 ellipsoidal heights -> GVR2016
-
-*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
-*Format*: GTX  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-Transform ellipsoidal heights to the local height system GVR2016. The horizontal
-grid coordinates are referenced to GR96.
-
-* gvr2016.gtx
-
-
 ## Regional PROJ ressource packages
 
 In addition to the core proj-datumgrid package, regional collections of grids
@@ -160,6 +148,17 @@ PROJ-users in the package-specific regions.
 
 The regional packages can be downloaded from the
 [OSGeo download server](http://download.osgeo.org/proj/).
+
+
+### North America
+
+The ressource package for Oceania at the moment includes grids from the
+following countries:
+
+* Greenland
+
+More information about the included grids and init files can be found in
+[README.NORTHAMERICA](https://raw.githubusercontent.com/OSGeo/proj-datumgrid/master/north-america/README.NORTHAMERICA)
 
 ### Oceania
 

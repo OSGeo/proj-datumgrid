@@ -1,0 +1,83 @@
+################################################################################
+#
+#                               Greenland
+#
+# GR96 is used as the pivot datum for all transformations within this file.
+#
+# GR96 is defined as ITRF94 epoch 15. August, 1996, fixed to the North American
+# plate.
+#
+# See https://github.com/NordicGeodesy/NordicTransformations for more
+# information about the transformations.
+#
+# Revision history:
+#
+#   2018-01-03:
+#       Initial setup defining the transformation from global frames to GR96.
+#
+#       Kristian Evers <kreve@sdfe.dk>
+#
+#   2018-02-19
+#       Addition of GVR2016 vertical reference.
+#
+#       Kristian Evers <kreve@sdfe.dk>
+#
+#   2018-02-26
+#       Addition of GVR2000 vertical reference and system definitions using UTM
+#       with and without GVR2000 and GVR2016.
+#
+#       Kristian Evers <kreve@sdfe.dk>
+#
+#
+###############################################################################
+<metadata> +version=1.0.0 +origin=NKG +lastupdate=2018-02-26
+#
+<GVR2016>   proj=vgridshift grids=gvr2016.gtx
+<GVR2000>   proj=vgridshift grids=gvr2000.gtx
+
+<ITRF2014>  proj = pipeline ellps = GRS80
+            step inv init = ITRF2014:ITRF94 t_obs = 1996.623
+            step inv init = ITRF2014:NOAM   t_epoch=1996.623
+
+<ITRF2008>  proj = pipeline ellps = GRS80
+            step inv init = ITRF2008:ITRF94 t_obs = 1996.623
+            step inv init = ITRF2008:NOAM   t_epoch=1996.623
+
+<UTM18N> proj=utm +zone=18 ellps=GRS80 no_defs
+<UTM19N> proj=utm +zone=19 ellps=GRS80 no_defs
+<UTM20N> proj=utm +zone=20 ellps=GRS80 no_defs
+<UTM21N> proj=utm +zone=21 ellps=GRS80 no_defs
+<UTM22N> proj=utm +zone=22 ellps=GRS80 no_defs
+<UTM23N> proj=utm +zone=23 ellps=GRS80 no_defs
+<UTM24N> proj=utm +zone=24 ellps=GRS80 no_defs
+<UTM25N> proj=utm +zone=25 ellps=GRS80 no_defs
+<UTM26N> proj=utm +zone=26 ellps=GRS80 no_defs
+<UTM27N> proj=utm +zone=27 ellps=GRS80 no_defs
+<UTM28N> proj=utm +zone=28 ellps=GRS80 no_defs
+<UTM29N> proj=utm +zone=29 ellps=GRS80 no_defs
+
+<UTM18N_GVR2000> proj=pipeline step init=GL:GVR2000 step init=GL:UTM18N
+<UTM19N_GVR2000> proj=pipeline step init=GL:GVR2000 step init=GL:UTM19N
+<UTM20N_GVR2000> proj=pipeline step init=GL:GVR2000 step init=GL:UTM20N
+<UTM21N_GVR2000> proj=pipeline step init=GL:GVR2000 step init=GL:UTM21N
+<UTM22N_GVR2000> proj=pipeline step init=GL:GVR2000 step init=GL:UTM22N
+<UTM23N_GVR2000> proj=pipeline step init=GL:GVR2000 step init=GL:UTM23N
+<UTM24N_GVR2000> proj=pipeline step init=GL:GVR2000 step init=GL:UTM24N
+<UTM25N_GVR2000> proj=pipeline step init=GL:GVR2000 step init=GL:UTM25N
+<UTM26N_GVR2000> proj=pipeline step init=GL:GVR2000 step init=GL:UTM26N
+<UTM27N_GVR2000> proj=pipeline step init=GL:GVR2000 step init=GL:UTM27N
+<UTM28N_GVR2000> proj=pipeline step init=GL:GVR2000 step init=GL:UTM28N
+<UTM29N_GVR2000> proj=pipeline step init=GL:GVR2000 step init=GL:UTM29N
+
+<UTM18N_GVR2016> proj=pipeline step init=GL:GVR2016 step init=GL:UTM18N
+<UTM19N_GVR2016> proj=pipeline step init=GL:GVR2016 step init=GL:UTM19N
+<UTM20N_GVR2016> proj=pipeline step init=GL:GVR2016 step init=GL:UTM20N
+<UTM21N_GVR2016> proj=pipeline step init=GL:GVR2016 step init=GL:UTM21N
+<UTM22N_GVR2016> proj=pipeline step init=GL:GVR2016 step init=GL:UTM22N
+<UTM23N_GVR2016> proj=pipeline step init=GL:GVR2016 step init=GL:UTM23N
+<UTM24N_GVR2016> proj=pipeline step init=GL:GVR2016 step init=GL:UTM24N
+<UTM25N_GVR2016> proj=pipeline step init=GL:GVR2016 step init=GL:UTM25N
+<UTM26N_GVR2016> proj=pipeline step init=GL:GVR2016 step init=GL:UTM26N
+<UTM27N_GVR2016> proj=pipeline step init=GL:GVR2016 step init=GL:UTM27N
+<UTM28N_GVR2016> proj=pipeline step init=GL:GVR2016 step init=GL:UTM28N
+<UTM29N_GVR2016> proj=pipeline step init=GL:GVR2016 step init=GL:UTM29N
