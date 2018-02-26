@@ -27,54 +27,9 @@ is clearly stated and verifiable. Suitable licenses include:
   * CC-BY (v3.0 or later)
   * CC-BY-SA (v3.0 or later)
 
-Some large grid files are distributed in separate packages.
-
 ## Horizontal grids
 
 2-dimensional transformation grids for horizontal datum shifts.
-
-### Australia: AGD66 -> GDA94
-
-*Source*: [ICSM](https://github.com/icsm-au/transformation_grids)  
-*Format*: NTv2  
-*License*: [Creative Commons Attribution 4.0]((https://creativecommons.org/licenses/by/4.0/))
-
-Full national coverage two-way transformation file – see Appendix B
-in the [GDA2020 Technical Manual](http://www.icsm.gov.au/gda/tech.html) for details.
-
-* A66_National_13_09_01.gsb
-
-*Package*: proj-datumgrid-oceania
-
-### Australia: AGD66 -> GDA94
-
-*Source*: [ICSM](https://github.com/icsm-au/transformation_grids)  
-*Format*: NTv2  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-Full coverage two-way transformation file in those states that
-originally adopted AGD84 - West Australia, South Australia, Queensland
-- see Appendix B in the [GDA2020 Technical Manual](http://www.icsm.gov.au/gda/tech.html)
-for details.
-
-* National_84_02_07_01.gsb
-
-*Package*: proj-datumgrid-oceania
-
-### Australia: GDA94 -> GDA2020
-
-*Source*: [ICSM](https://github.com/icsm-au/transformation_grids)  
-*Format*: NTv2  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-Full national coverage two-way transformation files – See Sections 3.2
-and 3.7 in the [GDA2020 Technical Manual](http://www.icsm.gov.au/gda/tech.html) for details.
-Table 3.4 details which grid to use.
-
-* GDA94_GDA2020_conformal.gsb
-* GDA94_GDA2020_conformal_and_distortion.gsb
-
-*Package*: proj-datumgrid-oceania
 
 ### Canada: NAD27 -> NAD83
 
@@ -84,8 +39,6 @@ Table 3.4 details which grid to use.
 * ntv1_can.dat
 
 Grid conversion from NAD27 to NAD83 in Canada
-
-*Package*: proj-datumgrid
 
 ### France: NTF -> RGF93
 
@@ -97,8 +50,6 @@ Grid transformation from NTF to RGF93 in France.
 
 * ntf_r93.gsb
 
-*Package*: proj-datumgrid
-
 ### Germany: DE_DHDN -> ETRS89
 
 *Source*: [BKG](http://crs.bkg.bund.de/crseu/crs/descrtrans/BeTA/de_dhdn2etrs_beta.php)  
@@ -108,8 +59,6 @@ Grid transformation from NTF to RGF93 in France.
 Grid transformation from DE_DHDN to ETRS89 in Germany.
 
 * BETA2007.gsb
-
-*Package*: proj-datumgrid
 
 ### New Zealand: NZGD49 -> NZGD2000
 
@@ -121,8 +70,6 @@ This grid file was computed by Land Information New Zealand at approximately
 a 20 km interval for the conversion between NZGD49 and NZGD2000.
 
 * nzgd2kgrid0005.gsb
-
-*Package*: proj-datumgrid
 
 ### USA: NAD27 -> NAD83
 
@@ -137,8 +84,6 @@ a 20 km interval for the conversion between NZGD49 and NZGD2000.
 * stgeorge - St. George Is, Alaska
 * stlrnc - St. Lawrence Is., Alaska
 * stpaul - St. Paul Is., Alaska
-
-*Package*: proj-datumgrid
 
 ### USA: NAD83 -> NAD83
 
@@ -155,8 +100,6 @@ NAD83 to NAD83.
 * WI - Wisconsin
 * WO - Washington, Oregon, N. California
 
-*Package*: proj-datumgrid
-
 ## Vertical grids
 
 1-dimensional transformation grids for vertical datum shifts.
@@ -171,44 +114,44 @@ NAD83 to NAD83.
 
 * egm96_15.gtx
 
-*Package*: proj-datumgrid
+# Regional PROJ resource packages
 
-### Denmark: GRS80 ellipsoidal heights -> DVR90 heights
+In addition to the core proj-datumgrid package, regional collections of grids
+and init-files also exist. These includes grids and init-files that are not
+essential for the functionality of PROJ but still of general interest to
+PROJ-users in the package-specific regions.
 
-*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
-*Format*: GTX  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+The regional packages can be downloaded from the
+[OSGeo download server](http://download.osgeo.org/proj/).
 
-Transform ellipsoidal heights to the local height system DVR90. The horizontal
-grid coordinates are referenced to ETRS89.
+### Europe
 
-* dvr90.gtx
+The regional package for Europe includes resources for the following
+countries:
 
-*Package*: proj-datumgrid
+* Denmark
+* The Faroe Islands
+* The Nordic+Baltic countries
 
-### Faroe Islands: GRS80 ellipsoidal heights -> FVR09
+More information about the included grids and init files can be found in
+[README.EUROPE](https://raw.githubusercontent.com/OSGeo/proj-datumgrid/master/europe/README.EUROPE)
 
-*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
-*Format*: GTX  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+### North America
 
-Transform ellipsoidal heights to the local height system FVR09. The horizontal
-grid coordinates are referenced to ETRS89.
+The regional package for North America includes resources for the following
+countries:
 
-* fvr09.gtx
+* Greenland
 
-*Package*: proj-datumgrid
+More information about the included grids and init files can be found in
+[README.NORTHAMERICA](https://raw.githubusercontent.com/OSGeo/proj-datumgrid/master/north-america/README.NORTHAMERICA)
 
-### Greenland: GRS80 ellipsoidal heights -> GVR2016
+### Oceania
 
-*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
-*Format*: GTX  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+The regional package for Oceania includes resources for the following
+countries:
 
-Transform ellipsoidal heights to the local height system GVR2016. The horizontal
-grid coordinates are referenced to GR96.
+* Australia
 
-* gvr2016.gtx
-
-*Package*: proj-datumgrid
-
+More information about the included grids can be found in
+[README.OCEANIA](https://raw.githubusercontent.com/OSGeo/proj-datumgrid/master/oceania/README.OCEANIA)

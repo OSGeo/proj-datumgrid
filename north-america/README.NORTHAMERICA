@@ -1,0 +1,51 @@
+# PROJ-DATUMGRID-NORTH-AMERICA
+
+The files in this package can be unpacked in the PROJ data directory.
+For an installed PROJ this may be /usr/local/share/proj or /usr/share/proj
+on unix style operating systems.
+
+## About the North America PROJ resource package
+
+The North America PROJ resource package is a collections of grids
+and init-files that are not essential for the functionality of PROJ but
+still of general interest to PROJ-users in the region specific to the
+package.
+
+## Included grids
+
+### Greenland: GRS80 ellipsoidal heights -> GVR2016
+
+*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
+*Format*: GTX  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Transform ellipsoidal heights to the local height system GVR2016. The horizontal
+grid coordinates are referenced to GR96.
+
+* gvr2016.gtx
+
+### Greenland: GRS80 ellipsoidal heights -> GVR2000
+
+*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
+*Format*: GTX  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Transform ellipsoidal heights to the local height system GVR2000. The horizontal
+grid coordinates are referenced to GR96.
+
+* gvr2000.gtx
+
+## Included init-files
+
+### Greenland: System definitions related to GR96
+
+*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Init files with various transformations and conversions of relevance in
+Greenland. All definitions in the init file uses the local GR96 reference
+frame as a pivot datum. More information can be found in the
+[NordicTransformations](https://github.com/NordicGeodesy/NordicTransformations)
+repository.
+
+* GL
