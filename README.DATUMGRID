@@ -161,6 +161,18 @@ NAD83 to NAD83.
 
 1-dimensional transformation grids for vertical datum shifts.
 
+### Worldwide: EGM96 geoid model
+
+*Source*: [NGA](http://earth-info.nga.mil/GandG/wgs84/gravitymod/egm96/egm96.html)  
+*Format*: GTX  
+*License*: Public Domain  
+
+15 minute worldwide geoid undulation grid that transforms WGS84 ellipsoidal heights to physical heights.
+
+* egm96_15.gtx
+
+*Package*: proj-datumgrid
+
 ### Denmark: GRS80 ellipsoidal heights -> DVR90 heights
 
 *Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
