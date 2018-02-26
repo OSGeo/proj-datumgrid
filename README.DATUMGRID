@@ -27,12 +27,9 @@ is clearly stated and verifiable. Suitable licenses include:
   * CC-BY (v3.0 or later)
   * CC-BY-SA (v3.0 or later)
 
-Some large grid files are distributed in separate packages.
-
 ## Horizontal grids
 
 2-dimensional transformation grids for horizontal datum shifts.
-
 
 ### Canada: NAD27 -> NAD83
 
@@ -117,10 +114,10 @@ NAD83 to NAD83.
 
 * egm96_15.gtx
 
-# Regional PROJ ressource packages
+# Regional PROJ resource packages
 
 In addition to the core proj-datumgrid package, regional collections of grids
-and init-files also exist. These include grids and init-files that are not
+and init-files also exist. These includes grids and init-files that are not
 essential for the functionality of PROJ but still of general interest to
 PROJ-users in the package-specific regions.
 
@@ -129,7 +126,7 @@ The regional packages can be downloaded from the
 
 ### Europe
 
-The regional package for Europe include resources for the following
+The regional package for Europe includes resources for the following
 countries:
 
 * Denmark
@@ -139,10 +136,9 @@ countries:
 More information about the included grids and init files can be found in
 [README.EUROPE](https://raw.githubusercontent.com/OSGeo/proj-datumgrid/master/europe/README.EUROPE)
 
-
 ### North America
 
-The regional package for North America include resources for the following
+The regional package for North America includes resources for the following
 countries:
 
 * Greenland
@@ -152,7 +148,7 @@ More information about the included grids and init files can be found in
 
 ### Oceania
 
-The regional package for Oceania include resources for the following
+The regional package for Oceania includes resources for the following
 countries:
 
 * Australia

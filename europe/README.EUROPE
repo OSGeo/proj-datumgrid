@@ -1,4 +1,4 @@
- PROJ-DATUMGRID-EUROPE
+# PROJ-DATUMGRID-EUROPE
 
 The files in this package can be unpacked in the PROJ data directory.
 For an installed PROJ this may be /usr/local/share/proj or /usr/share/proj
@@ -37,7 +37,7 @@ grid coordinates are referenced to ETRS89.
 
 ### Nordic+Baltic countries: Deformation model
 
-*Source*: [The Nordic Geodetic Commision](https://github.com/NordicGeodesy/NordicTransformations)  
+*Source*: [The Nordic Geodetic Commission](https://github.com/NordicGeodesy/NordicTransformations)  
 *Format*: CTable2 and GTX  
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
@@ -87,7 +87,7 @@ repository.
 
 ### Nordic+Baltic countries: ITRFxx -> Local ETRS89 realizations
 
-*Source*: [The Nordic Geodetic Commision](https://github.com/NordicGeodesy/NordicTransformations)  
+*Source*: [The Nordic Geodetic Commission](https://github.com/NordicGeodesy/NordicTransformations)  
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Transformations to and from the common Nordic referenc frame NKG_ETRF00.
