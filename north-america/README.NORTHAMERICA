@@ -35,6 +35,26 @@ grid coordinates are referenced to GR96.
 
 * gvr2000.gtx
 
+### Continental USA VERTCON: NGVD (19)29 height to NAVD (19)88 height
+
+*Source*: converted from [NOAA VERTCON .94 grids](https://www.ngs.noaa.gov/PC_PROD/VERTCON/)
+*Converter*: vertcon_94_to_gtx.py
+*Format*: GTX
+*License*: Public Domain
+
+Transform NGVD (19)29 height to NAVD (19)88 height. The .gtx files contain
+the offset (in millimeter) to add to NGVD 29 heights to get NAVD 88 heights.
+
+So with PROJ 5.2, to convert from NGVD 29 to NAVD 88, you need to a multiplication
+by 0.001 to convert from millimeter to meter:
++proj=pipeline +step=vgridshift +multiplier=0.001 +grids=vertconw.gtx,vertconc.gtx,vertcone.gtx
+
+The horizontal grid coordinates may be referenced to NAD27 or NAD83
+
+* vertconc.gtx
+* vertcone.gtx
+* vertconw.gtx
+
 ## Included init-files
 
 ### Greenland: System definitions related to GR96
