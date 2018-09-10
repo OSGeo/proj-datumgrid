@@ -49,6 +49,30 @@ examples of use.
 * nkgrf03vel_realigned_xy.ct2
 * nkgrf03vel_realigned_z.gtx
 
+### Ireland: ETRS89 ellipsoidal heights -> OSGM15
+
+*Source*: [Ordnance Survey](https://www.ordnancesurvey.co.uk/business-and-government/help-and-support/navigation-technology/os-net/formats-for-developers.html)  
+*Format*: GTX  
+*License*: [The 2-Clause BSD License](https://opensource.org/licenses/bsd-license.php)  
+
+Horizontal transformation for Geoid model OSGM15, Malin head datum. Used in
+transfromation between WGS84/ETRS89 ellipsoidal heights and OSGM15 orthometric
+heights. The Malin Head datum is used in the Republic of Ireland.
+
+* OSGM15_Malin.gtx
+
+### Northern Ireland: ETRS89 ellipsoidal heights -> OSGM15
+
+*Source*: [Ordnance Survey](https://www.ordnancesurvey.co.uk/business-and-government/help-and-support/navigation-technology/os-net/formats-for-developers.html)  
+*Format*: GTX  
+*License*: [The 2-Clause BSD License](https://opensource.org/licenses/bsd-license.php)  
+
+Horizontal transformation for Geoid model OSGM15, Belfast datum. Used in
+transfromation between WGS84/ETRS89 ellipsoidal heights and OSGM15 orthometric
+heights. The Belfast datum is used in the Northern Ireland.
+
+* OSGM15_Belfast.gtx
+
 ## Included init-files
 
 ### Denmark: System definitions related to ETRS89
