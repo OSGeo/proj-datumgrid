@@ -42,7 +42,7 @@
 #  Vertical datums
 #------------------------------------------------------------------------------------------------------
 <DVR90> proj=vgridshift grids=dvr90.gtx            # current
-# <DNN>   proj=vgridshift grids=dnn.gtx              # historical
+<DNN>   proj=vgridshift grids=dnn.gtx              # historical
 #------------------------------------------------------------------------------------------------------
 
 
@@ -55,6 +55,9 @@
 
 <UTM32N_DVR90> proj=pipeline step init=DK:DVR90 step init=DK:UTM32N
 <UTM33N_DVR90> proj=pipeline step init=DK:DVR90 step init=DK:UTM33N
+
+<UTM32N_DNN> proj=pipeline step init=DK:DNN step init=DK:UTM32N
+<UTM33N_DNN> proj=pipeline step init=DK:DNN step init=DK:UTM33N
 #------------------------------------------------------------------------------------------------------
 <gie>
 operation   init=DK:UTM32N
@@ -77,6 +80,12 @@ expect      691875.6321 6098907.8250
 <DKTM2_DVR90> proj=pipeline step init=DK:DVR90 step init=DK:DKTM2
 <DKTM3_DVR90> proj=pipeline step init=DK:DVR90 step init=DK:DKTM3
 <DKTM4_DVR90> proj=pipeline step init=DK:DVR90 step init=DK:DKTM4
+
+<DKTM1_DNN> proj=pipeline step init=DK:DNN step init=DK:DKTM1
+<DKTM2_DNN> proj=pipeline step init=DK:DNN step init=DK:DKTM2
+<DKTM3_DNN> proj=pipeline step init=DK:DNN step init=DK:DKTM3
+<DKTM4_DNN> proj=pipeline step init=DK:DNN step init=DK:DKTM4
+
 #------------------------------------------------------------------------------------------------------
 
 
@@ -91,6 +100,11 @@ expect      691875.6321 6098907.8250
 <KP2000B_DVR90> proj=pipeline step init=DK:DVR90 step init=DK:KP2000B
 <KP2000J_DVR90> proj=pipeline step init=DK:DVR90 step init=DK:KP2000J
 <KP2000S_DVR90> proj=pipeline step init=DK:DVR90 step init=DK:KP2000S
+
+<KP2000B_DNN> proj=pipeline step init=DK:DNN step init=DK:KP2000B
+<KP2000J_DNN> proj=pipeline step init=DK:DNN step init=DK:KP2000J
+<KP2000S_DNN> proj=pipeline step init=DK:DNN step init=DK:KP2000S
+
 #------------------------------------------------------------------------------------------------------
 
 
