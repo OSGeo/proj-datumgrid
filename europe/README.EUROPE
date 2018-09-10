@@ -24,6 +24,17 @@ grid coordinates are referenced to ETRS89.
 
 * dvr90.gtx
 
+### Denmark: GRS80 ellipsoidal heights -> DNN heights
+
+*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
+*Format*: GTX  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Transform ellipsoidal heights to the local legacy height system DNN. The horizontal
+grid coordinates are referenced to ETRS89.
+
+* dnn.gtx
+
 ### Faroe Islands: GRS80 ellipsoidal heights -> FVR09
 
 *Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
