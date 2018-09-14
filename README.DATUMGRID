@@ -31,6 +31,20 @@ is clearly stated and verifiable. Suitable licenses include:
 
 2-dimensional transformation grids for horizontal datum shifts.
 
+### Belgium: BD72 -> ETRS89
+
+Grid transformation from Belgium Datum 72 to ETRS89 in Belgium.
+
+*Source*: Nicolas SIMON
+*Format*: NTv2  
+*License*: CC-BY-SA
+
+Grid validation was done by Service Public de Wallonie (SPW) and [IGN](http://www.ngi.be/FR/FR2-1-7.shtm).
+It provides an accuracy better than 5mm in 99.6% of validation points and a worse case of 1.3 cm outside the border.
+Recommended to transform from Belgium Lambert 72 (EPSG:31370) to Begian Lambert 2008 (EPSG:3812)
+
+* bd72lb72_etrs89lb08.gsb
+
 ### Canada: NAD27 -> NAD83
 
 *Source*: [Natural Resources Canada](http://www.nrcan.gc.ca/earth-sciences/geomatics/geodetic-reference-systems/18766)  
