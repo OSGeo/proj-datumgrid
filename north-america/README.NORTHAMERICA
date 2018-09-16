@@ -13,6 +13,16 @@ package.
 
 ## Included grids
 
+### Canada: NAD27 -> NAD83
+
+*Source*: [Natural Resources Canada](https://open.canada.ca/data/en/dataset/b3534942-31ea-59cf-bcc3-f8dc4875081a)  
+*Format*: NTv2  
+*License*: [Open Government Licence - Canada](http://open.canada.ca/en/open-government-licence-canada)
+
+Transform between NAD27 and NAD83 in Canada.
+
+* NTV2_0.GSB
+
 ### Greenland: GRS80 ellipsoidal heights -> GVR2016
 
 *Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  

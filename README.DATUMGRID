@@ -36,9 +36,11 @@ is clearly stated and verifiable. Suitable licenses include:
 *Source*: [Natural Resources Canada](http://www.nrcan.gc.ca/earth-sciences/geomatics/geodetic-reference-systems/18766)  
 *Format* NTv1  
 *License*: Public Domain
-* ntv1_can.dat
 
-Grid conversion from NAD27 to NAD83 in Canada
+Grid conversion from NAD27 to NAD83 in Canada. This file is superseded by a
+higher resolution NTV2_0.GSB grid.
+
+* ntv1_can.dat
 
 ### France: NTF -> RGF93
 
