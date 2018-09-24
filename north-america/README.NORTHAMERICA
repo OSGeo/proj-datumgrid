@@ -21,7 +21,7 @@ package.
 
 Transform between NAD27 and NAD83 in Canada.
 
-* NTV2_0.GSB
+* ntv2_0.gsb
 
 ### Greenland: GRS80 ellipsoidal heights -> GVR2016
 

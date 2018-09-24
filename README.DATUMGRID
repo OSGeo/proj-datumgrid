@@ -38,7 +38,7 @@ is clearly stated and verifiable. Suitable licenses include:
 *License*: Public Domain
 
 Grid conversion from NAD27 to NAD83 in Canada. This file is superseded by a
-higher resolution NTV2_0.GSB grid.
+higher resolution ntv2_0.gsb grid.
 
 * ntv1_can.dat
 
