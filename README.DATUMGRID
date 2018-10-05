@@ -114,10 +114,6 @@ NAD83 to NAD83.
 
 15 minute worldwide geoid undulation grid that transforms WGS84 ellipsoidal heights to physical heights.
 
-This file has been produced by [GeographicLib](https://geographiclib.sourceforge.io/html/gravity.html)
-using the EGM96 gravity model and can be regenerated with the
-[build_egm96_15_gtx.sh](https://raw.githubusercontent.com/OSGeo/proj-datumgrid/master/build_egm96_15_gtx.sh) script.
-
 * egm96_15.gtx
 
 # Regional PROJ resource packages
@@ -129,6 +125,13 @@ PROJ-users in the package-specific regions.
 
 The regional packages can be downloaded from the
 [OSGeo download server](http://download.osgeo.org/proj/).
+
+### World
+
+This additional package with world scope contains files of big size.
+
+More information about the included grids and init files can be found in
+[README.WORLD](https://raw.githubusercontent.com/OSGeo/proj-datumgrid/master/world/README.WORLD)
 
 ### Europe
 
