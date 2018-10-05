@@ -1,0 +1,27 @@
+# This is the config file for Travis-ci.org
+
+sudo: required
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install cmake g++ make zip unzip
+  - cd /tmp
+  - wget https://download.osgeo.org/proj/proj-5.2.0.tar.gz
+  - tar xvzf proj-5.2.0.tar.gz
+  - cd proj-5.2.0
+  - ./configure --prefix=/usr
+  - make -j3
+  - sudo make install
+  - cd $TRAVIS_BUILD_DIR
+
+install:
+# Travis build directory includes /build/, which is a pattern we exclude
+# in our 'make dist' target...
+    - (cd ..; mv proj-datumgrid /tmp)
+    - (cd /tmp/proj-datumgrid && ./travis/test.sh)
+
+script:
+  - echo "done"
+
+after_success:
+  - echo "done"

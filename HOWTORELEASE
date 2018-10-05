@@ -7,6 +7,9 @@ Prerequisites:
       http://lists.maptools.org/pipermail/proj/2016-October/007544.html
     - CMake/CPack
 
+0. Make sure the directory into which you have cloned the repository does
+   not contain "build" in it !
+
 1. Adjust the version number:
 
     If preparing a release candidate "RCx" should be added
