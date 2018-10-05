@@ -116,7 +116,7 @@ NAD83 to NAD83.
 
 This file has been produced by [GeographicLib](https://geographiclib.sourceforge.io/html/gravity.html)
 using the EGM96 gravity model and can be regenerated with the
-[build_egm96_15_gtx.sh](build_egm96_15_gtx.sh) script.
+[build_egm96_15_gtx.sh](https://raw.githubusercontent.com/OSGeo/proj-datumgrid/master/build_egm96_15_gtx.sh) script.
 
 * egm96_15.gtx
 
