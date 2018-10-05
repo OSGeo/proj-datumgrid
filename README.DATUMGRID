@@ -114,6 +114,10 @@ NAD83 to NAD83.
 
 15 minute worldwide geoid undulation grid that transforms WGS84 ellipsoidal heights to physical heights.
 
+This file has been produced by [GeographicLib](https://geographiclib.sourceforge.io/html/gravity.html)
+using the EGM96 gravity model and can be regenerated with the
+[build_egm96_15_gtx.sh](build_egm96_15_gtx.sh) script.
+
 * egm96_15.gtx
 
 # Regional PROJ resource packages
