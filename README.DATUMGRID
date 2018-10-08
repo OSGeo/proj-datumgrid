@@ -87,14 +87,17 @@ a 20 km interval for the conversion between NZGD49 and NZGD2000.
 * stlrnc - St. Lawrence Is., Alaska
 * stpaul - St. Paul Is., Alaska
 
-### USA: NAD83 -> NAD83
+### USA: NAD83 -> NAD83 (HARN/HPGN)
 
-*Source*: USGS  
-*Format*: CTable2  
+*Source*: USGS
+*Format*: CTable2
 *License*: Public Domain
 
 Grid data for high precision conversion of geographic coordinates from
-NAD83 to NAD83.
+the original NAD83 (1986) (EPSG:4269) to NAD83 High Precision Geodetic Networks
+(HPGNs) (EPSG:4152), also referred to as High Accuracy Reference Networks (HARNs).
+NAD 83 coordinates based on the HPGN/HARN surveys changed approximately 0.2
+to 1.0 meter relative to the original NAD 83 (1986) adjustment.
 
 * FL - Florida
 * MD - Maryland
