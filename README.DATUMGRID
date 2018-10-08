@@ -13,7 +13,12 @@ produced in PROJ 4.7.0 and older).
 ## About the Datum Grid package
 
 The datum grid package for PROJ is maintained on the OSGeo proj-datumgrid
-repository on [GitHub](https://github.com/OSGeo/proj-datumgrid).
+repository on [GitHub](https://github.com/OSGeo/proj-datumgrid). Anyone cloning
+it, or one of its forks, needs to install the Git Large File Storage (LFS)
+extension, due to the presence of files larger than 100 MB.
+Consult the [GitHub introduction to LFS](https://git-lfs.github.com/) for
+more information.
+
 All grids in the package are released under
 permissive licenses. New grids are accepted into the package as long as
 they are released under a license that is compatible with the [Open Source
