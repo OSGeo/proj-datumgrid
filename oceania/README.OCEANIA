@@ -15,38 +15,40 @@ package.
 
 ### Australia: AGD66 -> GDA94
 
-*Source*: [ICSM](https://github.com/icsm-au/transformation_grids)  
+*Source*: [ICSM]  
 *Format*: NTv2  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+*License*: [Creative Commons Attribution 4.0]
 
 Full national coverage two-way transformation file – see Appendix B
-in the [GDA2020 Technical Manual](http://www.icsm.gov.au/gda/tech.html) for details.
+in the [GDA2020 Technical Manual] for details.
 
 * A66_National_13_09_01.gsb
 
 ### Australia: AGD66 -> GDA94
 
-*Source*: [ICSM](https://github.com/icsm-au/transformation_grids)  
+*Source*: [ICSM]  
 *Format*: NTv2  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+*License*: [Creative Commons Attribution 4.0]
 
 Full coverage two-way transformation file in those states that
-originally adopted AGD84 - West Australia, South Australia, Queensland
-- see Appendix B in the [GDA2020 Technical Manual](http://www.icsm.gov.au/gda/tech.html)
-for details.
+originally adopted AGD84 - West Australia, South Australia, Queensland – see
+Appendix B in the [GDA2020 Technical Manual] for details.
 
 * National_84_02_07_01.gsb
 
 ### Australia: GDA94 -> GDA2020
 
-*Source*: [ICSM](https://github.com/icsm-au/transformation_grids)  
+*Source*: [ICSM]  
 *Format*: NTv2  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+*License*: [Creative Commons Attribution 4.0]
 
 Full national coverage two-way transformation files – See Sections 3.2
-and 3.7 in the [GDA2020 Technical Manual](http://www.icsm.gov.au/gda/tech.html) for details.
+and 3.7 in the [GDA2020 Technical Manual] for details.
 Table 3.4 details which grid to use.
 
 * GDA94_GDA2020_conformal.gsb
 * GDA94_GDA2020_conformal_and_distortion.gsb
 
+[Creative Commons Attribution 4.0]: https://creativecommons.org/licenses/by/4.0/
+[GDA2020 Technical Manual]: http://www.icsm.gov.au/datum/gda2020-and-gda94-technical-manuals
+[ICSM]: https://github.com/icsm-au/transformation_grids
