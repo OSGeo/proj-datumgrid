@@ -36,7 +36,11 @@ Prerequisites:
 
 5. Upload the files to download.osgeo.org/proj
 
-    If you are preparing a release, you know how to do this.
+    a) Copy the files: If you are preparing a release, you know how to do this.
+
+    b) Create/update the symbolic link from proj-datumgrid-XXXX.zip to
+       proj-datumgrid-latest.zip and proj-datumgrid-XXXX.tar.gz to
+       proj-datumgrid-latest.tar.gz
 
 6. Clean up
 
@@ -98,7 +102,11 @@ Prerequisites:
 
 9.1.5. Upload the files to download.osgeo.org/proj
 
-    If you are preparing a release, you know how to do this.
+    a) Copy the files: If you are preparing a release, you know how to do this.
+
+    b) Create/update the symbolic link from proj-datumgrid-oceania-XXXX.zip to
+       proj-datumgrid-oceania-latest.zip and proj-datumgrid-oceania-XXXX.tar.gz to
+       proj-datumgrid-oceania-latest.tar.gz
 
 9.1.6. Cleanup
 
