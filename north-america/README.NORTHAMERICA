@@ -82,6 +82,24 @@ The horizontal grid coordinates may be referenced to NAD27 or NAD83
 * vertcone.gtx
 * vertconw.gtx
 
+### USA GEOID12B model: NAD83(2011)/NAD83(MA11)/NAD83(PA11) to NAVD88/PRVD02/VIVD09/GUVD04/NMVD03/ASVD02 height
+
+*Source*: converted from [NOAA NGS .bin grids](https://www.ngs.noaa.gov/GEOID/GEOID12B/)
+*Converter*: build_g2012.sh
+*Format*: GTX
+*License*: Public Domain
+
+GEOID12B is a hybrid geoid height model that can transform between a NAD 83
+ellipsoid height and the relevant vertical datum for each region.
+See https://www.ngs.noaa.gov/GEOID/GEOID12B/faq_2012B.shtml for more details.
+
+* g2012bu0.gtx : Conterminous US, referenced to NAD83(2011). Vertical datum: NAVD88
+* g2012ba0.gtx : Alaska, referenced to NAD83(2011). Vertical datum: NAVD88
+* g2012bh0.gtx : Hawaii, referenced to NAD83(PA11). Vertical datum: identical to that of USGG2012, which is offset by 50-60 cm from some Local Tidal bench mark values. 
+* g2012bg0.gtx : Guam and Northern Mariana Islands, referenced to NAD83(PA11). Vertical datum: GUVD04/NMVD03
+* g2012bs0.gtx : American Samoa, referenced to NAD83 (PA11). Vertical datum: ASVD02
+* g2012bp0.gtx : Puerto Rico / U.S. Vigin Islands, referenced to NAD83(2011). Vertical datum: PRVD02 and VIVD09
+
 ## Included init-files
 
 ### Greenland: System definitions related to GR96
