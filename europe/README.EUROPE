@@ -100,6 +100,66 @@ probability).
 
 * OSTN15_NTv2_OSGBtoETRS.gsb
 
+### French vertical grids
+
+*Source*: [IGN France](https://geodesie.ign.fr/index.php?page=grilles)
+*Converter*: build_french_vgrids.sh
+*Format*: GTX
+*License*: [License Ouverte (in French)](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf) / [Open License (English translation)](https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf)
+
+Grids to convert from national vertical datum to ellipsoidal height.
+
+Continental France an Corsica:
+* RAF09.gtx: Continental France, NGF-IGN 1969 to RGF93 (ETRS89)
+* RAC09.gtx: Corsica, NGF-IGN 1978 to RGF93 (ETRS89)
+
+French Antilles to RGAF09 (Réseau Géodésique des Antilles Françaises 2009):
+* RAGTBT2016.gtx: Guadeloupe, IGN 1988 (GUADELOUPE) to RGAF09
+* RALD2016.gtx: La Desirade, IGN 2008 LD (GUADELOUPE / LA DESIRADE) to RGAF09
+* RALS2016.gtx: Les Saintes, IGN 1988 LS (GUADELOUPE / LES SAINTES) to RGAF09
+* RAMART2016.gtx: Martinique, IGN 1987 (MARTINIQUE) to RGAF09
+* RAMG2016.gtx: Marie Galante, IGN 1988 MG (GUADELOUPE / MARIE-GALANTE) to RGAF09
+* gg10_sbv2.gtx: Saint Barthelemy, IGN 1988 SB (GUADELOUPE / SAINT-BARTHELEMY) to RGAF09
+* gg10_smv2.gtx: Saint Martin, IGN 1988 SM (GUADELOUPE / SAINT-MARTIN) to RGAF09
+
+French Antilles to WGS 84 (RRAF: Réseau de Référence des Antilles Françaises):
+* ggg00v2.gtx: Guadeloupe, IGN 1988 (GUADELOUPE) to WGS 84 (RRAF)
+* RALDW842016.gtx: La Desirade, IGN 2008 LD (GUADELOUPE / LA DESIRADE) to WGS 84 (RRAF)
+* ggg00_lsv2.gtx: Les Saintes, IGN 1988 LS (GUADELOUPE / LES SAINTES) to WGS 84 (RRAF)
+* ggg00_mgv2.gtx: Marie Galante, IGN 1988 MG (GUADELOUPE / MARIE-GALANTE) to WGS 84 (RRAF)
+* ggm00v2.gtx: Martinique, IGN 1987 (MARTINIQUE) to WGS 84 (RRAF)
+* ggg00_sbv2.gtx: Saint Barthelemy, IGN 1988 SB (GUADELOUPE / SAINT-BARTHELEMY) to WGS 84 (RRAF)
+* ggg00_smv2.gtx: Saint Martin, IGN 1988 SM (GUADELOUPE / SAINT-MARTIN) to WGS 84 (RRAF)
+
+Other:
+* ggguy15.gtx: Guyane, NIVELLEMENT GENERAL DE GUYANE (NGG) 1977 to RGFG95 (RESEAU GEODESIQUE FRANCAIS DE GUYANE 1995)
+* ggker08v2.gtx: Iles Kerguelen, IGN 1962 (KERGUELEN) to RGTAAF07 (RESEAU GEODESIQUE DES TAAF 2007)
+* ggm04v1.gtx: Mayotte GGM04, SHOM 1953 (MAYOTTE) to RGM04 (RESEAU GEODESIQUE DE MAYOTTE 2004)
+* ggspm06v1.gtx: Saint-Pierre et Miquelon (GGSPM06), DANGER 1950 (SAINT-PIERRE-ET-MIQUELON) to RGSPM06 (RESEAU GEODESIQUE DE SAINT-PIERRE-ET-MIQUELON 2006)
+* RAR07_bl.gtx: La Reunion, IGN 1989 (REUNION) to RGR92 (RESEAU GEODESIQUE DE LA REUNION 1992)
+
+French Polynesia to RGPF (Réseau Géodésique de Polynésie Française)
+* ggpf02-Bora.gtx: Bora bora, BORA_SAU 2001 to RGPF
+* ggpf02-Huahine.gtx: Huahine, HUAHINE_SAU 2001 to RGPF
+* ggpf02-Maiao.gtx: Maiao, MAIAO 2001 to RGPF
+* ggpf02-Maupiti.gtx: Maupiti, MAUPITI_SAU 2001 to RGPF
+* ggpf02-Raiatea.gtx: Raietea, RAIATEA_SAU 2001 to RGPF
+* ggpf02-Tahaa.gtx: Tahaa, TAHAA_SAU 2001 to RGPF
+* ggpf02-Tupai.gtx: Tupai, TUPAI 2001 to RGPF
+* ggpf05-HivaOa.gtx: Hiva Oa, HIVA OA to RGPF
+* ggpf05-Nuku.gtx: Nuku Hiva, NUKU HIVA ALTI to RGPF
+* ggpf08-Fakarava.gtx: Fakarava, IGN 1966 (TAHITI) TO RGPF
+* ggpf08-Gambier.gtx: Gambier, GAMBIER to RGPF
+* ggpf08-Hao.gtx: Hao, HAO to RGPF
+* ggpf08-Mataiva.gtx: Mataiva, MATAIVA to RGPF
+* ggpf08-Raivavae.gtx: Raivavae, Raivavae to RGPF
+* ggpf08-Reao.gtx: Reao, Reao to RGPF
+* ggpf08-Rurutu.gtx: Rurutu, Ruruto to RGPF
+* ggpf08-Tikehau.gtx: Tikehau, Tikehau to RGPF
+* ggpf08-Tubuai.gtx: Tubuai, Tubuai to RGPF
+* ggpf10-Moorea.gtx: Moorea, MOOREA 1981 (MOOREA_SAU 2001) to RGPF
+* ggpf10-Tahiti.gtx: Tahiti, IGN 1966 (TAHITI) to RGPF
+
 ## Included init-files
 
 ### Denmark: System definitions related to ETRS89
