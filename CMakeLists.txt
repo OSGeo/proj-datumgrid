@@ -2,6 +2,9 @@
 
 cmake_minimum_required(VERSION 2.6)
 
+# Keep msvc quiet
+add_definitions( "/D_CRT_SECURE_NO_WARNINGS" )
+
 project(PROJ_DATUMGRID)
 set(PROJ_DATUMGRID_VERSION_MAJOR 1)
 set(PROJ_DATUMGRID_VERSION_MINOR 9alpha1)
@@ -9,30 +12,7 @@ set(PROJ_DATUMGRID_VERSION_MINOR 9alpha1)
 set(PROJ_DATUMGRID_MODULE_DIR "${PROJECT_SOURCE_DIR}/cmake")
 set(CMAKE_MODULE_PATH ${PROJ_DATUMGRID_MODULE_DIR} ${CMAKE_MODULE_PATH})
 
-find_package(NAD2BIN REQUIRED)
-
-set(DATUMGRIDS alaska
-               conus
-               FL
-               hawaii
-               MD
-               null
-               prvi
-               stgeorge
-               stlrnc
-               stpaul
-               TN
-               WI
-               WO)
-
-foreach(GRIDFILE ${DATUMGRIDS})
-    message(STATUS "Creating grid file: ${GRIDFILE}")
-
-    execute_process(COMMAND ${NAD2BIN_EXECUTABLE} -f ctable2
-                            ${PROJECT_SOURCE_DIR}/${GRIDFILE}
-                    INPUT_FILE ${PROJECT_SOURCE_DIR}/lla/${GRIDFILE}.lla
-                    OUTPUT_QUIET)
-endforeach(GRIDFILE)
+add_executable(nad2bin scripts/nad2bin.c)
 
 set(CPACK_SOURCE_GENERATOR "TGZ;ZIP")
 set(CPACK_INCLUDE_TOPLEVEL_DIRECTORY 0)
@@ -41,4 +21,8 @@ set(CPACK_SOURCE_IGNORE_FILES "/europe/;/oceania/;/north-america/;/world/;/build
 
 include(CPack)
 
-add_custom_target(dist COMMAND ${CMAKE_MAKE_PROGRAM} package_source)
+add_custom_target(convert_lla
+                  COMMAND ${CMAKE_COMMAND} -P ${PROJECT_SOURCE_DIR}/cmake/convert_lla.cmake
+                  DEPENDS nad2bin)
+add_custom_target(dist  COMMAND ${CMAKE_MAKE_PROGRAM} package_source
+                        DEPENDS convert_lla)
