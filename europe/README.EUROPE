@@ -160,6 +160,19 @@ French Polynesia to RGPF (Réseau Géodésique de Polynésie Française)
 * ggpf10-Moorea.gtx: Moorea, MOOREA 1981 (MOOREA_SAU 2001) to RGPF
 * ggpf10-Tahiti.gtx: Tahiti, IGN 1966 (TAHITI) to RGPF
 
+### Sweden: SWEREF 99 ellipsoidal heights -> RH 2000
+
+*Source*: [Lantmäteriet](https://www.lantmateriet.se/en/maps-and-geographic-information/GPS-och-geodetisk-matning/Om-geodesi/Transformationer/Geoidmodeller/)
+*Format*: GTX
+*License*: [Creative commons, CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+Horizontal transformation for Geoid model SWEN17_RH2000. Used to make the
+transitions from heights above the ellipsoid in SWEREF 99 to heights above sea
+level in RH 2000. The RH 2000 height system is used on Swedish mainland, Öland
+and Gotland islands.
+
+* SWEN17_RH2000.gtx
+
 ## Included init-files
 
 ### Denmark: System definitions related to ETRS89
