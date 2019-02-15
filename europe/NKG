@@ -30,7 +30,7 @@
 #
 ###############################################################################
 
-# ITRF2008 -> NKG_ETRF00
+# NKG_ETRF00 -> ITRF2008
 <ITRF2008>  proj = pipeline ellps = GRS80
 
     # NKG_ETRF00@2000.0 -> ETRF00@t_obs
@@ -46,7 +46,7 @@
     step    init = ITRF2008:ITRF2000 inv
 
 
-# ITRF2014 -> NKG_ETRF00
+# NKG_ETRF00 -> ITRF2014
 <ITRF2014>  proj = pipeline ellps = GRS80
 
     # NKG_ETRF00@2000.0 -> ETRF00@t_obs
@@ -82,7 +82,7 @@
 
      step init = NKG:_P1DK
 
-     step proj = deformation t_epoch = 1994.704 t_obs = 2000.0
+     step proj = deformation dt = -5.296
           xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
            z_grids = @nkgrf03vel_realigned_z.gtx,@null
 
@@ -93,7 +93,7 @@
 
      step init = NKG:_P1EE
 
-     step proj = deformation t_epoch = 1997.56 t_obs = 2000.0
+     step proj = deformation dt = -2.44
           xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
            z_grids = @nkgrf03vel_realigned_z.gtx,@null
 
@@ -109,7 +109,7 @@
 
      step init = NKG:_P1FI
 
-     step proj = deformation t_epoch = 1997.0 t_obs = 2000.0
+     step proj = deformation dt = -3
           xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
            z_grids = @nkgrf03vel_realigned_z.gtx,@null
 
@@ -120,7 +120,7 @@
 
      step init = NKG:_P1LV
 
-     step proj = deformation t_epoch = 1992.75 t_obs = 2000.0
+     step proj = deformation dt = -7.25
           xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
            z_grids = @nkgrf03vel_realigned_z.gtx,@null
 
@@ -131,7 +131,7 @@
 
      step init = NKG:_P1LT
 
-     step proj = deformation t_epoch = 2003.75 t_obs = 2000.0
+     step proj = deformation  dt = 3.75
           xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
            z_grids = @nkgrf03vel_realigned_z.gtx,@null
 
@@ -142,7 +142,7 @@
 
      step init = NKG:_P1NO
 
-     step proj = deformation t_epoch = 1995.0 t_obs = 2000.0
+     step proj = deformation  dt = -5
           xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
            z_grids = @nkgrf03vel_realigned_z.gtx,@null
 
@@ -153,7 +153,7 @@
 
      step init = NKG:_P1SE
 
-     step proj = deformation t_epoch = 1999.5 t_obs = 2000.0
+     step proj = deformation -0.5
           xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
            z_grids = @nkgrf03vel_realigned_z.gtx,@null
 

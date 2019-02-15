@@ -265,6 +265,7 @@ expect      687178.31448147167  390074.81929540867
          x = -81.0703   rx = -0.48488
          y = -89.3603   ry = -0.02436
          z =-115.7526   rz = -0.41321   s = -0.540645
+         convention = coordinate_frame
     step proj=cart ellps=intl  inv      # Now: GEO_TD32
     step proj=utm  ellps=intl  zone=32  # And now: TC32_TD32 (UTM32 if ED50 was "perfect")
 #------------------------------------------------------------------------------------------------------
