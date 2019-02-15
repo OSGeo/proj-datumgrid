@@ -35,9 +35,9 @@
 
     # NKG_ETRF00@2000.0 -> ETRF00@t_obs
     step    proj = deformation t_epoch = 2000.0
-            xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
-            z_grids  = @nkgrf03vel_realigned_z.gtx,@null
-            inv
+            xy_grids = nkgrf03vel_realigned_xy.ct2
+            z_grids  = nkgrf03vel_realigned_z.gtx
+
 
     # ETRF00@t_obs -> ITRF2000@t_obs
     step    init = NKG:ITRF2000_ETRF2000 inv
@@ -51,9 +51,8 @@
 
     # NKG_ETRF00@2000.0 -> ETRF00@t_obs
     step    proj = deformation t_epoch = 2000.0
-            xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
-            z_grids  = @nkgrf03vel_realigned_z.gtx,@null
-            inv
+            xy_grids = nkgrf03vel_realigned_xy.ct2
+            z_grids  = nkgrf03vel_realigned_z.gtx
 
     # ETRF00@t_obs -> ITRF2000@t_obs
     step    init = NKG:ITRF2000_ETRF2000 inv
@@ -83,8 +82,8 @@
      step init = NKG:_P1DK
 
      step proj = deformation dt = -5.296
-          xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
-           z_grids = @nkgrf03vel_realigned_z.gtx,@null
+          xy_grids = nkgrf03vel_realigned_xy.ct2
+           z_grids = nkgrf03vel_realigned_z.gtx
 
      step proj=cart inv
 
@@ -94,8 +93,8 @@
      step init = NKG:_P1EE
 
      step proj = deformation dt = -2.44
-          xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
-           z_grids = @nkgrf03vel_realigned_z.gtx,@null
+          xy_grids = nkgrf03vel_realigned_xy.ct2
+           z_grids = nkgrf03vel_realigned_z.gtx
 
      step proj = cart inv
 
@@ -110,8 +109,8 @@
      step init = NKG:_P1FI
 
      step proj = deformation dt = -3
-          xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
-           z_grids = @nkgrf03vel_realigned_z.gtx,@null
+          xy_grids = nkgrf03vel_realigned_xy.ct2
+           z_grids = nkgrf03vel_realigned_z.gtx
 
     step proj=cart inv
 
@@ -121,8 +120,8 @@
      step init = NKG:_P1LV
 
      step proj = deformation dt = -7.25
-          xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
-           z_grids = @nkgrf03vel_realigned_z.gtx,@null
+          xy_grids = nkgrf03vel_realigned_xy.ct2
+           z_grids = nkgrf03vel_realigned_z.gtx
 
      step proj = cart inv
 
@@ -132,8 +131,8 @@
      step init = NKG:_P1LT
 
      step proj = deformation  dt = 3.75
-          xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
-           z_grids = @nkgrf03vel_realigned_z.gtx,@null
+          xy_grids = nkgrf03vel_realigned_xy.ct2
+           z_grids = nkgrf03vel_realigned_z.gtx
 
     step proj=cart inv
 
@@ -143,8 +142,8 @@
      step init = NKG:_P1NO
 
      step proj = deformation  dt = -5
-          xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
-           z_grids = @nkgrf03vel_realigned_z.gtx,@null
+          xy_grids = nkgrf03vel_realigned_xy.ct2
+           z_grids = nkgrf03vel_realigned_z.gtx
 
     step proj=cart inv
 
@@ -154,8 +153,8 @@
      step init = NKG:_P1SE
 
      step proj = deformation -0.5
-          xy_grids = @nkgrf03vel_realigned_xy.ct2,@null
-           z_grids = @nkgrf03vel_realigned_z.gtx,@null
+          xy_grids = nkgrf03vel_realigned_xy.ct2
+           z_grids = nkgrf03vel_realigned_z.gtx
 
      step proj = cart inv
 
