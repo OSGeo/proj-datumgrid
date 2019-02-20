@@ -166,7 +166,7 @@ French Polynesia to RGPF (Réseau Géodésique de Polynésie Française)
 *Format*: GTX  
 *License*: [Creative commons, CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 
-Horizontal transformation for Geoid model SWEN17_RH2000. Used to make the
+Vertical transformation for Geoid model SWEN17_RH2000. Used to make the
 transitions from heights above the ellipsoid in SWEREF 99 to heights above sea
 level in RH 2000. The RH 2000 height system is used on Swedish mainland, Öland
 and Gotland islands.
