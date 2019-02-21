@@ -120,7 +120,7 @@ to 1.0 meter relative to the original NAD 83 (1986) adjustment.
 *Format*: GTX  
 *License*: Public Domain  
 
-15 minute worldwide geoid undulation grid that transforms WGS84 ellipsoidal heights to physical heights.
+15 minute worldwide geoid undulation grid that transforms physical heights to WGS84 ellipsoidal heights.
 
 * egm96_15.gtx
 
