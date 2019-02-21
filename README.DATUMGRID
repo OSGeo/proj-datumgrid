@@ -13,7 +13,12 @@ produced in PROJ 4.7.0 and older).
 ## About the Datum Grid package
 
 The datum grid package for PROJ is maintained on the OSGeo proj-datumgrid
-repository on [GitHub](https://github.com/OSGeo/proj-datumgrid).
+repository on [GitHub](https://github.com/OSGeo/proj-datumgrid). Anyone cloning
+it, or one of its forks, needs to install the Git Large File Storage (LFS)
+extension, due to the presence of files larger than 100 MB.
+Consult the [GitHub introduction to LFS](https://git-lfs.github.com/) for
+more information.
+
 All grids in the package are released under
 permissive licenses. New grids are accepted into the package as long as
 they are released under a license that is compatible with the [Open Source
@@ -35,13 +40,15 @@ is clearly stated and verifiable. Suitable licenses include:
 
 Grid transformation from Belgium Datum 72 to ETRS89 in Belgium.
 
-*Source*: Nicolas SIMON
+*Source*: [IGN](http://www.ngi.be/Common/Lambert2008/NTv2.zip)
 *Format*: NTv2
-*License*: CC-BY-SA
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+*Credit*: (c)2016 Grid created by Nicolas SIMON.
 
-Grid validation was done by Service Public de Wallonie (SPW) and [IGN](http://www.ngi.be/FR/FR2-1-7.shtm).
-It provides an accuracy better than 5mm in 99.6% of validation points and a worse case of 1.3 cm outside the border.
-Recommended to transform from Belgium Lambert 72 (EPSG:31370) to Begian Lambert 2008 (EPSG:3812)
+It provides an accuracy better than 5mm in 99.6% of validation points and a worst case of 1.3 cm outside the border.
+Recommended to transform from Belgium Lambert 72 (EPSG:31370) to Belgian Lambert 2008 (EPSG:3812)
+Documentation in French: (http://www.ngi.be/FR/FR2-1-7.shtm)
+Documentation in Dutch:  (http://www.ngi.be/NL/NL2-1-7.shtm)
 
 * bd72lb72_etrs89lb08.gsb
 
@@ -50,9 +57,11 @@ Recommended to transform from Belgium Lambert 72 (EPSG:31370) to Begian Lambert 
 *Source*: [Natural Resources Canada](http://www.nrcan.gc.ca/earth-sciences/geomatics/geodetic-reference-systems/18766)  
 *Format* NTv1  
 *License*: Public Domain
-* ntv1_can.dat
 
-Grid conversion from NAD27 to NAD83 in Canada
+Grid conversion from NAD27 to NAD83 in Canada. This file is superseded by a
+higher resolution ntv2_0.gsb grid.
+
+* ntv1_can.dat
 
 ### France: NTF -> RGF93
 
@@ -60,7 +69,7 @@ Grid transformation from NTF to RGF93 in France.
 
 *Source*: [IGN](http://www.ign.fr/)  
 *Format*: NTv2  
-*License*: Public Domain
+*License*: [License Ouverte (in French)](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf) / [Open License (English translation)](https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf)
 
 * ntf_r93.gsb
 
@@ -99,14 +108,17 @@ a 20 km interval for the conversion between NZGD49 and NZGD2000.
 * stlrnc - St. Lawrence Is., Alaska
 * stpaul - St. Paul Is., Alaska
 
-### USA: NAD83 -> NAD83
+### USA: NAD83 -> NAD83 (HARN/HPGN)
 
-*Source*: USGS  
-*Format*: CTable2  
+*Source*: USGS
+*Format*: CTable2
 *License*: Public Domain
 
 Grid data for high precision conversion of geographic coordinates from
-NAD83 to NAD83.
+the original NAD83 (1986) (EPSG:4269) to NAD83 High Precision Geodetic Networks
+(HPGNs) (EPSG:4152), also referred to as High Accuracy Reference Networks (HARNs).
+NAD 83 coordinates based on the HPGN/HARN surveys changed approximately 0.2
+to 1.0 meter relative to the original NAD 83 (1986) adjustment.
 
 * FL - Florida
 * MD - Maryland
@@ -138,6 +150,13 @@ PROJ-users in the package-specific regions.
 The regional packages can be downloaded from the
 [OSGeo download server](http://download.osgeo.org/proj/).
 
+### World
+
+This additional package with world scope contains files of big size.
+
+More information about the included grids and init files can be found in
+[README.WORLD](https://raw.githubusercontent.com/OSGeo/proj-datumgrid/master/world/README.WORLD)
+
 ### Europe
 
 The regional package for Europe includes resources for the following
@@ -145,6 +164,7 @@ countries:
 
 * Denmark
 * Ireland+Northern Ireland
+* Sweden
 * The Faroe Islands
 * The Nordic+Baltic countries
 
