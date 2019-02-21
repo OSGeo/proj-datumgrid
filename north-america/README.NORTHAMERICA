@@ -23,24 +23,24 @@ Transform between NAD27 and NAD83 in Canada.
 
 * ntv2_0.gsb
 
-### Greenland: GRS80 ellipsoidal heights -> GVR2016
+### Greenland: GVR2016 height -> GR96 ellipsoidal heights
 
 *Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
 *Format*: GTX  
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-Transform ellipsoidal heights to the local height system GVR2016. The horizontal
+Transform local height system GVR2016 (EPSG:8267) to GR96 ellipsoidal heights (EPSG:4909). The horizontal
 grid coordinates are referenced to GR96.
 
 * gvr2016.gtx
 
-### Greenland: GRS80 ellipsoidal heights -> GVR2000
+### Greenland: GVR2000 height -> GR96 ellipsoidal heights
 
 *Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
 *Format*: GTX  
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-Transform ellipsoidal heights to the local height system GVR2000. The horizontal
+Transform local height system GVR2000 (EPSG:8266) to GR96 ellipsoidal heights (EPSG:4909). The horizontal
 grid coordinates are referenced to GR96.
 
 * gvr2000.gtx
@@ -82,15 +82,15 @@ The horizontal grid coordinates may be referenced to NAD27 or NAD83
 * vertcone.gtx
 * vertconw.gtx
 
-### USA GEOID12B model: NAD83(2011)/NAD83(MA11)/NAD83(PA11) to NAVD88/PRVD02/VIVD09/GUVD04/NMVD03/ASVD02 height
+### USA GEOID12B model: NAVD88/PRVD02/VIVD09/GUVD04/NMVD03/ASVD02 height to NAD83(2011)/NAD83(MA11)/NAD83(PA11)
 
 *Source*: converted from [NOAA NGS .bin grids](https://www.ngs.noaa.gov/GEOID/GEOID12B/)
 *Converter*: build_g2012.sh
 *Format*: GTX
 *License*: Public Domain
 
-GEOID12B is a hybrid geoid height model that can transform between a NAD 83
-ellipsoid height and the relevant vertical datum for each region.
+GEOID12B is a hybrid geoid height model that can transform between the relevant
+vertical datum for each region to a NAD 83 ellipsoid height
 See https://www.ngs.noaa.gov/GEOID/GEOID12B/faq_2012B.shtml for more details.
 
 * g2012bu0.gtx : Conterminous US, referenced to NAD83(2011). Vertical datum: NAVD88

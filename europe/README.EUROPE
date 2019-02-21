@@ -13,35 +13,35 @@ package.
 
 ## Included grids
 
-### Denmark: GRS80 ellipsoidal heights -> DVR90 heights
+### Denmark: DVR90 heights -> ETRS89 ellipsoidal heights
 
 *Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
 *Format*: GTX  
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-Transform ellipsoidal heights to the local height system DVR90. The horizontal
+Transform local height system DVR90 (EPSG:5799) to ETRS89 ellipsoidal heights (EPSG:4937). The horizontal
 grid coordinates are referenced to ETRS89.
 
 * dvr90.gtx
 
-### Denmark: GRS80 ellipsoidal heights -> DNN heights
+### Denmark: DNN heights -> ETRS89 ellipsoidal heights
 
 *Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
 *Format*: GTX  
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-Transform ellipsoidal heights to the local legacy height system DNN. The horizontal
+Transform local height system DNN (EPSG:5733) to ETRS89 ellipsoidal heights (EPSG:4937). The horizontal
 grid coordinates are referenced to ETRS89.
 
 * dnn.gtx
 
-### Faroe Islands: GRS80 ellipsoidal heights -> FVR09
+### Faroe Islands: FVR09 heights -> ETRS89 ellipsoidal heights
 
 *Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
 *Format*: GTX  
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-Transform ellipsoidal heights to the local height system FVR09. The horizontal
+Transform local height system FVR09 (EPSG:5317) to ETRS89 ellipsoidal heights (EPSG:4937). The horizontal
 grid coordinates are referenced to ETRS89.
 
 * fvr09.gtx
@@ -60,27 +60,27 @@ examples of use.
 * nkgrf03vel_realigned_xy.ct2
 * nkgrf03vel_realigned_z.gtx
 
-### Ireland: ETRS89 ellipsoidal heights -> OSGM15
+### Ireland: OSGM15 height, Malin head datum -> ETRS89 ellipsoidal heights
 
 *Source*: [Ordnance Survey](https://www.ordnancesurvey.co.uk/business-and-government/help-and-support/navigation-technology/os-net/formats-for-developers.html)  
 *Format*: GTX  
 *License*: [The 2-Clause BSD License](https://opensource.org/licenses/bsd-license.php)  
 
-Horizontal transformation for Geoid model OSGM15, Malin head datum. Used in
-transfromation between WGS84/ETRS89 ellipsoidal heights and OSGM15 orthometric
-heights. The Malin Head datum is used in the Republic of Ireland.
+Vertical transformation for Geoid model OSGM15, Malin head datum (EPSG:5731). Used in
+transformation from OSGM15 orthometric heights to WGS84/ETRS89 ellipsoidal heights.
+The Malin Head datum is used in the Republic of Ireland.
 
 * OSGM15_Malin.gtx
 
-### Northern Ireland: ETRS89 ellipsoidal heights -> OSGM15
+### Northern Ireland: OSGM15 height, Belfast height -> ETRS89 ellipsoidal heights
 
 *Source*: [Ordnance Survey](https://www.ordnancesurvey.co.uk/business-and-government/help-and-support/navigation-technology/os-net/formats-for-developers.html)  
 *Format*: GTX  
 *License*: [The 2-Clause BSD License](https://opensource.org/licenses/bsd-license.php)  
 
-Horizontal transformation for Geoid model OSGM15, Belfast datum. Used in
-transfromation between WGS84/ETRS89 ellipsoidal heights and OSGM15 orthometric
-heights. The Belfast datum is used in the Northern Ireland.
+Vertical transformation for Geoid model OSGM15, Belfast datum (EPSG:5732). Used in
+transformation from OSGM15 orthometric heights to WGS84/ETRS89 ellipsoidal heights.
+The Belfast datum is used in the Northern Ireland.
 
 * OSGM15_Belfast.gtx
 
@@ -160,15 +160,15 @@ French Polynesia to RGPF (Réseau Géodésique de Polynésie Française)
 * ggpf10-Moorea.gtx: Moorea, MOOREA 1981 (MOOREA_SAU 2001) to RGPF
 * ggpf10-Tahiti.gtx: Tahiti, IGN 1966 (TAHITI) to RGPF
 
-### Sweden: SWEREF 99 ellipsoidal heights -> RH 2000
+### Sweden: RH 2000 heights -> SWEREF 99 ellipsoidal heights
 
 *Source*: [Lantmäteriet](https://www.lantmateriet.se/en/maps-and-geographic-information/GPS-och-geodetisk-matning/Om-geodesi/Transformationer/Geoidmodeller/)  
 *Format*: GTX  
 *License*: [Creative commons, CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 Vertical transformation for Geoid model SWEN17_RH2000. Used to make the
-transitions from heights above the ellipsoid in SWEREF 99 to heights above sea
-level in RH 2000. The RH 2000 height system is used on Swedish mainland, Öland
+transitions from heights above sea level in RH 2000 (EPSG:5613) to heights above the
+ellipsoid in SWEREF 99 (EPSG:4377). The RH 2000 height system is used on Swedish mainland, Öland
 and Gotland islands.
 
 * SWEN17_RH2000.gtx
