@@ -147,6 +147,7 @@ The regional package for Europe includes resources for the following
 countries:
 
 * Denmark
+* France
 * Ireland+Northern Ireland
 * Sweden
 * The Faroe Islands
@@ -160,7 +161,9 @@ More information about the included grids and init files can be found in
 The regional package for North America includes resources for the following
 countries:
 
+* Canada
 * Greenland
+* USA
 
 More information about the included grids and init files can be found in
 [README.NORTHAMERICA](https://raw.githubusercontent.com/OSGeo/proj-datumgrid/master/north-america/README.NORTHAMERICA)
