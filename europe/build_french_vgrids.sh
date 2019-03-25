@@ -12,7 +12,7 @@ cd build_french_vgrids
 
 array=(
      # France metropole
-        'https://geodesie.ign.fr/contenu/fichiers/documentation/grilles/metropole/RAF09.mnt'
+        'https://geodesie.ign.fr/contenu/fichiers/documentation/grilles/metropole/RAF18.mnt'
 
      # Corse
         'https://geodesie.ign.fr/contenu/fichiers/documentation/grilles/metropole/RAC09.mnt'

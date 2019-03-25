@@ -110,7 +110,8 @@ probability).
 Grids to convert from national vertical datum to ellipsoidal height.
 
 Continental France an Corsica:
-* RAF09.gtx: Continental France, NGF-IGN 1969 to RGF93 (ETRS89)
+* RAF09.gtx: Continental France, NGF-IGN 1969 to RGF93 (ETRS89) (2009 version)
+* RAF18.gtx: Continental France, NGF-IGN 1969 to RGF93 (ETRS89) (2018 version)
 * RAC09.gtx: Corsica, NGF-IGN 1978 to RGF93 (ETRS89)
 
 French Antilles to RGAF09 (Réseau Géodésique des Antilles Françaises 2009):
