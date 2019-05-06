@@ -28,8 +28,10 @@ The steps are:
 2. Edit the `europe/README.EUROPE` file to describe the grid. You should mention its
    source/provenance, its license, its format (NTv2, GTX, etc.), the source and
    target coordinate reference systems of the grid, its accuracy when known,
-   and all other relevant information. Replicating an existing entry will be the
-   easiest.
+   and all other relevant information.
+   For a vertical shift grid, mention the horizontal CRS (interpolation CRS)
+   to use.
+   Replicating an existing entry will be the easiest.
 3. Add the grid name in `travis/expected_europe.lst`, sorted alphabetically.
 4. Issue the pull request
 
@@ -42,9 +44,38 @@ The relevant file to look into is [grid_transformation.sql](https://github.com/O
 
 You may find an entry like the following one:
 ```
-INSERT INTO "grid_transformation" VALUES('EPSG','15958','RGF93 to NTF (2)',NULL,NULL,'EPSG','9615','NTv2','EPSG','4171','EPSG','4275','EPSG','3694',1.0,'EPSG','8656','Latitude and longitude difference file','rgf93_ntf.gsb',NULL,NULL,NULL,NULL,NULL,NULL,'ESRI-Fra 1m emulation',0);
+INSERT INTO "grid_transformation" VALUES(
+    'EPSG','15958',             -- transformation code
+    'RGF93 to NTF (2)',         -- transformation name
+    NULL,NULL,
+    'EPSG','9615','NTv2',       -- transformation method
+    'EPSG','4171',              -- source CRS
+    'EPSG','4275',              -- target CRS
+    'EPSG','3694',              -- area of use
+    1.0,                        -- accuracy
+    'EPSG','8656','Latitude and longitude difference file','rgf93_ntf.gsb', -- grid name
+    NULL,NULL,NULL,NULL,
+    NULL,NULL,                  -- interpolation CRS
+    'ESRI-Fra 1m emulation',
+    0);
 ```
 This is a transformation from EPSG:4171 (RGF93) to EPSG:4275 (NTF) using the rgf93_ntf.gsb grid.
+
+Or for a vertical transformation
+```
+INSERT INTO "grid_transformation" VALUES(
+    'EPSG','7001','ETRS89 to NAP height (1)',
+    NULL,NULL,
+    'EPSG','9665','Geographic3D to GravityRelatedHeight (US .gtx)',
+    'EPSG','4937',
+    'EPSG','5709',
+    'EPSG','1275',
+    0.01,
+    'EPSG','8666','Geoid (height correction) model file','naptrans2008.gtx',
+    NULL,NULL,NULL,NULL,
+    'EPSG','4289',              -- interpolation CRS has been manually added
+    'RDNAP-Nld 2008',0);
+```
 
 If the EPSG dataset does not include an entry, a custom entry may be added in the [grid_transformation_custom.sql](https://github.com/OSGeo/proj.4/blob/master/data/sql/grid_transformation_custom.sql) file.
 
