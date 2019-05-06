@@ -218,7 +218,7 @@ repository.
 Transformations to and from the common Nordic referenc frame NKG_ETRF00.
 This init-file describes transformations between global reference frames
 and NKG_ETRF00 as well as transformations from NKG_ERTF00 to the local
-realisations of ERTS89 in each of the countries involved with NKG.
+realisations of ETRS89 in each of the countries involved with NKG.
 
 All transformations in this init-file uses the common Nordic frame as a
 pivot datum. Exempt from this dogma are transformations with labels
