@@ -1,4 +1,4 @@
-# PROJ-DATUMGRID-EUROPE
+﻿# PROJ-DATUMGRID-EUROPE
 
 The files in this package can be unpacked in the PROJ data directory.
 For an installed PROJ this may be /usr/local/share/proj or /usr/share/proj
@@ -243,3 +243,28 @@ starting with ``_``. Those transformations are "private" to this file and are
 only used as steps in more complicated transformations.
 
 * NKG
+
+* CHENYX06.gsb
+* CHENYX06_etrs.gsb
+
+### Switzerland: LV03 (system CH1903) -> LV95 (system CH1903+)
+
+Grid transformation from Swiss reference frame LV03 (system CH1903) to Swiss reference frame LV95 (system CH1903+).
+
+*Source*: [swisstopo](https://www.swisstopo.admin.ch/en/knowledge-facts/surveying-geodesy/reference-frames/transformations-position.html)
+*Format*: NTv2.0 (.gsb)
+*License*: [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+*Credit*: (c) 2007 swisstopo
+
+Recommended to transform from Swiss reference frame LV03 (system CH1903, EPSG:21781) to Swiss reference frame LV95 (system CH1903+, EPSG:2056). 
+LV95 is aligned to ETRF93, but shifted by several 100 meters.
+CH1903+ is the official reference system for federal surveying and for all national geobasis data regulated by federal law since 2017.
+CHENYX06.gsb gives corrections (distorsions between LV03 and LV95) in CH1903, CHENYX06_etrs.gsb gives the corrections in ETRS. 
+Several transformation services are available on https://www.swisstopo.admin.ch/en/maps-data-online/calculation-services.html (web forms and REST web geoservices) to support the exact transformation procedure between CH1903 and CH1903+ using the REFRAME algorithm (finite element transformation). The difference between the grid and finite element transformation is on a level of below several millimeters.
+
+Example:
+<21781>  +proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +units=m +nadgrids=CHENYX06_etrs.gsb +no_defs 
+<2056> +proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs  
+echo 637549 126844 | cs2cs +init=epsg:21781 +to +init=epsg:2056 -f "%.4f" -> 2637548.7189    1126843.7212    -50.8212
+
+
