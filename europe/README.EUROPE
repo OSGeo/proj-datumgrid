@@ -245,6 +245,7 @@ only used as steps in more complicated transformations.
 * NKG
 
 * CHENYX06.gsb
+* CHENYX06a.gsb
 * CHENYX06_etrs.gsb
 
 ### Switzerland: LV03 (system CH1903) -> LV95 (system CH1903+)
@@ -260,6 +261,7 @@ Recommended to transform from Swiss reference frame LV03 (system CH1903, EPSG:21
 LV95 is aligned to ETRF93, but shifted by several 100 meters.
 CH1903+ is the official reference system for federal surveying and for all national geobasis data regulated by federal law since 2017.
 CHENYX06.gsb gives corrections (distorsions between LV03 and LV95) in CH1903, CHENYX06_etrs.gsb gives the corrections in ETRS.
+CHENYX06a.gsb same as CHENYX06.gsb, but with 0.xx instead .xx.
 Several transformation services are available on https://www.swisstopo.admin.ch/en/maps-data-online/calculation-services.html
 (web forms and REST web geoservices) to support the exact transformation procedure between CH1903 and CH1903+
 using the REFRAME algorithm (finite element transformation).
