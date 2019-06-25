@@ -1,4 +1,4 @@
-﻿# PROJ-DATUMGRID-EUROPE
+# PROJ-DATUMGRID-EUROPE
 
 The files in this package can be unpacked in the PROJ data directory.
 For an installed PROJ this may be /usr/local/share/proj or /usr/share/proj
@@ -262,4 +262,3 @@ The difference between the grid and finite element transformation is on a level 
 
 * CHENyx06a.gsb
 * CHENyx06_ETRS.gsb
-
