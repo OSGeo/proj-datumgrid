@@ -276,7 +276,7 @@ Derived from 1129 common stations in the national geodetic network.
 Residuals at 130 further test points average 0.09m, maximum 0.30m.
 Recommended to transform from Portuguese Lisbon Datum (EPSG:20790) to ETRS89 in Portugal (EPSG:3763).
 
-* DLX_ETRS89_geo.gsb
+* DLx_ETRS89_geo.gsb
 
 ### Portugal: Datum 73 -> ETRS89
 
