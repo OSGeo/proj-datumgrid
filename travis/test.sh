@@ -16,7 +16,7 @@ for subdir in $SUBDIRS; do
     rm -rf build_travis
     mkdir build_travis
     cd build_travis
-    cmake ..
+    cmake .. -DENFORCE_LFS=OFF # DENFORCE_LFS=OFF only to avoid consuming LFS quota. Do not use that to prepare final archive !
     make dist
     cd ..
     cd ..
