@@ -2,6 +2,10 @@
 
 sudo: required
 
+# Avoid consuming our GitHub LFS quota
+git:
+  lfs_skip_smudge: true
+
 before_install:
   - sudo apt-get update
   - sudo apt-get install cmake g++ make zip unzip
