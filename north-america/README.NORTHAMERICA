@@ -91,7 +91,7 @@ The horizontal grid coordinates may be referenced to NAD27 or NAD83
 
 The GEOID99 model is known as a hybrid geoid model, combining
 gravimetric information with GPS ellipsoid heights on leveled bench marks.
-The GEOID99 model was developed to support direct conversion between 
+The GEOID99 model was developed to support direct conversion between
 NAD 83 GPS ellipsoidal heights and NAVD 88 orthometric heights.
 
 It is superseded by later GEOIDxx models
@@ -100,6 +100,25 @@ It is superseded by later GEOIDxx models
 * g1999a01.gtx to g1999a04.gtx : Alaska
 * g1999h01.gtx : Hawaii
 * g1999p01.gtx : Puerto Rico
+
+### USA GEOID2003 model (superseded): NAVD88 height to NAD83
+
+*Source*: converted from [NOAA NGS .bin grids](https://geodesy.noaa.gov/GEOID/GEOID03/)
+*Converter*: build_g2003.sh
+*Format*: GTX
+*License*: Public Domain
+
+The GEOID03 model is known as a hybrid geoid model, combining
+gravimetric information with GPS ellipsoid heights on leveled bench marks.
+The GEOID03 model was developed to support direct conversion between
+NAD 83 GPS ellipsoidal heights and NAVD 88 orthometric heights.
+
+It is superseded by later GEOIDxx models
+
+* geoid03_conus.gtx : Conterminous US
+* g2003a01.gtx to g2003a04.gtx : Alaska
+* g2003h01.gtx : Hawaii
+* g2003p01.gtx : Puerto Rico
 
 ### USA GEOID12B model: NAVD88/PRVD02/VIVD09/GUVD04/NMVD03/ASVD02 height to NAD83(2011)/NAD83(MA11)/NAD83(PA11)
 
