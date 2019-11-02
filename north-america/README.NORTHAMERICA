@@ -136,6 +136,27 @@ It is superseded by later GEOIDxx models
 
 * geoid06_ak.gtx : Alaska
 
+### USA GEOID2009 model (superseded): NAVD88/PRVD02/VIVD09/GUVD04 height to NAD83
+
+*Source*: converted from [NOAA NGS .bin grids](https://www.ngs.noaa.gov/GEOID/GEOID09/)
+*Converter*: build_g2009.sh
+*Format*: GTX
+*License*: Public Domain
+
+The GEOID09 model is known as a hybrid geoid model, as it is modified
+from a gravimetric model to fit GPS ellipsoid heights on leveled bench marks.
+The GEOID09 model refers to a GRS-80 shaped ellipsoid,
+centered at the NAD83 origin.  It supports direct conversion between
+NAD83 GPS ellipsoidal heights and NAVD88, GUVD04 and ASVD03 orthometric heights,
+and will support future vertical datums PRVD02 nad VIVD09.
+
+* geoid09_conus.gtx : Conterminous US.
+* geoid09_ak.gtx : Alaska.
+* g2009h01.gtx : Hawaii
+* g2009g01.gtx : Guam and Northern Mariana Islands.
+* g2009s01.gtx : American Samoa.
+* g2009p01.gtx : Puerto Rico / U.S. Vigin Islands.
+
 ### USA GEOID12B model: NAVD88/PRVD02/VIVD09/GUVD04/NMVD03/ASVD02 height to NAD83(2011)/NAD83(MA11)/NAD83(PA11)
 
 *Source*: converted from [NOAA NGS .bin grids](https://www.ngs.noaa.gov/GEOID/GEOID12B/)
