@@ -157,7 +157,7 @@ and will support future vertical datums PRVD02 nad VIVD09.
 * g2009s01.gtx : American Samoa.
 * g2009p01.gtx : Puerto Rico / U.S. Vigin Islands.
 
-### USA GEOID12B model: NAVD88/PRVD02/VIVD09/GUVD04/NMVD03/ASVD02 height to NAD83(2011)/NAD83(MA11)/NAD83(PA11)
+### USA GEOID12B model (partial superseded): NAVD88/PRVD02/VIVD09/GUVD04/NMVD03/ASVD02 height to NAD83(2011)/NAD83(MA11)/NAD83(PA11)
 
 *Source*: converted from [NOAA NGS .bin grids](https://www.ngs.noaa.gov/GEOID/GEOID12B/)
 *Converter*: build_g2012.sh
@@ -174,6 +174,29 @@ See https://www.ngs.noaa.gov/GEOID/GEOID12B/faq_2012B.shtml for more details.
 * g2012bg0.gtx : Guam and Northern Mariana Islands, referenced to NAD83(PA11). Vertical datum: GUVD04/NMVD03
 * g2012bs0.gtx : American Samoa, referenced to NAD83 (PA11). Vertical datum: ASVD02
 * g2012bp0.gtx : Puerto Rico / U.S. Vigin Islands, referenced to NAD83(2011). Vertical datum: PRVD02 and VIVD09
+
+The g2012bu0.gtx and g2012bp0.gtx grids are superseded by the
+g2018p0.gtx and g2018p0.gtx grids of GEOID18.
+
+### USA GEOID18 model: NAVD88/PRVD02 height to NAD83(2011)
+
+*Source*: converted from [NOAA NGS .bin grids](https://www.ngs.noaa.gov/GEOID/GEOID18/)
+*Converter*: build_g2018.sh
+*Format*: GTX
+*License*: Public Domain
+
+GEOID18 is intended for use with coordinates in the North American Datum of 1983 (2011)
+[NAD 83 (2011) epoch 2010.00]. It provides orthometric heights consistent with the
+North American Vertical Datum of 1988 (NAVD 88), the Puerto Rico Vertical Datum of
+2002 (PRVD02), or the Virgin Islands Vertical Datum of 2009 (VIVD09).
+
+GEOID18 covers CONUS, Puerto Rico, and the U.S. Virgin Islands and supersedes
+GEOID12B in these regions. GEOID18 does NOT cover Alaska, Hawaii, Guam and the
+Commonwealth of the Northern Mariana Islands (CNMI) where users should continue
+to use GEOID12B.
+
+* g2018u0.gtx : Conterminous US, referenced to NAD83(2011). Vertical datum: NAVD88
+* g2018p0.gtx : Puerto Rico / U.S. Vigin Islands, referenced to NAD83(2011). Vertical datum: PRVD02 and VIVD09
 
 ## Included init-files
 
