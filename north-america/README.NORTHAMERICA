@@ -120,6 +120,22 @@ It is superseded by later GEOIDxx models
 * g2003h01.gtx : Hawaii
 * g2003p01.gtx : Puerto Rico
 
+### USA GEOID2006 model (superseded): NAVD88 height to NAD83 (Alaska only)
+
+*Source*: converted from [NOAA NGS .bin grids](https://geodesy.noaa.gov/GEOID/GEOID06/)
+*Converter*: build_g2006.sh
+*Format*: GTX
+*License*: Public Domain
+
+GEOID06 is a refined hybrid geoid model for Alaska only.
+
+GEOID06 converts between the U.S. ellipsoidal datum, NAD 83, and the U.S.
+vertical datum, NAVD 88. GEOID06 is built largely on the USGG2003 gravimetric geoid.
+
+It is superseded by later GEOIDxx models
+
+* geoid06_ak.gtx : Alaska
+
 ### USA GEOID12B model: NAVD88/PRVD02/VIVD09/GUVD04/NMVD03/ASVD02 height to NAD83(2011)/NAD83(MA11)/NAD83(PA11)
 
 *Source*: converted from [NOAA NGS .bin grids](https://www.ngs.noaa.gov/GEOID/GEOID12B/)
