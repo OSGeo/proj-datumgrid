@@ -48,6 +48,8 @@ Table 3.4 details which grid to use.
 
 * GDA94_GDA2020_conformal.gsb
 * GDA94_GDA2020_conformal_and_distortion.gsb
+* GDA94_GDA2020_conformal_christmas_island.gsb
+* GDA94_GDA2020_conformal_cocos_island.gsb
 
 [Creative Commons Attribution 4.0]: https://creativecommons.org/licenses/by/4.0/
 [GDA2020 Technical Manual]: http://www.icsm.gov.au/datum/gda2020-and-gda94-technical-manuals
