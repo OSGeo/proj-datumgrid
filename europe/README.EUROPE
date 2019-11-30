@@ -60,6 +60,16 @@ examples of use.
 * nkgrf03vel_realigned_xy.ct2
 * nkgrf03vel_realigned_z.gtx
 
+### Germany (Baden-Württemberg): DE_DHDN -> ETRS89
+
+*Source*: [LGL](https://www.lgl-bw.de/lgl-internet/opencms/de/05_Geoinformation/Liegenschaftskataster/ETRS89-UTM/)  
+*Format*: NTv2  
+*License*: [Data licence Germany – attribution – version 2.0](https://www.govdata.de/dl-de/by-2-0)
+
+Grid transformation from DE_DHDN to ETRS89 for Baden-Württemberg.
+
+* BWTA2017.gsb
+
 ### Ireland: OSGM15 height, Malin head datum -> ETRS89 ellipsoidal heights
 
 *Source*: [Ordnance Survey](https://www.ordnancesurvey.co.uk/business-and-government/help-and-support/navigation-technology/os-net/formats-for-developers.html)  

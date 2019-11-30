@@ -69,6 +69,8 @@ Grid transformation from DE_DHDN to ETRS89 in Germany.
 
 * BETA2007.gsb
 
+Note: proj-datumgrid-europe includes the BWTA2017.gsb grid for Baden-Württemberg
+
 ### New Zealand: NZGD49 -> NZGD2000
 
 *Source*: [LINZ](https://www.linz.govt.nz/data/geodetic-system/download-geodetic-software/gd2000it-download)  
