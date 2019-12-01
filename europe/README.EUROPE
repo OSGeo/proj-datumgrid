@@ -299,9 +299,9 @@ Recommended to transform from Portuguese Datum 73 (EPSG:27493) to ETRS89 in Port
 
 2D geodetic transformation from Iceland Datum ISN93 to Iceland Datum ISN2016
 
-*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)
-*Format*: NTv2
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
+*Format*: NTv2  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
 *Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
 
 The transformation is designed so that the ISN2016 points should fit within 1-2 cm accuracy, but in the area around the earthquake area in the South and North of Vatnajökull the accuracy is worse.
@@ -314,9 +314,9 @@ Recommended to transform from ISN93 2D geodetic (EPSG:4659) to ISN2016 2D geodet
 
 2D geodetic transformation from Iceland Datum ISN2004 to Iceland Datum ISN2016
 
-*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)
-*Format*: NTv2
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
+*Format*: NTv2  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
 *Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
 
 The transformation is designed so that the ISN2016 points should fit within 1-2 cm accuracy, but in the area around the earthquake area in the South and North of Vatnajökull the accuracy is worse.
@@ -329,9 +329,9 @@ Recommended to transform from ISN2004 2D geodetic (EPSG:5324) to ISN2016 2D geod
 
 ### Iceland: Deformation model: ISN93 -> ISN2016 
 
-*Source*: [IGN France](https://geodesie.ign.fr/index.php?page=grilles)   
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
 *Format*: NTv2,GTX  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
 *Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
 
 Deformation model used in transformation between ISN93 reference frame and ISN2016 reference frame
@@ -347,9 +347,9 @@ See the `ISL` init-file for examples of use.
 
 ### Iceland: Deformation model: ISN2004 -> ISN2016 
 
-*Source*: [IGN France](https://geodesie.ign.fr/index.php?page=grilles)   
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
 *Format*: NTv2,GTX  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
 *Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
 
 Deformation model used in transformation between ISN2004 reference frame and ISN2016 reference frame
@@ -365,9 +365,9 @@ See the `ISL` init-file for examples of use.
 
 ### Iceland: ISN2004 ellipsoidal height  -> ISH2004 vertical datum
 
-*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
 *Format*: GTX  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
 *Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
 
 Geoid usually fits within 1-2cm, but in some areas it‘s slightly worse 3-5cm. The std for the fitted geoid is 1.7cm based on over 300 gnss levellin points
@@ -381,9 +381,9 @@ See the `ISL` init-file for examples of use.
 
 ### Iceland: Velocity Model
 
-*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
 *Format*: CTable2 and GTX  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
 *Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
 
 Used in transformations between ISN2016 and global reference frame realisation ITRF14 with different epochs, 
@@ -396,8 +396,8 @@ ISN_vel_beta.gtx
 
 ### Iceland: System definitions
 
-*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
 
 Init file with various transformations and conversions of relevance in Iceland.
 
