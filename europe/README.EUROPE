@@ -386,8 +386,8 @@ See the `ISL` init-file for examples of use.
 *License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
 *Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
 
-Used in transformations between ISN2016 and global reference frame realisation ITRF14 with different epochs, 
-also transformation between different epochs within ITRF14 frame.
+Used in transformations between ISN2016 and global reference frame realisation ITRF2014 with different epochs, 
+also transformation between different epochs within ITRF2014 frame.
 
 See the `ISL` init-file for examples of use.
 
