@@ -70,6 +70,14 @@ Grid transformation from DE_DHDN to ETRS89 for Baden-Württemberg.
 
 * BWTA2017.gsb
 
+### Germany (Saxony): RD/83 to ETRS89
+
+*Source*: [GeoSN](https://www.landesvermessung.sachsen.de/download-5608.html?_cp=%7B%22accordion-content-4389%22%3A%7B%222%22%3Atrue%7D%2C%22previousOpen%22%3A%7B%22group%22%3A%22accordion-content-4389%22%2C%22idx%22%3A2%7D%7D)  
+*Format*: NTv2  
+*License*: [Data licence Germany – attribution – version 2.0](https://www.govdata.de/dl-de/by-2-0)
+
+* NTv2_SN.gsb
+
 ### Austria: MGI -> ETRS89
 
 *Source*: [BEV](http://www.bev.gv.at/portal/page?_pageid=713,2157075&_dad=portal&_schema=PORTAL)  
