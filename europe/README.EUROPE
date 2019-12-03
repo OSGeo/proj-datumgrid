@@ -203,6 +203,55 @@ and Gotland islands.
 
 * SWEN17_RH2000.gtx
 
+### Switzerland: LV03 (system CH1903) -> LV95 (system CH1903+)
+
+*Source*: [swisstopo](https://www.swisstopo.admin.ch/en/knowledge-facts/surveying-geodesy/reference-frames/transformations-position.html)
+*Format*: NTv2.0 (.gsb)
+*License*: [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+*Credit*: (c) 2007 swisstopo
+
+Recommended to transform from Swiss reference frame LV03 (system CH1903, EPSG:21781) to Swiss reference frame LV95 (system CH1903+, EPSG:2056).
+LV95 is aligned to ETRF93, but shifted by several 100 meters.
+CH1903+ is the official reference system for federal surveying and for all national geobasis data regulated by federal law since 2017.
+CHENyx06a.gsb gives corrections (distorsions between LV03 and LV95) in CH1903, CHENyx06_ETRS.gsb gives the corrections in ETRS.
+Several transformation services are available on https://www.swisstopo.admin.ch/en/maps-data-online/calculation-services.html
+(web forms and REST web geoservices) to support the exact transformation procedure between CH1903 and CH1903+
+using the REFRAME algorithm (finite element transformation).
+The difference between the grid and finite element transformation is on a level of below several millimeters.
+
+* CHENyx06a.gsb
+* CHENyx06_ETRS.gsb
+
+### Portugal: Lisbon Datum -> ETRS89
+
+Grid transformation from Portuguese Lisbon Datum to ETRS89 in Portugal.
+
+*Source*: [DGT](http://www.dgterritorio.pt/cartografia_e_geodesia/geodesia/transformacao_de_coordenadas/grelhas_em_ntv2/)
+*Format*: NTv2
+*License*: [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/)
+*Credit*: (c)2019 Directorate-General for the Territorial Development.
+
+Derived from 1129 common stations in the national geodetic network. 
+Residuals at 130 further test points average 0.09m, maximum 0.30m.
+Recommended to transform from Portuguese Lisbon Datum (EPSG:20790) to ETRS89 in Portugal (EPSG:3763).
+
+* DLx_ETRS89_geo.gsb
+
+### Portugal: Datum 73 -> ETRS89
+
+Grid transformation from Portuguese Datum 73 to ETRS89 in Portugal.
+
+*Source*: [DGT](http://www.dgterritorio.pt/cartografia_e_geodesia/geodesia/transformacao_de_coordenadas/grelhas_em_ntv2/)
+*Format*: NTv2
+*License*: [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/)
+*Credit*: (c)2019 Directorate-General for the Territorial Development.
+
+Derived from 1129 common stations in the national geodetic network. 
+Residuals at 130 further test points average 0.06m, maximum 0.16m.
+Recommended to transform from Portuguese Datum 73 (EPSG:27493) to ETRS89 in Portugal (EPSG:3763).
+
+* D73_ETRS89_geo.gsb
+
 ## Included init-files
 
 ### Denmark: System definitions related to ETRS89
@@ -255,52 +304,3 @@ starting with ``_``. Those transformations are "private" to this file and are
 only used as steps in more complicated transformations.
 
 * NKG
-
-### Switzerland: LV03 (system CH1903) -> LV95 (system CH1903+)
-
-*Source*: [swisstopo](https://www.swisstopo.admin.ch/en/knowledge-facts/surveying-geodesy/reference-frames/transformations-position.html)
-*Format*: NTv2.0 (.gsb)
-*License*: [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
-*Credit*: (c) 2007 swisstopo
-
-Recommended to transform from Swiss reference frame LV03 (system CH1903, EPSG:21781) to Swiss reference frame LV95 (system CH1903+, EPSG:2056).
-LV95 is aligned to ETRF93, but shifted by several 100 meters.
-CH1903+ is the official reference system for federal surveying and for all national geobasis data regulated by federal law since 2017.
-CHENyx06a.gsb gives corrections (distorsions between LV03 and LV95) in CH1903, CHENyx06_ETRS.gsb gives the corrections in ETRS.
-Several transformation services are available on https://www.swisstopo.admin.ch/en/maps-data-online/calculation-services.html
-(web forms and REST web geoservices) to support the exact transformation procedure between CH1903 and CH1903+
-using the REFRAME algorithm (finite element transformation).
-The difference between the grid and finite element transformation is on a level of below several millimeters.
-
-* CHENyx06a.gsb
-* CHENyx06_ETRS.gsb
-
-### Portugal: Lisbon Datum -> ETRS89
-
-Grid transformation from Portuguese Lisbon Datum to ETRS89 in Portugal.
-
-*Source*: [DGT](http://www.dgterritorio.pt/cartografia_e_geodesia/geodesia/transformacao_de_coordenadas/grelhas_em_ntv2/)
-*Format*: NTv2
-*License*: [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/)
-*Credit*: (c)2019 Directorate-General for the Territorial Development.
-
-Derived from 1129 common stations in the national geodetic network. 
-Residuals at 130 further test points average 0.09m, maximum 0.30m.
-Recommended to transform from Portuguese Lisbon Datum (EPSG:20790) to ETRS89 in Portugal (EPSG:3763).
-
-* DLx_ETRS89_geo.gsb
-
-### Portugal: Datum 73 -> ETRS89
-
-Grid transformation from Portuguese Datum 73 to ETRS89 in Portugal.
-
-*Source*: [DGT](http://www.dgterritorio.pt/cartografia_e_geodesia/geodesia/transformacao_de_coordenadas/grelhas_em_ntv2/)
-*Format*: NTv2
-*License*: [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/)
-*Credit*: (c)2019 Directorate-General for the Territorial Development.
-
-Derived from 1129 common stations in the national geodetic network. 
-Residuals at 130 further test points average 0.06m, maximum 0.16m.
-Recommended to transform from Portuguese Datum 73 (EPSG:27493) to ETRS89 in Portugal (EPSG:3763).
-
-* D73_ETRS89_geo.gsb
