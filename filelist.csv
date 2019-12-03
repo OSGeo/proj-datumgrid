@@ -1,0 +1,59 @@
+filename,type,source_crs,target_crs,interpolation_crs,agency_name,source,licence
+dvr90.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4937,EPSG:5799,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+dnn.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4937,EPSG:5733,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+fvr09.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4937,EPSG:5317,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+nkgrf03vel_realigned_xy.ct2 + nkgrf03vel_realigned_z.gtx,DEFORMATION_MODEL,,,,nordic_geodetic,The Nordic Geodetic Commission,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+BWTA2017.gsb,HORIZONTAL_OFFSET,EPSG:4314,EPSG:4258,,ge_lgl,www.lgl-bw.de,Data licence Germany - attribution - version 2.0 https://www.govdata.de/dl-de/by-2-0
+NTv2_SN.gsb,HORIZONTAL_OFFSET,EPSG:4745,EPSG:4258,,ge_geosn,GeoSN,Data licence Germany - attribution - version 2.0 https://www.govdata.de/dl-de/by-2-0
+AT_GIS_GRID.gsb,HORIZONTAL_OFFSET,EPSG:4312,EPSG:4258,,at_bev,BEV,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+OSGM15_Malin.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4937,EPSG:5731,,uk_os,Ordnance Survey,The 2-Clause BSD License https://opensource.org/licenses/bsd-license.php
+OSGM15_Belfast.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4937,EPSG:5732,,uk_os,Ordnance Survey,The 2-Clause BSD License https://opensource.org/licenses/bsd-license.php
+OSTN15_NTv2_OSGBtoETRS.gsb,HORIZONTAL_OFFSET,EPSG:4277,EPSG:4258,,uk_os,Ordnance Survey,The 2-Clause BSD License https://opensource.org/licenses/bsd-license.php
+bd72lb72_etrs89lb08.gsb,HORIZONTAL_OFFSET,EPSG:4313,EPSG:4258,,be_ign,IGN Belgium,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+RAF09.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4965,EPSG:5720,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+"RAF18,gtx",VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4965,EPSG:5720,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RAC09.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4965,EPSG:5721,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RAGTBT2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:5488,EPSG:5757,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RALD2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:5488,EPSG:9130,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RALS2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:5488,EPSG:5616,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RAMART2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:5488,EPSG:5756,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RAMG2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:5488,EPSG:5617,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+gg10_sbv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:5488,EPSG:5619,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+gg10_smv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:5488,EPSG:5620,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggg00v2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4557,EPSG:5757,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RALDW842016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4557,EPSG:9130,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggg00_lsv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4557,EPSG:5616,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggg00_mgv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4557,EPSG:5617,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggm00v2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4557,EPSG:5756,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggg00_sbv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4557,EPSG:5619,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggg00_smv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4557,EPSG:5620,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggguy15.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4967,EPSG:5755,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggker08v2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:7072,IGNF:KERG62,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggm04v1.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4469,IGNF:MAYO53,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggspm06v1.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4466,EPSG:5792,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RAR07_bl.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4971,EPSG:5758,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RASPM2018.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4466,EPSG:5792,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+CGVD2013RGSPM06.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4466,EPSG:6647,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Bora.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,EPSG:5607,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Huahine.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,EPSG:5605,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Maiao.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,"VERTCRS[""MAIAO 2001 height"",VDATUM[""MAIAO 2001""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Maupiti.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,EPSG:5604,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Raiatea.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,EPSG:5603,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Tahaa.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,EPSG:5606,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Tupai.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,"VERTCRS[""TUPAI 2001 height"",VDATUM[""TUPAI 2001""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf05-HivaOa.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,"VERTCRS[""HIVA OA height"",VDATUM[""THIVA OA""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf05-Nuku.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,"VERTCRS[""NUKU height"",VDATUM[""NUKU""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Fakarava.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,EPSG:5601,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Gambier.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,"VERTCRS[""GAMBIER height"",VDATUM[""GAMBIER""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Hao.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,"VERTCRS[""HAO height"",VDATUM[""HAO""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Mataiva.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,"VERTCRS[""MATAIVA height"",VDATUM[""MATAIVA""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Raivavae.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,"VERTCRS[""Raivavae height"",VDATUM[""Raivavae""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Reao.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,"VERTCRS[""Reao height"",VDATUM[""Reao""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Rurutu.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,"VERTCRS[""Rurutu height"",VDATUM[""Rurutu""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Tikehau.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,"VERTCRS[""Tikehau height"",VDATUM[""Tikehau""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Tubuai.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,"VERTCRS[""Tubuai height"",VDATUM[""Tubuai""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf10-Moorea.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,EPSG:5602,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf10-Tahiti.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4999,EPSG:5601,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+SWEN17_RH2000.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4977,EPSG:5613,,se_lantmateriet,Lantmateriet,Creative commons Zero https://creativecommons.org/publicdomain/zero/1.0/
+CHENyx06a.gsb,HORIZONTAL_OFFSET,EPSG:4149,EPSG:4150,,ch_swisstopo,Swisstopo,Creative commons Zero https://creativecommons.org/publicdomain/zero/1.0/
+CHENyx06_ETRS.gsb,HORIZONTAL_OFFSET,EPSG:4149,EPSG:4258,,ch_swisstopo,Swisstopo,Creative commons Zero https://creativecommons.org/publicdomain/zero/1.0/
