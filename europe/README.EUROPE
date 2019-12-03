@@ -70,6 +70,14 @@ Grid transformation from DE_DHDN to ETRS89 for Baden-Württemberg.
 
 * BWTA2017.gsb
 
+### Austria: MGI -> ETRS89
+
+*Source*: [BEV](http://www.bev.gv.at/portal/page?_pageid=713,2157075&_dad=portal&_schema=PORTAL)  
+*Format*: NTv2  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+* AT_GIS_GRID.gsb
+
 ### Ireland: OSGM15 height, Malin head datum -> ETRS89 ellipsoidal heights
 
 *Source*: [Ordnance Survey](https://www.ordnancesurvey.co.uk/business-and-government/help-and-support/navigation-technology/os-net/formats-for-developers.html)  
