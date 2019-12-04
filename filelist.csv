@@ -73,15 +73,36 @@ ntf_r93.gsb,HORIZONTAL_OFFSET,EPSG:4275,EPSG:4171,,fr_ign,IGN France,Open Licens
 BETA2007.gsb,HORIZONTAL_OFFSET,EPSG:4314,EPSG:4258,,de_bkg,BKG,Free redistribution is allowed and welcome
 nzgd2kgrid0005.gsb,HORIZONTAL_OFFSET,EPSG:4272,EPSG:4167,,nz_linz,Land Information New Zealand,Creative Commons Attribution 3.0 New Zealand https://creativecommons.org/licenses/by/3.0/nz/
 alaska,HORIZONTAL_OFFSET,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
-conus,HORIZONTAL_OFFSET,EPSG:4268,EPSG:4270,,us_usgs,USGS,Public Domain
-hawaii,HORIZONTAL_OFFSET,EPSG:4269,EPSG:4271,,us_usgs,USGS,Public Domain
-prvi,HORIZONTAL_OFFSET,EPSG:4270,EPSG:4272,,us_usgs,USGS,Public Domain
-stgeorge,HORIZONTAL_OFFSET,EPSG:4271,EPSG:4273,,us_usgs,USGS,Public Domain
-stlrnc,HORIZONTAL_OFFSET,EPSG:4272,EPSG:4274,,us_usgs,USGS,Public Domain
-stpaul,HORIZONTAL_OFFSET,EPSG:4273,EPSG:4275,,us_usgs,USGS,Public Domain
-FL,HORIZONTAL_OFFSET,EPSG:4275,EPSG:4152,,us_usgs,USGS,Public Domain
-MD,HORIZONTAL_OFFSET,EPSG:4276,EPSG:4153,,us_usgs,USGS,Public Domain
-TN,HORIZONTAL_OFFSET,EPSG:4277,EPSG:4154,,us_usgs,USGS,Public Domain
-WI,HORIZONTAL_OFFSET,EPSG:4278,EPSG:4155,,us_usgs,USGS,Public Domain
-WO,HORIZONTAL_OFFSET,EPSG:4279,EPSG:4156,,us_usgs,USGS,Public Domain
+conus,HORIZONTAL_OFFSET,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+hawaii,HORIZONTAL_OFFSET,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+prvi,HORIZONTAL_OFFSET,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+stgeorge,HORIZONTAL_OFFSET,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+stlrnc,HORIZONTAL_OFFSET,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+stpaul,HORIZONTAL_OFFSET,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+FL,HORIZONTAL_OFFSET,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
+MD,HORIZONTAL_OFFSET,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
+TN,HORIZONTAL_OFFSET,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
+WI,HORIZONTAL_OFFSET,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
+WO,HORIZONTAL_OFFSET,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
 egm96_15.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4979,EPSG:5773,,us_nga,NGA,Public Domain
+ntv2_0.gsb,HORIZONTAL_OFFSET,EPSG:4267,EPSG:4269,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+ABCSRSV4.GSB,HORIZONTAL_OFFSET,EPSG:4269,EPSG:8246,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CRD27_00.GSB,HORIZONTAL_OFFSET,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CRD93_00.GSB,HORIZONTAL_OFFSET,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+NVI93_05.GSB,HORIZONTAL_OFFSET,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+BC_27_05.GSB,HORIZONTAL_OFFSET,EPSG:4267,EPSG:8246,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+BC_93_05.GSB,HORIZONTAL_OFFSET,EPSG:4269,EPSG:8246,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+NB7783v2.GSB,HORIZONTAL_OFFSET,EPSG:4122,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+NB2783v2.GSB,HORIZONTAL_OFFSET,EPSG:4267,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+GS7783.GSB,HORIZONTAL_OFFSET,EPSG:4122,EPSG:4269,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+NS778302.GSB,HORIZONTAL_OFFSET,EPSG:4122,EPSG:8252,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+ON27CSv1.GSB,HORIZONTAL_OFFSET,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+ON76CSv1.GSB,HORIZONTAL_OFFSET,EPSG:4608,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+ON83CSv1.GSB,HORIZONTAL_OFFSET,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+TO27CSv1.GSB,HORIZONTAL_OFFSET,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+PE7783V2.GSB,HORIZONTAL_OFFSET,EPSG:4122,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+NA27SCRS.GSB,HORIZONTAL_OFFSET,EPSG:4267,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CQ77SCRS.GSB,HORIZONTAL_OFFSET,EPSG:4609,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+NA83SCRS.GSB,HORIZONTAL_OFFSET,EPSG:4269,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+SK27-98.GSB,HORIZONTAL_OFFSET,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+SK83-98.GSB,HORIZONTAL_OFFSET,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
