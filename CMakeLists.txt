@@ -17,7 +17,7 @@ add_executable(nad2bin scripts/nad2bin.c)
 set(CPACK_SOURCE_GENERATOR "TGZ;ZIP")
 set(CPACK_INCLUDE_TOPLEVEL_DIRECTORY 0)
 set(CPACK_SOURCE_PACKAGE_FILE_NAME "proj-datumgrid-${PROJ_DATUMGRID_VERSION_MAJOR}.${PROJ_DATUMGRID_VERSION_MINOR}")
-set(CPACK_SOURCE_IGNORE_FILES "/europe/;/oceania/;/north-america/;/world/;/build.*/;/cmake/;/travis/;.travis.yml;.gitignore;CMakeLists.txt;/lla/;HOWTORELEASE;CONTRIBUTING.md;/.github/;/.git/;.swp$;.*~;.*.py;.*.sh;/scripts/;${CPACK_SOURCE_IGNORE_FILES}")
+set(CPACK_SOURCE_IGNORE_FILES "/europe/;/oceania/;/north-america/;/world/;/build.*/;/cmake/;/travis/;.travis.yml;.gitignore;CMakeLists.txt;/lla/;HOWTORELEASE;CONTRIBUTING.md;/.github/;/.git/;.swp$;.*~;.*.py;.*.sh;/scripts/;.*.csv;${CPACK_SOURCE_IGNORE_FILES}")
 
 include(CPack)
 

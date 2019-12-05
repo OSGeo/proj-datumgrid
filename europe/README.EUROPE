@@ -60,6 +60,32 @@ examples of use.
 * nkgrf03vel_realigned_xy.ct2
 * nkgrf03vel_realigned_z.gtx
 
+### Germany (Baden-Württemberg): DE_DHDN -> ETRS89
+
+*Source*: [LGL](https://www.lgl-bw.de/lgl-internet/opencms/de/05_Geoinformation/Liegenschaftskataster/ETRS89-UTM/)  
+*Format*: NTv2  
+*License*: [Data licence Germany – attribution – version 2.0](https://www.govdata.de/dl-de/by-2-0)
+
+Grid transformation from DE_DHDN to ETRS89 for Baden-Württemberg.
+
+* BWTA2017.gsb
+
+### Germany (Saxony): RD/83 to ETRS89
+
+*Source*: [GeoSN](https://www.landesvermessung.sachsen.de/download-5608.html?_cp=%7B%22accordion-content-4389%22%3A%7B%222%22%3Atrue%7D%2C%22previousOpen%22%3A%7B%22group%22%3A%22accordion-content-4389%22%2C%22idx%22%3A2%7D%7D)  
+*Format*: NTv2  
+*License*: [Data licence Germany – attribution – version 2.0](https://www.govdata.de/dl-de/by-2-0)
+
+* NTv2_SN.gsb
+
+### Austria: MGI -> ETRS89
+
+*Source*: [BEV](http://www.bev.gv.at/portal/page?_pageid=713,2157075&_dad=portal&_schema=PORTAL)  
+*Format*: NTv2  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+* AT_GIS_GRID.gsb
+
 ### Ireland: OSGM15 height, Malin head datum -> ETRS89 ellipsoidal heights
 
 *Source*: [Ordnance Survey](https://www.ordnancesurvey.co.uk/business-and-government/help-and-support/navigation-technology/os-net/formats-for-developers.html)  
@@ -193,59 +219,6 @@ and Gotland islands.
 
 * SWEN17_RH2000.gtx
 
-## Included init-files
-
-### Denmark: System definitions related to ETRS89
-
-*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-Init files with various transformations and conversions of relevance in
-Denmark. All definitions in the init file uses the local ETRS89 reference
-frame as a pivot datum. More information can be found in the
-[NordicTransformations](https://github.com/NordicGeodesy/NordicTransformations)
-repository. While the `.pol` files are init-files they are not supposed to be
-by themselves. The exist purely as helper files for the `DK` init-file.
-The `.pol` files holds polynomial constants used for transformations between
-Danish legacy coordinate reference systems and ETRS89.
-
-* DK
-* DK_bornholm.pol
-* DK_bridges.pol
-* DK_general.pol
-* DK_jutland.pol
-* DK_zealand.pol
-
-### The Faroe Islands: System definitions related to ETRS89
-
-*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-Init file with various transformations and conversions of relevance in
-The Faroe Islands. All definitions in the init file uses the local ETRS89
-reference frame as a pivot datum. More information can be found in the
-[NordicTransformations](https://github.com/NordicGeodesy/NordicTransformations)
-repository.
-
-* FO
-
-### Nordic+Baltic countries: ITRFxx -> Local ETRS89 realizations
-
-*Source*: [The Nordic Geodetic Commission](https://github.com/NordicGeodesy/NordicTransformations)  
-*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
-
-Transformations to and from the common Nordic referenc frame NKG_ETRF00.
-This init-file describes transformations between global reference frames
-and NKG_ETRF00 as well as transformations from NKG_ERTF00 to the local
-realisations of ETRS89 in each of the countries involved with NKG.
-
-All transformations in this init-file uses the common Nordic frame as a
-pivot datum. Exempt from this dogma are transformations with labels
-starting with ``_``. Those transformations are "private" to this file and are
-only used as steps in more complicated transformations.
-
-* NKG
-
 ### Switzerland: LV03 (system CH1903) -> LV95 (system CH1903+)
 
 *Source*: [swisstopo](https://www.swisstopo.admin.ch/en/knowledge-facts/surveying-geodesy/reference-frames/transformations-position.html)
@@ -325,8 +298,6 @@ Recommended to transform from ISN2004 2D geodetic (EPSG:5324) to ISN2016 2D geod
 
 * ISN2004_ISN2016.gsb
 
-
-
 ### Iceland: Deformation model: ISN93 -> ISN2016 
 
 *Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
@@ -344,7 +315,6 @@ See the `ISL` init-file for examples of use.
 * ISN93_ISN2016.gsb
 * ISN93_ISN2016.gtx
 
-
 ### Iceland: Deformation model: ISN2004 -> ISN2016 
 
 *Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
@@ -361,7 +331,6 @@ See the `ISL` init-file for examples of use.
 
 * ISN2004_ISN2016.gsb
 * ISN2004_ISN2016.gtx
-
 
 ### Iceland: ISN2004 ellipsoidal height  -> ISH2004 vertical datum
 
@@ -427,6 +396,59 @@ See the `ISL` init-file for examples of use.
 
 ISN_vel_beta.ct2 
 ISN_vel_beta.gtx
+
+## Included init-files
+
+### Denmark: System definitions related to ETRS89
+
+*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Init files with various transformations and conversions of relevance in
+Denmark. All definitions in the init file uses the local ETRS89 reference
+frame as a pivot datum. More information can be found in the
+[NordicTransformations](https://github.com/NordicGeodesy/NordicTransformations)
+repository. While the `.pol` files are init-files they are not supposed to be
+by themselves. The exist purely as helper files for the `DK` init-file.
+The `.pol` files holds polynomial constants used for transformations between
+Danish legacy coordinate reference systems and ETRS89.
+
+* DK
+* DK_bornholm.pol
+* DK_bridges.pol
+* DK_general.pol
+* DK_jutland.pol
+* DK_zealand.pol
+
+### The Faroe Islands: System definitions related to ETRS89
+
+*Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Init file with various transformations and conversions of relevance in
+The Faroe Islands. All definitions in the init file uses the local ETRS89
+reference frame as a pivot datum. More information can be found in the
+[NordicTransformations](https://github.com/NordicGeodesy/NordicTransformations)
+repository.
+
+* FO
+
+### Nordic+Baltic countries: ITRFxx -> Local ETRS89 realizations
+
+*Source*: [The Nordic Geodetic Commission](https://github.com/NordicGeodesy/NordicTransformations)  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Transformations to and from the common Nordic referenc frame NKG_ETRF00.
+This init-file describes transformations between global reference frames
+and NKG_ETRF00 as well as transformations from NKG_ERTF00 to the local
+realisations of ETRS89 in each of the countries involved with NKG.
+
+All transformations in this init-file uses the common Nordic frame as a
+pivot datum. Exempt from this dogma are transformations with labels
+starting with ``_``. Those transformations are "private" to this file and are
+only used as steps in more complicated transformations.
+
+* NKG
 
 ### Iceland: System definitions
 

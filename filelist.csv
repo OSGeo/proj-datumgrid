@@ -1,0 +1,200 @@
+filename,type,unit,source_crs,target_crs,interpolation_crs,agency_name,source,licence
+dvr90.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4937,EPSG:5799,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+dnn.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4937,EPSG:5733,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+fvr09.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4937,EPSG:5317,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+nkgrf03vel_realigned_xy.ct2 + nkgrf03vel_realigned_z.gtx,DEFORMATION_MODEL,,,,,nordic_geodetic,The Nordic Geodetic Commission,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+BWTA2017.gsb,HORIZONTAL_OFFSET,,EPSG:4314,EPSG:4258,,de_lgl,www.lgl-bw.de,Data licence Germany - attribution - version 2.0 https://www.govdata.de/dl-de/by-2-0
+NTv2_SN.gsb,HORIZONTAL_OFFSET,,EPSG:4745,EPSG:4258,,de_geosn,GeoSN,Data licence Germany - attribution - version 2.0 https://www.govdata.de/dl-de/by-2-0
+AT_GIS_GRID.gsb,HORIZONTAL_OFFSET,,EPSG:4312,EPSG:4258,,at_bev,BEV,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+OSGM15_Malin.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4937,EPSG:5731,,uk_os,Ordnance Survey,The 2-Clause BSD License https://opensource.org/licenses/bsd-license.php
+OSGM15_Belfast.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4937,EPSG:5732,,uk_os,Ordnance Survey,The 2-Clause BSD License https://opensource.org/licenses/bsd-license.php
+OSTN15_NTv2_OSGBtoETRS.gsb,HORIZONTAL_OFFSET,,EPSG:4277,EPSG:4258,,uk_os,Ordnance Survey,The 2-Clause BSD License https://opensource.org/licenses/bsd-license.php
+bd72lb72_etrs89lb08.gsb,HORIZONTAL_OFFSET,,EPSG:4313,EPSG:4258,,be_ign,IGN Belgium,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+RAF09.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4965,EPSG:5720,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RAF18.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4965,EPSG:5720,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RAC09.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4965,EPSG:5721,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RAGTBT2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:5488,EPSG:5757,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RALD2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:5488,EPSG:9130,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RALS2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:5488,EPSG:5616,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RAMART2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:5488,EPSG:5756,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RAMG2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:5488,EPSG:5617,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+gg10_sbv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:5488,EPSG:5619,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+gg10_smv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:5488,EPSG:5620,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggg00v2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4557,EPSG:5757,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RALDW842016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4557,EPSG:9130,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggg00_lsv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4557,EPSG:5616,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggg00_mgv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4557,EPSG:5617,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggm00v2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4557,EPSG:5756,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggg00_sbv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4557,EPSG:5619,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggg00_smv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4557,EPSG:5620,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggguy15.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4967,EPSG:5755,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggker08v2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:7072,IGNF:KERG62,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggm04v1.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4469,IGNF:MAYO53,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggspm06v1.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4466,EPSG:5792,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RAR07_bl.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4971,EPSG:5758,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+RASPM2018.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4466,EPSG:5792,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+CGVD2013RGSPM06.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4466,EPSG:6647,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Bora.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,EPSG:5607,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Huahine.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,EPSG:5605,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Maiao.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,"VERTCRS[""MAIAO 2001 height"",VDATUM[""MAIAO 2001""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Maupiti.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,EPSG:5604,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Raiatea.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,EPSG:5603,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Tahaa.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,EPSG:5606,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf02-Tupai.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,"VERTCRS[""TUPAI 2001 height"",VDATUM[""TUPAI 2001""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf05-HivaOa.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,"VERTCRS[""HIVA OA height"",VDATUM[""THIVA OA""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf05-Nuku.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,"VERTCRS[""NUKU height"",VDATUM[""NUKU""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Fakarava.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,EPSG:5601,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Gambier.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,"VERTCRS[""GAMBIER height"",VDATUM[""GAMBIER""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Hao.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,"VERTCRS[""HAO height"",VDATUM[""HAO""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Mataiva.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,"VERTCRS[""MATAIVA height"",VDATUM[""MATAIVA""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Raivavae.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,"VERTCRS[""Raivavae height"",VDATUM[""Raivavae""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Reao.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,"VERTCRS[""Reao height"",VDATUM[""Reao""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Rurutu.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,"VERTCRS[""Rurutu height"",VDATUM[""Rurutu""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Tikehau.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,"VERTCRS[""Tikehau height"",VDATUM[""Tikehau""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf08-Tubuai.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,"VERTCRS[""Tubuai height"",VDATUM[""Tubuai""],CS[vertical,1],AXIS[""gravity-related height (H)"",up,LENGTHUNIT[""metre"",1]]]",,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf10-Moorea.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,EPSG:5602,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggpf10-Tahiti.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4999,EPSG:5601,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+SWEN17_RH2000.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4977,EPSG:5613,,se_lantmateriet,Lantmateriet,Creative commons Zero https://creativecommons.org/publicdomain/zero/1.0/
+CHENyx06a.gsb,HORIZONTAL_OFFSET,,EPSG:4149,EPSG:4150,,ch_swisstopo,Swisstopo,Creative commons Zero https://creativecommons.org/publicdomain/zero/1.0/
+CHENyx06_ETRS.gsb,HORIZONTAL_OFFSET,,EPSG:4149,EPSG:4258,,ch_swisstopo,Swisstopo,Creative commons Zero https://creativecommons.org/publicdomain/zero/1.0/
+DLx_ETRS89_geo.gsb,HORIZONTAL_OFFSET,,EPSG:4207,EPSG:4258,,pt_dgt,DGT,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+D73_ETRS89_geo.gsb,HORIZONTAL_OFFSET,,EPSG:4274,EPSG:4258,,pt_dgt,DGT,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+A66_National_13_09_01.gsb,HORIZONTAL_OFFSET,,EPSG:4202,EPSG:4283,,au_icsm,ICSM,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+National_84_02_07_01.gsb,HORIZONTAL_OFFSET,,EPSG:4203,EPSG:4283,,au_icsm,ICSM,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+GDA94_GDA2020_conformal.gsb,HORIZONTAL_OFFSET,,EPSG:4283,EPSG:7844,,au_icsm,ICSM,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+GDA94_GDA2020_conformal_and_distortion.gsb,HORIZONTAL_OFFSET,,EPSG:4283,EPSG:7844,,au_icsm,ICSM,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+GDA94_GDA2020_conformal_christmas_island.gsb,HORIZONTAL_OFFSET,,EPSG:4283,EPSG:7844,,au_icsm,ICSM,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+GDA94_GDA2020_conformal_cocos_island.gsb,HORIZONTAL_OFFSET,,EPSG:4283,EPSG:7844,,au_icsm,ICSM,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+AUSGeoid09_V1.01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4939,EPSG:5711,,au_geoau,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+AUSGeoid2020_20180201.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:7843,EPSG:5711,,au_geoau,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+egm08_25.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4979,EPSG:3855,,us_nga,NGA,Public Domain
+ntv1_can.dat,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,ca_nrc,Natural Resources Canada,Public Domain
+ntf_r93.gsb,HORIZONTAL_OFFSET,,EPSG:4275,EPSG:4171,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+BETA2007.gsb,HORIZONTAL_OFFSET,,EPSG:4314,EPSG:4258,,de_bkg,BKG,Free redistribution is allowed and welcome
+nzgd2kgrid0005.gsb,HORIZONTAL_OFFSET,,EPSG:4272,EPSG:4167,,nz_linz,Land Information New Zealand,Creative Commons Attribution 3.0 New Zealand https://creativecommons.org/licenses/by/3.0/nz/
+alaska,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+conus,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+hawaii,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+prvi,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+stgeorge,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+stlrnc,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+stpaul,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+FL,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
+MD,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
+TN,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
+WI,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
+WO,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
+egm96_15.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4979,EPSG:5773,,us_nga,NGA,Public Domain
+ntv2_0.gsb,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+ABCSRSV4.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8246,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CRD27_00.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CRD93_00.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+NVI93_05.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+BC_27_05.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8246,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+BC_93_05.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8246,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+NB7783v2.GSB,HORIZONTAL_OFFSET,,EPSG:4122,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+NB2783v2.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+GS7783.GSB,HORIZONTAL_OFFSET,,EPSG:4122,EPSG:4269,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+NS778302.GSB,HORIZONTAL_OFFSET,,EPSG:4122,EPSG:8252,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+ON27CSv1.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+ON76CSv1.GSB,HORIZONTAL_OFFSET,,EPSG:4608,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+ON83CSv1.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+TO27CSv1.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+PE7783V2.GSB,HORIZONTAL_OFFSET,,EPSG:4122,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+NA27SCRS.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CQ77SCRS.GSB,HORIZONTAL_OFFSET,,EPSG:4609,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+NA83SCRS.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+SK27-98.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+SK83-98.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+gvr2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4909,EPSG:8267,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+gvr2000.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4909,EPSG:8266,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+alhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+arhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+azhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+c1hpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+c2hpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+cnhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+cohpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+cshpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+emhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+eshpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+ethpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+flhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+gahpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+guhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+hihpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+iahpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+ilhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+inhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+kshpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+kyhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+lahpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+mdhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+mehpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+mihpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+mnhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+mohpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+mshpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+nbhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+nchpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+ndhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+nehpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+njhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+nmhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+nvhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+nyhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+ohhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+okhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+pahpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+pvhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+schpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+sdhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+tnhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+uthpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+vahpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+wihpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+wmhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+wohpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+wshpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+wthpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+wvhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+wyhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+vertconc.gtx,VERTICAL_OFFSET_VERTICAL_TO_VERTICAL,mm,EPSG:7968,EPSG:5703,,us_noaa,NOAA,Public Domain
+vertcone.gtx,VERTICAL_OFFSET_VERTICAL_TO_VERTICAL,mm,EPSG:7968,EPSG:5703,,us_noaa,NOAA,Public Domain
+vertconw.gtx,VERTICAL_OFFSET_VERTICAL_TO_VERTICAL,mm,EPSG:7968,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999u01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999u02.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999u03.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999u04.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999u05.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999u06.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999u07.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999u08.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999a01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999a02.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999a03.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999a04.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999h01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g1999p01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+geoid03_conus.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g2003a01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g2003a02.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g2003a03.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g2003a04.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g2003h01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g2003p01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+geoid06_ak.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+geoid09_conus.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+geoid09_ak.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g2009h01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:5703,,us_noaa,NOAA,Public Domain
+g2009g01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:6644,,us_noaa,NOAA,Public Domain
+g2009s01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:6643,,us_noaa,NOAA,Public Domain
+g2009p01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4269,EPSG:6641,,us_noaa,NOAA,Public Domain
+g2012bu0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6319,EPSG:5703,,us_noaa,NOAA,Public Domain
+g2012ba0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6319,EPSG:5703,,us_noaa,NOAA,Public Domain
+g2012bh0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6321,EPSG:5703,,us_noaa,NOAA,Public Domain
+g2012bg0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6321,EPSG:6644,,us_noaa,NOAA,Public Domain
+g2012bs0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6321,EPSG:6643,,us_noaa,NOAA,Public Domain
+g2012bp0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6319,EPSG:6641,,us_noaa,NOAA,Public Domain
+g2018u0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6319,EPSG:5703,,us_noaa,NOAA,Public Domain
+g2018p0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6319,EPSG:6641,,us_noaa,NOAA,Public Domain
