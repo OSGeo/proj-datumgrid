@@ -109,3 +109,16 @@ The sixth value (`package_name`) should be the PROJ package grid where the grid 
 Other values should be set to NULL.
 
 After rebuilding the PROJ database (`make`), you can check the output of `src/projinfo -s EPSG:XXXX -t EPSG:YYYY --spatial-test intersects` if the grid is properly recognized.
+
+# Examples
+
+## Pull request for a horizontal shift grid *not* registered in EPSG:
+
+- in proj-datumgrid: https://github.com/OSGeo/proj-datumgrid/pull/89
+- in PROJ itself: https://github.com/OSGeo/PROJ/pull/1791
+
+## Pull request for a horizontal shift grid registered in EPSG:
+
+- in proj-datumgrid: https://github.com/OSGeo/proj-datumgrid/pull/88
+- in PROJ itself: https://github.com/OSGeo/PROJ/pull/1789
+
