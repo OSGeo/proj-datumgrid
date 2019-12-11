@@ -426,18 +426,18 @@ expect      -17.9816163630   66.5274187459   11.6143
 <DRF_E>  
     proj=pipeline  
     step proj=cart  ellps=GRS80 
-    step proj=deformation  t_epoch=2018.679 xy_grids=ISN_vel_beta.ct2 z_grids=ISN_vel_beta.gtx  
+    step proj=deformation  +dt=-1.179 xy_grids=ISN_vel_beta.ct2 z_grids=ISN_vel_beta.gtx  
     step proj=cart inv ellps=GRS80 
     step init=ISL:KIN_LAM 
 
 # Example:
-# echo -18.1224832715  65.6854274786 134.2043 2017.5   | cct init=ISL:DRF_E
+# echo -18.1224832715  65.6854274786 134.2043   | cct init=ISL:DRF_E
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <gie>
 operation   init=ISL:DRF_E
 tolerance   3 cm
-accept      -18.1224832715  65.6854274786 134.2043 2017.5
+accept      -18.1224832715  65.6854274786 134.2043
 expect      4740331.7212 376698.7742 134.2005
 </gie>            
 
@@ -448,17 +448,17 @@ expect      4740331.7212 376698.7742 134.2005
 <DRF_2016>  
     proj=pipeline 
     step proj=cart ellps=GRS80 
-    step proj=deformation t_epoch=2018.679 xy_grids=ISN_vel_beta.ct2 z_grids=ISN_vel_beta.gtx 
+    step proj=deformation +dt=-2.179 xy_grids=ISN_vel_beta.ct2 z_grids=ISN_vel_beta.gtx 
     step proj=cart inv ellps=GRS80 
     step init=ISL:ISN2016_LAM
 
 # Example:
-# echo -18.1224832715  65.6854274786 134.2043 2016.5   | cct init=ISL:DRF_2016
+# echo -18.1224832715  65.6854274786 134.2043    | cct init=ISL:DRF_2016
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <gie>
 operation   init=ISL:DRF_2016
 tolerance   3 cm
-accept      -18.1224832715  65.6854274786 134.2043 2016.5
+accept      -18.1224832715  65.6854274786 134.2043 
 expect      2740331.7315 376698.7505 134.1972
 </gie>   
