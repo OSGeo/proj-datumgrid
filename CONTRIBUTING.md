@@ -33,7 +33,8 @@ The steps are:
    to use.
    Replicating an existing entry will be the easiest.
 3. Add the grid name in `travis/expected_europe.lst`, sorted alphabetically.
-4. Issue the pull request
+4. Register the grid in `filelist.csv`
+5. Issue the pull request
 
 Adding a grid in a package of grids is not enough to make it directly and transparently
 usable by PROJ. If the source and target coordinate reference systems are known of
