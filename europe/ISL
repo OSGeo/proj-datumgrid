@@ -159,10 +159,12 @@ expect      4790800.4329    412932.6164
 #-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # from west of Greenwich
 <RJ_G> 
-    proj=pipeline  
+    proj=pipeline
+    step proj=push +v_3
     step proj=cart   ellps=danish  
     step init=ISL:REYK19_ISN93   
-    step proj=cart  inv ellps=GRS80  
+    step proj=cart  inv ellps=GRS80 
+    step proj=pop +v_3
     step init=ISL:ISN93_LAM
 
 # Example:
@@ -170,11 +172,13 @@ expect      4790800.4329    412932.6164
 
 # from west of Copenhagen
 <RJ_W> 
-    proj=pipeline  
-    step inv proj=longlat  pm=copenhagen  
+    proj=pipeline 
+    step inv proj=longlat  pm=copenhagen
+    step proj=push +v_3
     step proj=cart   ellps=danish  
     step init=ISL:REYK19_ISN93 
-    step proj=cart  inv ellps=GRS80  
+    step proj=cart  inv ellps=GRS80 
+    step proj=pop +v_3
     step init=ISL:ISN93_LAM
 
 # Example:
@@ -183,15 +187,15 @@ expect      4790800.4329    412932.6164
 <gie>
 operation   init=ISL:RJ_G
 tolerance   50 m
-accept      -21.930875   64.1421888889 
-expect      357557.5871   407700.8896
+accept      -21.930875   64.1421888889 0
+expect      357557.5871   407700.8896  0
 </gie>
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <gie>
 operation   init=ISL:RJ_W
 tolerance   50 m
-accept      -34.50875   64.1421888889 
-expect      357557.5871   407700.8896
+accept      -34.50875   64.1421888889  0
+expect      357557.5871   407700.8896  0
 </gie>
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Hjorsey1955 (Geodetic) 2D -> ISN93 (LCC) 2D
@@ -199,17 +203,19 @@ expect      357557.5871   407700.8896
                 
 <HJORSEY_ISN93> 
     proj=pipeline  
+    step proj=push +v_3
     step proj=cart  ellps=intl 
     step init=ISL:HJ_ISN93 
-    step proj=cart inv ellps=GRS80  
+    step proj=cart inv ellps=GRS80 
+    step proj=pop +v_3
     step init=ISL:ISN93_LAM  
                   
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <gie>
 operation   init=ISL:HJORSEY_ISN93
 tolerance   15 m
-accept      -21.9933555556   64.1533913888889 
-expect      354399.1771   409035.1420
+accept      -21.9933555556   64.1533913888889 0
+expect      354399.1771   409035.1420  0
 </gie>
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ISN93 (Geodetic) 3D -> ISN2004 (LCC) 3D
