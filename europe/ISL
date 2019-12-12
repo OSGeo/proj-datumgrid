@@ -17,7 +17,7 @@
 #  
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #
-   <metadata> +version=1.0.0 +origin=LMI +lastupdate=2019-11-30
+<metadata> +version=1.0.0 +origin=LMI +lastupdate=2019-11-30
 #
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #  Vertical datum 
@@ -222,7 +222,7 @@ expect      354399.1771   409035.1420
     step init=ISL:ISN2004_LAM  
 
 # Example:
-# echo -17.981614272222  66.5274148361111 75.737 0 | cct +init=ISL:ISN93_ISN04
+# echo -17.981614272222  66.5274148361111 75.737 0 | cct init=ISL:ISN93_ISN04
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <gie>
 operation   init=ISL:ISN93_ISN04
@@ -426,7 +426,7 @@ expect      -17.9816163630   66.5274187459   11.6143
 <DRF_E>  
     proj=pipeline  
     step proj=cart  ellps=GRS80 
-    step proj=deformation  +dt=-1.179 xy_grids=ISN_vel_beta.ct2 z_grids=ISN_vel_beta.gtx  
+    step proj=deformation  dt=-1.179 xy_grids=ISN_vel_beta.ct2 z_grids=ISN_vel_beta.gtx  
     step proj=cart inv ellps=GRS80 
     step init=ISL:KIN_LAM 
 
@@ -448,7 +448,7 @@ expect      4740331.7212 376698.7742 134.2005
 <DRF_2016>  
     proj=pipeline 
     step proj=cart ellps=GRS80 
-    step proj=deformation +dt=-2.179 xy_grids=ISN_vel_beta.ct2 z_grids=ISN_vel_beta.gtx 
+    step proj=deformation dt=-2.179 xy_grids=ISN_vel_beta.ct2 z_grids=ISN_vel_beta.gtx 
     step proj=cart inv ellps=GRS80 
     step init=ISL:ISN2016_LAM
 
