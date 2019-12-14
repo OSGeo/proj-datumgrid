@@ -55,7 +55,16 @@ Table 3.4 details which grid to use.
 [GDA2020 Technical Manual]: http://www.icsm.gov.au/datum/gda2020-and-gda94-technical-manuals
 [ICSM]: https://github.com/icsm-au/transformation_grids
 
-### Australia: GDA94 -> AHD height
+### Australia: AUSGeoid98: GDA94 -> AHD height
+
+*Source*: [Geoscience Australia](http://www.ga.gov.au/ausgeoid/comp.html)  
+*Format*: GTX  
+*License*: [Creative Commons Attribution 4.0]  
+*Converter*: gdal_translate -of GTX AUSGeoid98.gsb AUSGeoid98.gtx -b 1 
+
+* AUSGeoid98.gtx
+
+### Australia: AUSGeoid09: GDA94 -> AHD height
 
 *Source*: [Geoscience Australia](http://www.ga.gov.au/ausgeoid/comp.html)  
 *Format*: GTX  
@@ -67,7 +76,7 @@ of the grid file will give results agreeing to within 1cm 99.97% of the time.
 
 * AUSGeoid09_V1.01.gtx
 
-### Australia: GDA2020 -> AHD height
+### Australia: AUSGeoid2020: GDA2020 -> AHD height
 
 *Source*: [Geoscience Australia](http://www.ga.gov.au/ausgeoid/comp.html)  
 *Format*: GTX  
