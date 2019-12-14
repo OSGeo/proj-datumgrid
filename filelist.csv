@@ -107,6 +107,11 @@ CQ77SCRS.GSB,HORIZONTAL_OFFSET,,EPSG:4609,EPSG:8237,,ca_nrc,Natural Resources Ca
 NA83SCRS.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 SK27-98.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 SK83-98.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CGG2013n83.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:8251,EPSG:6647,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CGG2013i08.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:7911,EPSG:6647,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CGG2013an83.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:8251,EPSG:9245,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CGG2013ai08.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:7911,EPSG:9245,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+HT2_2010v70.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4955,EPSG:5713,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 gvr2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4909,EPSG:8267,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 gvr2000.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4909,EPSG:8266,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 alhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
