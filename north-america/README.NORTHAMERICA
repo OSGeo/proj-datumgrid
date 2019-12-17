@@ -248,6 +248,61 @@ Transform between NAD27 and NAD83 in Canada.
 
 * SK83-98.GSB
 
+### Canada: CGVD28 height --> NAD83(CSRS)
+
+*Source*: [Natural Resources Canada](https://webapp.geod.nrcan.gc.ca/geod/process/download-helper.php?file_id=HT2_2010)  
+*Format*: GTX  
+*License*: [Open Government Licence - Canada](http://open.canada.ca/en/open-government-licence-canada)  
+*Source CRS*: EPSG:4955 (NAD83(CSRS))  
+*Target CRS*: EPSG:5713 (CGVD28 height)  
+*Used by*: [EPSG:9123 Transformation](https://www.epsg-registry.org/export.htm?gml=urn:ogc:def:coordinateOperation:EPSG::9123)
+
+* HT2_2010v70.gtx
+
+### Canada: CGVD2013(CGG2013a) height --> NAD83(CSRS)
+
+*Source*: [Natural Resources Canada](https://webapp.geod.nrcan.gc.ca/geod/process/download-helper.php?file_id=CGG2013n83a)  
+*Format*: GTX  
+*License*: [Open Government Licence - Canada](http://open.canada.ca/en/open-government-licence-canada)  
+*Source CRS*: EPSG:8251 (NAD83(CSRS)v6)  
+*Target CRS*: EPSG:9245 (CGVD2013(CGG2013a) height)  
+*Used by*: [EPSG:9247 Transformation](https://www.epsg-registry.org/export.htm?gml=urn:ogc:def:coordinateOperation:EPSG::9247)
+
+* CGG2013an83.gtx
+
+### Canada: CGVD2013(CGG2013a) height --> ITRF2008
+
+*Source*: [Natural Resources Canada](https://webapp.geod.nrcan.gc.ca/geod/process/download-helper.php?file_id=CGG2013i08a)  
+*Format*: GTX  
+*License*: [Open Government Licence - Canada](http://open.canada.ca/en/open-government-licence-canada)  
+*Source CRS*: EPSG:7911 (ITRF2008)  
+*Target CRS*: EPSG:9245 (CGVD2013(CGG2013a) height)  
+*Used by*: [EPSG:9125 Transformation](https://www.epsg-registry.org/export.htm?gml=urn:ogc:def:coordinateOperation:EPSG::9125)
+
+* CGG2013ai08.gtx
+
+### Canada: CGVD2013(CGG2013) height --> NAD83(CSRS) (superseded by CGVD2013(CGG2013a) height --> NAD83(CSRS))
+
+*Source*: [Natural Resources Canada](https://webapp.geod.nrcan.gc.ca/geod/process/download-helper.php?file_id=CGG2013n83)  
+*Format*: GTX  
+*License*: [Open Government Licence - Canada](http://open.canada.ca/en/open-government-licence-canada)  
+*Source CRS*: EPSG:8251 (NAD83(CSRS)v6)  
+*Target CRS*: EPSG:6647 (CGVD2013(CGG2013) height)  
+*Used by*: [EPSG:9246 Transformation](https://www.epsg-registry.org/export.htm?gml=urn:ogc:def:coordinateOperation:EPSG::9246)
+
+* CGG2013n83.gtx
+
+### Canada: CGVD2013(CGG2013) height --> ITRF2008 (superseded by CGVD2013(CGG2013a) height --> ITRF2008)
+
+*Source*: [Natural Resources Canada](https://webapp.geod.nrcan.gc.ca/geod/process/download-helper.php?file_id=CGG2013i08)  
+*Format*: GTX  
+*License*: [Open Government Licence - Canada](http://open.canada.ca/en/open-government-licence-canada)  
+*Source CRS*: EPSG:7911 (ITRF2008)  
+*Target CRS*: EPSG:6647 (CGVD2013(CGG2013) height)  
+*Used by*: [EPSG:9124 Transformation](https://www.epsg-registry.org/export.htm?gml=urn:ogc:def:coordinateOperation:EPSG::9124)
+
+* CGG2013i08.gtx
+
 ### Greenland: GVR2016 height -> GR96 ellipsoidal heights
 
 *Source*: [Agency for Data Supply and Efficiency](https://github.com/NordicGeodesy/NordicTransformations)  
