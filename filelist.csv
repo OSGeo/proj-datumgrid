@@ -66,9 +66,9 @@ GDA94_GDA2020_conformal.gsb,HORIZONTAL_OFFSET,,EPSG:4283,EPSG:7844,,au_icsm,ICSM
 GDA94_GDA2020_conformal_and_distortion.gsb,HORIZONTAL_OFFSET,,EPSG:4283,EPSG:7844,,au_icsm,ICSM,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 GDA94_GDA2020_conformal_christmas_island.gsb,HORIZONTAL_OFFSET,,EPSG:4283,EPSG:7844,,au_icsm,ICSM,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 GDA94_GDA2020_conformal_cocos_island.gsb,HORIZONTAL_OFFSET,,EPSG:4283,EPSG:7844,,au_icsm,ICSM,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
-AUSGeoid98.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4939,EPSG:5711,,au_geoau,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
-AUSGeoid09_V1.01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4939,EPSG:5711,,au_geoau,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
-AUSGeoid2020_20180201.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:7843,EPSG:5711,,au_geoau,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+AUSGeoid98.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4939,EPSG:5711,,au_ga,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+AUSGeoid09_V1.01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4939,EPSG:5711,,au_ga,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+AUSGeoid2020_20180201.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:7843,EPSG:5711,,au_ga,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 egm08_25.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4979,EPSG:3855,,us_nga,NGA,Public Domain
 ntv1_can.dat,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,ca_nrc,Natural Resources Canada,Public Domain
 ntf_r93.gsb,HORIZONTAL_OFFSET,,EPSG:4275,EPSG:4171,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
