@@ -3,7 +3,7 @@ dvr90.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4937,EPSG:5799,,dk_sdfe,A
 dnn.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4937,EPSG:5733,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 fvr09.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4937,EPSG:5317,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 nkgrf03vel_realigned_xy.ct2 + nkgrf03vel_realigned_z.gtx,DEFORMATION_MODEL,,,,,nordic_geodetic,The Nordic Geodetic Commission,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
-BWTA2017.gsb,HORIZONTAL_OFFSET,,EPSG:4314,EPSG:4258,,de_lgl,www.lgl-bw.de,Data licence Germany - attribution - version 2.0 https://www.govdata.de/dl-de/by-2-0
+BWTA2017.gsb,HORIZONTAL_OFFSET,,EPSG:4314,EPSG:4258,,de_lgl_bw,www.lgl-bw.de,Data licence Germany - attribution - version 2.0 https://www.govdata.de/dl-de/by-2-0
 SeTa2016.gsb,HORIZONTAL_OFFSET,,EPSG:4314,EPSG:4258,,de_lgvl_saarland,"Landesamt für Vermessung, Geoinformation und Landentwicklung Saarland",Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 NTv2_SN.gsb,HORIZONTAL_OFFSET,,EPSG:4745,EPSG:4258,,de_geosn,GeoSN,Data licence Germany - attribution - version 2.0 https://www.govdata.de/dl-de/by-2-0
 AT_GIS_GRID.gsb,HORIZONTAL_OFFSET,,EPSG:4312,EPSG:4258,,at_bev,BEV,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
