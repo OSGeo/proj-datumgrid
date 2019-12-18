@@ -54,3 +54,35 @@ Table 3.4 details which grid to use.
 [Creative Commons Attribution 4.0]: https://creativecommons.org/licenses/by/4.0/
 [GDA2020 Technical Manual]: http://www.icsm.gov.au/datum/gda2020-and-gda94-technical-manuals
 [ICSM]: https://github.com/icsm-au/transformation_grids
+
+### Australia: AUSGeoid98: GDA94 -> AHD height
+
+*Source*: [Geoscience Australia](http://www.ga.gov.au/ausgeoid/comp.html)  
+*Format*: GTX  
+*License*: [Creative Commons Attribution 4.0]  
+*Converter*: gdal_translate -of GTX AUSGeoid98.gsb AUSGeoid98.gtx -b 1 
+
+* AUSGeoid98.gtx
+
+### Australia: AUSGeoid09: GDA94 -> AHD height
+
+*Source*: [Geoscience Australia](http://www.ga.gov.au/ausgeoid/comp.html)  
+*Format*: GTX  
+*License*: [Creative Commons Attribution 4.0]  
+*Converter*: gdal_translate -of GTX AUSGeoid09_V1.01.gsb AUSGeoid09_V1.01.gtx -b 1 
+
+Uses AusGeoid09 model which uses bi-cubic interpolation; bi-linear interpolation
+of the grid file will give results agreeing to within 1cm 99.97% of the time.
+
+* AUSGeoid09_V1.01.gtx
+
+### Australia: AUSGeoid2020: GDA2020 -> AHD height
+
+*Source*: [Geoscience Australia](http://www.ga.gov.au/ausgeoid/comp.html)  
+*Format*: GTX  
+*License*: [Creative Commons Attribution 4.0]  
+*Converter*: gdal_translate AUSGeoid2020_20180201.gsb tmp.tif -a_nodata -999 -b 1 && gdalwarp tmp.tif AUSGeoid2020_20180201.gtx -dstnodata -88.8888015747070312 -of GTX
+
+Uses AusGeoid2020 model.
+
+* AUSGeoid2020_20180201.gtx

@@ -4,6 +4,7 @@ dnn.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4937,EPSG:5733,,dk_sdfe,Age
 fvr09.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4937,EPSG:5317,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 nkgrf03vel_realigned_xy.ct2 + nkgrf03vel_realigned_z.gtx,DEFORMATION_MODEL,,,,,nordic_geodetic,The Nordic Geodetic Commission,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 BWTA2017.gsb,HORIZONTAL_OFFSET,,EPSG:4314,EPSG:4258,,de_lgl,www.lgl-bw.de,Data licence Germany - attribution - version 2.0 https://www.govdata.de/dl-de/by-2-0
+SeTa2016.gsb,HORIZONTAL_OFFSET,,EPSG:4314,EPSG:4258,,de_lgvl_saarland,"Landesamt für Vermessung, Geoinformation und Landentwicklung Saarland",Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 NTv2_SN.gsb,HORIZONTAL_OFFSET,,EPSG:4745,EPSG:4258,,de_geosn,GeoSN,Data licence Germany - attribution - version 2.0 https://www.govdata.de/dl-de/by-2-0
 AT_GIS_GRID.gsb,HORIZONTAL_OFFSET,,EPSG:4312,EPSG:4258,,at_bev,BEV,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 OSGM15_Malin.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4937,EPSG:5731,,uk_os,Ordnance Survey,The 2-Clause BSD License https://opensource.org/licenses/bsd-license.php
@@ -65,8 +66,9 @@ GDA94_GDA2020_conformal.gsb,HORIZONTAL_OFFSET,,EPSG:4283,EPSG:7844,,au_icsm,ICSM
 GDA94_GDA2020_conformal_and_distortion.gsb,HORIZONTAL_OFFSET,,EPSG:4283,EPSG:7844,,au_icsm,ICSM,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 GDA94_GDA2020_conformal_christmas_island.gsb,HORIZONTAL_OFFSET,,EPSG:4283,EPSG:7844,,au_icsm,ICSM,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 GDA94_GDA2020_conformal_cocos_island.gsb,HORIZONTAL_OFFSET,,EPSG:4283,EPSG:7844,,au_icsm,ICSM,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
-AUSGeoid09_V1.01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4939,EPSG:5711,,au_geoau,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
-AUSGeoid2020_20180201.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:7843,EPSG:5711,,au_geoau,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+AUSGeoid98.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4939,EPSG:5711,,au_ga,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+AUSGeoid09_V1.01.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4939,EPSG:5711,,au_ga,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+AUSGeoid2020_20180201.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:7843,EPSG:5711,,au_ga,Geoscience Australia,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 egm08_25.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4979,EPSG:3855,,us_nga,NGA,Public Domain
 ntv1_can.dat,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,ca_nrc,Natural Resources Canada,Public Domain
 ntf_r93.gsb,HORIZONTAL_OFFSET,,EPSG:4275,EPSG:4171,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
@@ -106,6 +108,11 @@ CQ77SCRS.GSB,HORIZONTAL_OFFSET,,EPSG:4609,EPSG:8237,,ca_nrc,Natural Resources Ca
 NA83SCRS.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 SK27-98.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 SK83-98.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CGG2013n83.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:8251,EPSG:6647,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CGG2013i08.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:7911,EPSG:6647,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CGG2013an83.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:8251,EPSG:9245,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+CGG2013ai08.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:7911,EPSG:9245,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+HT2_2010v70.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4955,EPSG:5713,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 gvr2016.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4909,EPSG:8267,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 gvr2000.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4909,EPSG:8266,,dk_sdfe,Agency for Data Supply and Efficiency,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 alhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
@@ -198,6 +205,7 @@ g2012bs0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6321,EPSG:6643,,us_noa
 g2012bp0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6319,EPSG:6641,,us_noaa,NOAA,Public Domain
 g2018u0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6319,EPSG:5703,,us_noaa,NOAA,Public Domain
 g2018p0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6319,EPSG:6641,,us_noaa,NOAA,Public Domain
+100800401.gsb,HORIZONTAL_OFFSET,,EPSG:4230,EPSG:4258,,es_cat_icgc,Institut Cartogràfic i Geològic de Catalunya (ICGC),Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 ISN93_ISN2016.gsb,HORIZONTAL_OFFSET,,EPSG:4659,EPSG:8086,,lmi,National Land Survey of Iceland,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 ISN2004_ISN2016.gsb,HORIZONTAL_OFFSET,,EPSG:5324,EPSG:8086,,lmi,National Land Survey of Iceland,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 Icegeoid_ISN2004.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:5323,EPSG:8089,,lmi,National Land Survey of Iceland,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/

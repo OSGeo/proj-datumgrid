@@ -33,14 +33,19 @@ The steps are:
    to use.
    Replicating an existing entry will be the easiest.
 3. Add the grid name in `travis/expected_europe.lst`, sorted alphabetically.
-4. Issue the pull request
+4. Register the grid in `filelist.csv`
+5. Issue the pull request
 
 Adding a grid in a package of grids is not enough to make it directly and transparently
 usable by PROJ. If the source and target coordinate reference systems are known of
 the PROJ database (typically they have a EPSG code), a transformation for them using
 the grid must be referenced in the PROJ database. Generally, the EPSG database will
 already have an entry for the grid, sometimes with a slightly different name.
-The relevant file to look into is [grid_transformation.sql](https://github.com/OSGeo/proj.4/blob/master/data/sql/grid_transformation.sql)
+The relevant file to look into is [grid_transformation.sql](https://github.com/OSGeo/proj.4/blob/master/data/sql/grid_transformation.sql). 
+If the gris is not yet registered in the EPSG database, you are *strongly* encouraged to
+engage with EPSG to register it. This will make its addition to PROJ and its later maintainance
+much easier. http://www.epsg.org/EPSGDataset/Makechangerequest.aspx explains the procedure
+to follow to submit a change request to EPSG.
 
 You may find an entry like the following one:
 ```
@@ -108,3 +113,16 @@ The sixth value (`package_name`) should be the PROJ package grid where the grid 
 Other values should be set to NULL.
 
 After rebuilding the PROJ database (`make`), you can check the output of `src/projinfo -s EPSG:XXXX -t EPSG:YYYY --spatial-test intersects` if the grid is properly recognized.
+
+# Examples
+
+## Pull request for a horizontal shift grid *not* registered in EPSG:
+
+- in proj-datumgrid: https://github.com/OSGeo/proj-datumgrid/pull/89
+- in PROJ itself: https://github.com/OSGeo/PROJ/pull/1791
+
+## Pull request for a horizontal shift grid registered in EPSG:
+
+- in proj-datumgrid: https://github.com/OSGeo/proj-datumgrid/pull/88
+- in PROJ itself: https://github.com/OSGeo/PROJ/pull/1789
+

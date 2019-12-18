@@ -60,6 +60,40 @@ examples of use.
 * nkgrf03vel_realigned_xy.ct2
 * nkgrf03vel_realigned_z.gtx
 
+### Germany (Baden-Württemberg): DE_DHDN -> ETRS89
+
+*Source*: [LGL](https://www.lgl-bw.de/lgl-internet/opencms/de/05_Geoinformation/Liegenschaftskataster/ETRS89-UTM/)  
+*Format*: NTv2  
+*License*: [Data licence Germany – attribution – version 2.0](https://www.govdata.de/dl-de/by-2-0)
+
+Grid transformation from DE_DHDN to ETRS89 for Baden-Württemberg.
+
+* BWTA2017.gsb
+
+### Germany (Saarland): DE_DHDN -> ETRS89
+
+*Source*: [LVGL Saarland](https://www.saarland.de/74918.htm)  
+*Format*: NTv2  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+* SeTa2016.gsb
+
+### Germany (Saxony): RD/83 to ETRS89
+
+*Source*: [GeoSN](https://www.landesvermessung.sachsen.de/download-5608.html?_cp=%7B%22accordion-content-4389%22%3A%7B%222%22%3Atrue%7D%2C%22previousOpen%22%3A%7B%22group%22%3A%22accordion-content-4389%22%2C%22idx%22%3A2%7D%7D)  
+*Format*: NTv2  
+*License*: [Data licence Germany – attribution – version 2.0](https://www.govdata.de/dl-de/by-2-0)
+
+* NTv2_SN.gsb
+
+### Austria: MGI -> ETRS89
+
+*Source*: [BEV](http://www.bev.gv.at/portal/page?_pageid=713,2157075&_dad=portal&_schema=PORTAL)  
+*Format*: NTv2  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+* AT_GIS_GRID.gsb
+
 ### Ireland: OSGM15 height, Malin head datum -> ETRS89 ellipsoidal heights
 
 *Source*: [Ordnance Survey](https://www.ordnancesurvey.co.uk/business-and-government/help-and-support/navigation-technology/os-net/formats-for-developers.html)  
@@ -193,6 +227,195 @@ and Gotland islands.
 
 * SWEN17_RH2000.gtx
 
+### Switzerland: LV03 (system CH1903) -> LV95 (system CH1903+)
+
+*Source*: [swisstopo](https://www.swisstopo.admin.ch/en/knowledge-facts/surveying-geodesy/reference-frames/transformations-position.html)
+*Format*: NTv2.0 (.gsb)
+*License*: [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
+*Credit*: (c) 2007 swisstopo
+
+Recommended to transform from Swiss reference frame LV03 (system CH1903, EPSG:21781) to Swiss reference frame LV95 (system CH1903+, EPSG:2056).
+LV95 is aligned to ETRF93, but shifted by several 100 meters.
+CH1903+ is the official reference system for federal surveying and for all national geobasis data regulated by federal law since 2017.
+CHENyx06a.gsb gives corrections (distorsions between LV03 and LV95) in CH1903, CHENyx06_ETRS.gsb gives the corrections in ETRS.
+Several transformation services are available on https://www.swisstopo.admin.ch/en/maps-data-online/calculation-services.html
+(web forms and REST web geoservices) to support the exact transformation procedure between CH1903 and CH1903+
+using the REFRAME algorithm (finite element transformation).
+The difference between the grid and finite element transformation is on a level of below several millimeters.
+
+* CHENyx06a.gsb
+* CHENyx06_ETRS.gsb
+
+### Spain (Catalonia): ED50 -> ETRS89
+
+*Source*: [Institut Cartogràfic i Geològic de Catalunya (ICGC)](http://www.icgc.cat/content/download/48766/337962/version/1/file/Malla_NTv2_11_03.zip)  
+*Format*: NTv2  
+*License*: [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/)  
+*Source CRS*: EPSG:4230 (ED50)  
+*Target CRS*: EPSG:4258 (ETRS89)  
+*Used by*: [EPSG:5661 Transformation](https://www.epsg-registry.org/export.htm?gml=urn:ogc:def:coordinateOperation:EPSG::5661)
+
+* 100800401.gsb
+
+### Portugal: Lisbon Datum -> ETRS89
+
+Grid transformation from Portuguese Lisbon Datum to ETRS89 in Portugal.
+
+*Source*: [DGT](http://www.dgterritorio.pt/cartografia_e_geodesia/geodesia/transformacao_de_coordenadas/grelhas_em_ntv2/)
+*Format*: NTv2
+*License*: [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/)
+*Credit*: (c)2019 Directorate-General for the Territorial Development.
+
+Derived from 1129 common stations in the national geodetic network. 
+Residuals at 130 further test points average 0.09m, maximum 0.30m.
+Recommended to transform from Portuguese Lisbon Datum (EPSG:20790) to ETRS89 in Portugal (EPSG:3763).
+
+* DLx_ETRS89_geo.gsb
+
+### Portugal: Datum 73 -> ETRS89
+
+Grid transformation from Portuguese Datum 73 to ETRS89 in Portugal.
+
+*Source*: [DGT](http://www.dgterritorio.pt/cartografia_e_geodesia/geodesia/transformacao_de_coordenadas/grelhas_em_ntv2/)
+*Format*: NTv2
+*License*: [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/)
+*Credit*: (c)2019 Directorate-General for the Territorial Development.
+
+Derived from 1129 common stations in the national geodetic network. 
+Residuals at 130 further test points average 0.06m, maximum 0.16m.
+Recommended to transform from Portuguese Datum 73 (EPSG:27493) to ETRS89 in Portugal (EPSG:3763).
+
+* D73_ETRS89_geo.gsb
+
+### Iceland: ISN93 -> ISN2016
+
+2D geodetic transformation from Iceland Datum ISN93 to Iceland Datum ISN2016
+
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
+*Format*: NTv2  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
+*Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
+
+The transformation is designed so that the ISN2016 points should fit within 1-2 cm accuracy, but in the area around the earthquake area in the South and North of Vatnajökull the accuracy is worse.
+
+Recommended to transform from ISN93 2D geodetic (EPSG:4659) to ISN2016 2D geodetic (EPSG:8086), also this transformation has code in EPSG Dataset (EPSG:9232)
+
+* ISN93_ISN2016.gsb
+
+### Iceland: ISN2004 -> ISN2016
+
+2D geodetic transformation from Iceland Datum ISN2004 to Iceland Datum ISN2016
+
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
+*Format*: NTv2  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
+*Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
+
+The transformation is designed so that the ISN2016 points should fit within 1-2 cm accuracy, but in the area around the earthquake area in the South and North of Vatnajökull the accuracy is worse.
+
+Recommended to transform from ISN2004 2D geodetic (EPSG:5324) to ISN2016 2D geodetic (EPSG:8086), also this transformation has code in EPSG Dataset (EPSG:9233)
+
+* ISN2004_ISN2016.gsb
+
+### Iceland: Deformation model: ISN93 -> ISN2016 
+
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
+*Format*: NTv2,GTX  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
+*Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
+
+Deformation model used in transformation between ISN93 reference frame and ISN2016 reference frame
+Horizontal transformation is designed so that the ISN2016 points should fit within 1-2 cm accuracy, but in the area around the earthquake area in the South and North of Vatnajökull the accuracy is worse.
+Vertical transformation 
+Recommended to transform from ISN93 3D geodetic (EPSG:4945) to ISN2016 3D geodetic (EPSG:8085)
+
+See the `ISL` init-file for examples of use.
+
+* ISN93_ISN2016.gsb
+* ISN93_ISN2016.gtx
+
+### Iceland: Deformation model: ISN2004 -> ISN2016 
+
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
+*Format*: NTv2,GTX  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
+*Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
+
+Deformation model used in transformation between ISN2004 reference frame and ISN2016 reference frame
+Horizontal transformation is designed so that the ISN2016 points should fit within 1-2 cm accuracy, but in the area around the earthquake area in the South and North of Vatnajökull the accuracy is worse.
+Vertical transformation 
+Recommended to transform from ISN2004 3D geodetic (EPSG:5323) to ISN2016 3D geodetic (EPSG:8085)
+
+See the `ISL` init-file for examples of use.
+
+* ISN2004_ISN2016.gsb
+* ISN2004_ISN2016.gtx
+
+### Iceland: ISN2004 ellipsoidal height  -> ISH2004 vertical datum
+
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
+*Format*: GTX  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
+*Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
+
+Geoid created in cooperation between the National Land Survey of Iceland and DTU Space in  December 2010. 
+A gravimetric geoid was fitted to National Height System ISH2004 (EPSG:8089) with over 300 GNSS levelling points
+with ellipsoidal height in ISN2004 (EPSG:5323). The std. of the fit was 1.7 cm.
+
+Grid to convert from ISN2004 ellipsoidal height (EPSG:5323) to national vertical datum ISH2004 (EPSG:8089)
+The horizontal grid coordinates are referenced to ISN2004
+
+See the `ISL` init-file for examples of use.
+
+* Icegeoid_ISN2004.gtx 
+
+### Iceland: ISN93 ellipsoidal height  -> ISH2004 vertical datum
+
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
+*Format*: GTX  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
+*Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
+
+Icegeoid_ISN2004.gtx plus corrections for vertical difference between ISN93(EPSG:4945) and ISN2004 (EPSG:5323).
+
+Grid to convert from ISN93 ellipsoidal height (EPSG:4945) to national vertical datum ISH2004 (EPSG:8089)
+The horizontal grid coordinates are referenced to ISN93
+
+See the `ISL` init-file for examples of use.
+
+* Icegeoid_ISN93.gtx
+
+### Iceland: ISN2016 ellipsoidal height  -> ISH2004 vertical datum
+
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
+*Format*: GTX  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
+*Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
+
+Icegeoid_ISN2004.gtx plus corrections for vertical difference between ISN2016(EPSG:8085) and ISN2004 (EPSG:5323).
+
+Grid to convert from ISN2016 ellipsoidal height (EPSG:8085) to national vertical datum ISH2004 (EPSG:8089)
+The horizontal grid coordinates are referenced to ISN2016
+
+See the `ISL` init-file for examples of use.
+
+* Icegeoid_ISN2016.gtx
+
+### Iceland: Velocity Model
+
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
+*Format*: CTable2 and GTX  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
+*Credit*: (c)2017-2019 Grid created by Guðmundur Valsson.
+
+Used in transformations between ISN2016 and global reference frame realisation ITRF2014 with different epochs, 
+also transformation between different epochs within ITRF2014 frame.
+
+See the `ISL` init-file for examples of use.
+
+ISN_vel_beta.ct2 
+ISN_vel_beta.gtx
+
 ## Included init-files
 
 ### Denmark: System definitions related to ETRS89
@@ -246,51 +469,11 @@ only used as steps in more complicated transformations.
 
 * NKG
 
-### Switzerland: LV03 (system CH1903) -> LV95 (system CH1903+)
+### Iceland: System definitions
 
-*Source*: [swisstopo](https://www.swisstopo.admin.ch/en/knowledge-facts/surveying-geodesy/reference-frames/transformations-position.html)
-*Format*: NTv2.0 (.gsb)
-*License*: [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
-*Credit*: (c) 2007 swisstopo
+*Source*: [National Land Survey of Iceland](https://atlas.lmi.is/LmiData/index.php?id=626468364600)  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)  
 
-Recommended to transform from Swiss reference frame LV03 (system CH1903, EPSG:21781) to Swiss reference frame LV95 (system CH1903+, EPSG:2056).
-LV95 is aligned to ETRF93, but shifted by several 100 meters.
-CH1903+ is the official reference system for federal surveying and for all national geobasis data regulated by federal law since 2017.
-CHENyx06a.gsb gives corrections (distorsions between LV03 and LV95) in CH1903, CHENyx06_ETRS.gsb gives the corrections in ETRS.
-Several transformation services are available on https://www.swisstopo.admin.ch/en/maps-data-online/calculation-services.html
-(web forms and REST web geoservices) to support the exact transformation procedure between CH1903 and CH1903+
-using the REFRAME algorithm (finite element transformation).
-The difference between the grid and finite element transformation is on a level of below several millimeters.
+Init file with various transformations and conversions of relevance in Iceland.
 
-* CHENyx06a.gsb
-* CHENyx06_ETRS.gsb
-
-### Portugal: Lisbon Datum -> ETRS89
-
-Grid transformation from Portuguese Lisbon Datum to ETRS89 in Portugal.
-
-*Source*: [DGT](http://www.dgterritorio.pt/cartografia_e_geodesia/geodesia/transformacao_de_coordenadas/grelhas_em_ntv2/)
-*Format*: NTv2
-*License*: [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/)
-*Credit*: (c)2019 Directorate-General for the Territorial Development.
-
-Derived from 1129 common stations in the national geodetic network. 
-Residuals at 130 further test points average 0.09m, maximum 0.30m.
-Recommended to transform from Portuguese Lisbon Datum (EPSG:20790) to ETRS89 in Portugal (EPSG:3763).
-
-* DLx_ETRS89_geo.gsb
-
-### Portugal: Datum 73 -> ETRS89
-
-Grid transformation from Portuguese Datum 73 to ETRS89 in Portugal.
-
-*Source*: [DGT](http://www.dgterritorio.pt/cartografia_e_geodesia/geodesia/transformacao_de_coordenadas/grelhas_em_ntv2/)
-*Format*: NTv2
-*License*: [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/)
-*Credit*: (c)2019 Directorate-General for the Territorial Development.
-
-Derived from 1129 common stations in the national geodetic network. 
-Residuals at 130 further test points average 0.06m, maximum 0.16m.
-Recommended to transform from Portuguese Datum 73 (EPSG:27493) to ETRS89 in Portugal (EPSG:3763).
-
-* D73_ETRS89_geo.gsb
+* ISL
