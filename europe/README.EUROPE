@@ -458,3 +458,25 @@ only used as steps in more complicated transformations.
 Init file with various transformations and conversions of relevance in Iceland.
 
 * ISL
+
+### Hungary: ETRS89 HD72/EOV (EPSG:23700)
+
+*Source*: [Department of Geodesy and Surveying of Budapest University of Technology and Economics](https://github.com/OSGeoLabBp/eov2etrs)  
+*Format*: NTv2
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Grid transformation from ETRS89 to HD72/EOV.
+
+* etrs2eov_notowgs.gsb
+
+### Hungary: ETRS89 heights -> Baltic heights
+
+*Source*: [Department of Geodesy and Surveying of Budapest University of Technology and Economics](https://github.com/OSGeoLabBp/eov2etrs)  
+*Format*: GTX  
+*License*: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+ETRS89 ellipsoidal heights to baltic height system transformation.
+The horizontal grid coordinates are referenced to ETRS89.
+
+* geoid_eht2014.gtx
+
