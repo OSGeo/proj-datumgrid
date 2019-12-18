@@ -88,6 +88,7 @@ WI,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
 WO,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
 egm96_15.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:4979,EPSG:5773,,us_nga,NGA,Public Domain
 ntv2_0.gsb,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+MAY76V20.gsb,HORIZONTAL_OFFSET,,EPSG:4608,EPSG:4269,,ca_nrc,Natural Resources Canada,"Copright Her Majesty the Queen in right of Canada as represented by the Canadian Geodetic Survey, Natural Resources Canada, Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada"
 ABCSRSV4.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8246,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 CRD27_00.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 CRD93_00.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
