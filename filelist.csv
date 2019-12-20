@@ -103,7 +103,9 @@ ON76CSv1.GSB,HORIZONTAL_OFFSET,,EPSG:4608,EPSG:8240,,ca_nrc,Natural Resources Ca
 ON83CSv1.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 TO27CSv1.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 PE7783V2.GSB,HORIZONTAL_OFFSET,,EPSG:4122,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+na27na83.gsb,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:4269,,ca_que_mern,Ministère de l'Énergie et des Ressources naturelles du Québec,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 NA27SCRS.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+cq77na83.gsb,HORIZONTAL_OFFSET,,EPSG:4609,EPSG:4269,,ca_que_mern,Ministère de l'Énergie et des Ressources naturelles du Québec,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 CQ77SCRS.GSB,HORIZONTAL_OFFSET,,EPSG:4609,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 NA83SCRS.GSB,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 SK27-98.GSB,HORIZONTAL_OFFSET,,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
