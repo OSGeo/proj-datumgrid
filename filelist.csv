@@ -199,5 +199,5 @@ g2012bs0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6321,EPSG:6643,,us_noa
 g2012bp0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6319,EPSG:6641,,us_noaa,NOAA,Public Domain
 g2018u0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6319,EPSG:5703,,us_noaa,NOAA,Public Domain
 g2018p0.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,,EPSG:6319,EPSG:6641,,us_noaa,NOAA,Public Domain
-etrs2eov_notowgs.gsb,HORIZONTAL_OFFSET,,EPSG:4258,EPSG:23700,,BME-GEOD,www.geod.bme.hu,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
-geoid_eht2014.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4258,EPSG:23700,EPSG:4258,,BME-GEOD,www.geod.bme.hu,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+etrs2eov_notowgs.gsb,HORIZONTAL_OFFSET,,EPSG:4258,EPSG:8357,,hu_bme_geod,www.geod.bme.hu,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
+geoid_eht2014.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,EPSG:4258,EPSG:23700,EPSG:4258,,hu_bme_geod,www.geod.bme.hu,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
