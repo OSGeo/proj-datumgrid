@@ -126,11 +126,11 @@ cnhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 cohpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 cshpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 emhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
-eshpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+eshpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4169,EPSG:4152,,us_noaa,NOAA,Public Domain
 ethpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 flhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 gahpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
-guhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+guhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4675,EPSG:4152,,us_noaa,NOAA,Public Domain
 hihpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 iahpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 ilhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
@@ -164,7 +164,7 @@ vahpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 wihpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 wmhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 wohpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
-wshpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+wshpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4169,EPSG:4152,,us_noaa,NOAA,Public Domain
 wthpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 wvhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 wyhpgn.gsb,HORIZONTAL_OFFSET,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
