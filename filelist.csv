@@ -75,7 +75,7 @@ ntf_r93.gsb,HORIZONTAL_OFFSET,Canada,,EPSG:4275,EPSG:4171,,fr_ign,IGN France,Ope
 BETA2007.gsb,HORIZONTAL_OFFSET,Germany,,EPSG:4314,EPSG:4258,,de_bkg,BKG,Free redistribution is allowed and welcome
 alaska,HORIZONTAL_OFFSET,USA - Alaska,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
 conus,HORIZONTAL_OFFSET,USA - Conterminous,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
-hawaii,HORIZONTAL_OFFSET,USA - Hawai,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
+hawaii,HORIZONTAL_OFFSET,USA - Hawaii,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
 prvi,HORIZONTAL_OFFSET,USA - Puerto Rico and the Virgin Islands,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
 stgeorge,HORIZONTAL_OFFSET,USA - Alaska - St. George Island,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
 stlrnc,HORIZONTAL_OFFSET,USA - Alaska - St. Lawrence Island,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
