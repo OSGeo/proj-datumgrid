@@ -92,8 +92,8 @@ ABCSRSV4.GSB,HORIZONTAL_OFFSET,Canada - Alberta,,EPSG:4269,EPSG:8246,,ca_nrc,Nat
 CRD27_00.GSB,HORIZONTAL_OFFSET,Canada - British Columbia - CRD,,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 CRD93_00.GSB,HORIZONTAL_OFFSET,Canada - British Columbia - CRD,,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 NVI93_05.GSB,HORIZONTAL_OFFSET,Canada - British Columbia - Vancouver Island,,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
-BC_27_05.GSB,HORIZONTAL_OFFSET,Canada - British Columbia - CRD,,EPSG:4267,EPSG:8246,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
-BC_93_05.GSB,HORIZONTAL_OFFSET,Canada - British Columbia - CRD,,EPSG:4269,EPSG:8246,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+BC_27_05.GSB,HORIZONTAL_OFFSET,Canada - British Columbia,,EPSG:4267,EPSG:8246,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+BC_93_05.GSB,HORIZONTAL_OFFSET,Canada - British Columbia,,EPSG:4269,EPSG:8246,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 NB7783v2.GSB,HORIZONTAL_OFFSET,Canada - New Brunswick,,EPSG:4122,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 NB2783v2.GSB,HORIZONTAL_OFFSET,Canada - New Brunswick,,EPSG:4267,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 GS7783.GSB,HORIZONTAL_OFFSET,Canada - Nova Scotia,,EPSG:4122,EPSG:4269,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada

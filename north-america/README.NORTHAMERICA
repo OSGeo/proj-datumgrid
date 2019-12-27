@@ -81,7 +81,7 @@ Transform between NAD27(76) and NAD83 in Canada.
 
 * NVI93_05.GSB
 
-### Canada: British Columbia (CRD): NAD27 --> NAD83(CSRS) 2002
+### Canada: British Columbia: NAD27 --> NAD83(CSRS) 2002
 
 *Source*: [Natural Resources Canada](https://webapp.geod.nrcan.gc.ca/geod/process/download-helper.php?file_id=BC_27_05)  
 *Format*: NTv2  
@@ -92,7 +92,7 @@ Transform between NAD27(76) and NAD83 in Canada.
 
 * BC_27_05.GSB
 
-### Canada: British Columbia (CRD): NAD83(Original) --> NAD83(CSRS) 2002
+### Canada: British Columbia: NAD83(Original) --> NAD83(CSRS) 2002
 
 *Source*: [Natural Resources Canada](https://webapp.geod.nrcan.gc.ca/geod/process/download-helper.php?file_id=BC_93_05)  
 *Format*: NTv2  
