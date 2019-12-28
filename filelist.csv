@@ -73,18 +73,18 @@ egm08_25.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,World,,EPSG:4979,EPSG:3855,,
 ntv1_can.dat,HORIZONTAL_OFFSET,Canada,,EPSG:4267,EPSG:4269,,ca_nrc,Natural Resources Canada,Public Domain
 ntf_r93.gsb,HORIZONTAL_OFFSET,France,,EPSG:4275,EPSG:4171,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
 BETA2007.gsb,HORIZONTAL_OFFSET,Germany,,EPSG:4314,EPSG:4258,,de_bkg,BKG,Free redistribution is allowed and welcome
-alaska,HORIZONTAL_OFFSET,USA - Alaska,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
-conus,HORIZONTAL_OFFSET,USA - Conterminous,,EPSG:4267,EPSG:4269,,us_usgs,USGS,Public Domain
-hawaii,HORIZONTAL_OFFSET,USA - Hawaii,,EPSG:4135,EPSG:4269,,us_usgs,USGS,Public Domain
-prvi,HORIZONTAL_OFFSET,USA - Puerto Rico and the Virgin Islands,,EPSG:4139,EPSG:4269,,us_usgs,USGS,Public Domain
-stgeorge,HORIZONTAL_OFFSET,USA - Alaska - St. George Island,,EPSG:4138,EPSG:4269,,us_usgs,USGS,Public Domain
-stlrnc,HORIZONTAL_OFFSET,USA - Alaska - St. Lawrence Island,,EPSG:4136,EPSG:4269,,us_usgs,USGS,Public Domain
-stpaul,HORIZONTAL_OFFSET,USA - Alaska - St. Paul Island,,EPSG:4137,EPSG:4269,,us_usgs,USGS,Public Domain
-FL,HORIZONTAL_OFFSET,USA - Florida,,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
-MD,HORIZONTAL_OFFSET,USA - Maryland,,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
-TN,HORIZONTAL_OFFSET,USA - Tennessee,,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
-WI,HORIZONTAL_OFFSET,USA - Wisconsin,,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
-WO,HORIZONTAL_OFFSET,USA - Washington,,EPSG:4269,EPSG:4152,,us_usgs,USGS,Public Domain
+alaska,HORIZONTAL_OFFSET,USA - Alaska,,EPSG:4267,EPSG:4269,,us_noaa,NOAA,Public Domain
+conus,HORIZONTAL_OFFSET,USA - Conterminous,,EPSG:4267,EPSG:4269,,us_noaa,NOAA,Public Domain
+hawaii,HORIZONTAL_OFFSET,USA - Hawaii,,EPSG:4135,EPSG:4269,,us_noaa,NOAA,Public Domain
+prvi,HORIZONTAL_OFFSET,USA - Puerto Rico and the Virgin Islands,,EPSG:4139,EPSG:4269,,us_noaa,NOAA,Public Domain
+stgeorge,HORIZONTAL_OFFSET,USA - Alaska - St. George Island,,EPSG:4138,EPSG:4269,,us_noaa,NOAA,Public Domain
+stlrnc,HORIZONTAL_OFFSET,USA - Alaska - St. Lawrence Island,,EPSG:4136,EPSG:4269,,us_noaa,NOAA,Public Domain
+stpaul,HORIZONTAL_OFFSET,USA - Alaska - St. Paul Island,,EPSG:4137,EPSG:4269,,us_noaa,NOAA,Public Domain
+FL,HORIZONTAL_OFFSET,USA - Florida,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+MD,HORIZONTAL_OFFSET,USA - Maryland,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+TN,HORIZONTAL_OFFSET,USA - Tennessee,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+WI,HORIZONTAL_OFFSET,USA - Wisconsin,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+WO,HORIZONTAL_OFFSET,USA - Washington,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 egm96_15.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,World,,EPSG:4979,EPSG:5773,,us_nga,NGA,Public Domain
 ntv2_0.gsb,HORIZONTAL_OFFSET,Canada,,EPSG:4267,EPSG:4269,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 MAY76V20.gsb,HORIZONTAL_OFFSET,Canada,,EPSG:4608,EPSG:4269,,ca_nrc,Natural Resources Canada,"Copright Her Majesty the Queen in right of Canada as represented by the Canadian Geodetic Survey, Natural Resources Canada, Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada"
