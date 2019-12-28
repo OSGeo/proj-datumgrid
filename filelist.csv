@@ -72,7 +72,7 @@ AUSGeoid2020_20180201.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,Australia,,EPSG
 egm08_25.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,World,,EPSG:4979,EPSG:3855,,us_nga,NGA,Public Domain
 ntv1_can.dat,HORIZONTAL_OFFSET,Canada,,EPSG:4267,EPSG:4269,,ca_nrc,Natural Resources Canada,Public Domain
 ntf_r93.gsb,HORIZONTAL_OFFSET,France,,EPSG:4275,EPSG:4171,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
-BETA2007.gsb,HORIZONTAL_OFFSET,Germany,,EPSG:4314,EPSG:4258,,de_bkg,BKG,Free redistribution is allowed and welcome
+BETA2007.gsb,HORIZONTAL_OFFSET,Germany,,EPSG:4314,EPSG:4258,,de_adv,AdV,Free redistribution is allowed and welcome
 alaska,HORIZONTAL_OFFSET,USA - Alaska,,EPSG:4267,EPSG:4269,,us_noaa,NOAA,Public Domain
 conus,HORIZONTAL_OFFSET,USA - Conterminous,,EPSG:4267,EPSG:4269,,us_noaa,NOAA,Public Domain
 hawaii,HORIZONTAL_OFFSET,USA - Hawaii,,EPSG:4135,EPSG:4269,,us_noaa,NOAA,Public Domain
