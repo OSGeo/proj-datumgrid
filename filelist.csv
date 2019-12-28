@@ -102,7 +102,7 @@ ON27CSv1.GSB,HORIZONTAL_OFFSET,Canada - Ontario,,EPSG:4267,EPSG:8240,,ca_nrc,Nat
 ON76CSv1.GSB,HORIZONTAL_OFFSET,Canada - Ontario,,EPSG:4608,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 ON83CSv1.GSB,HORIZONTAL_OFFSET,Canada - Ontario,,EPSG:4269,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 TO27CSv1.GSB,HORIZONTAL_OFFSET,Canada - Ontario - Toronto,,EPSG:4267,EPSG:8240,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
-PE7783V2.GSB,HORIZONTAL_OFFSET,Canada - Ontario - Toronto,,EPSG:4122,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
+PE7783V2.GSB,HORIZONTAL_OFFSET,Canada - Prince Edward Island,,EPSG:4122,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 na27na83.gsb,HORIZONTAL_OFFSET,Canada - Quebec,,EPSG:4267,EPSG:4269,,ca_que_mern,Ministère de l'Énergie et des Ressources naturelles du Québec,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
 NA27SCRS.GSB,HORIZONTAL_OFFSET,Canada - Quebec,,EPSG:4267,EPSG:8237,,ca_nrc,Natural Resources Canada,Open Government Licence - Canada http://open.canada.ca/en/open-government-licence-canada
 cq77na83.gsb,HORIZONTAL_OFFSET,Canada - Quebec,,EPSG:4609,EPSG:4269,,ca_que_mern,Ministère de l'Énergie et des Ressources naturelles du Québec,Creative Commons Attribution 4.0 https://creativecommons.org/licenses/by/4.0/
