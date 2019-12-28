@@ -28,7 +28,7 @@ ggg00_mgv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,France - Antilles - Marie 
 ggm00v2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,France - Antilles - Martinique,,EPSG:4557,EPSG:5756,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
 ggg00_sbv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,France - Antilles - Saint Barthelemy,,EPSG:4557,EPSG:5619,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
 ggg00_smv2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,France - Antilles - Saint Martin,,EPSG:4557,EPSG:5620,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
-ggguy15.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,France - Guyanne,,EPSG:4967,EPSG:5755,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
+ggguy15.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,France - Guyane,,EPSG:4967,EPSG:5755,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
 ggker08v2.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,France - Kerguelen,,EPSG:7072,IGNF:KERG62,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
 ggm04v1.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,France - Mayotte,,EPSG:4469,IGNF:MAYO53,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
 ggspm06v1.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,France - Saint-Pierre et Miquelon,,EPSG:4466,EPSG:5792,,fr_ign,IGN France,Open License https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf
