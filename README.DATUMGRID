@@ -82,7 +82,7 @@ a 20 km interval for the conversion between NZGD49 and NZGD2000.
 
 * nzgd2kgrid0005.gsb
 
-### USA: NAD27 -> NAD83
+### USA: NAD27 and older CRS -> NAD83
 
 *Source*: [.los/.las files coming from NOAA](https://www.ngs.noaa.gov/PC_PROD/NADCON/NADCON.zip)  
 *Format*: CTable2  
@@ -90,11 +90,11 @@ a 20 km interval for the conversion between NZGD49 and NZGD2000.
 
 * alaska - Alaska
 * conus - Conterminous U.S.
-* hawaii - Hawaii
-* prvi - Puerto Rico, Virgin Is.
-* stgeorge - St. George Is, Alaska
-* stlrnc - St. Lawrence Is., Alaska
-* stpaul - St. Paul Is., Alaska
+* hawaii - Hawaii. Old Hawaiian (EPSG:4135) to NAD83
+* prvi - Puerto Rico, Virgin Is. Puerto Rico (EPSG:4139) to NAD83
+* stgeorge - St. George Is, Alaska. St. George Island (EPSG:4138) to NAD83
+* stlrnc - St. Lawrence Is., Alaska. St. Lawrence Island (EPSG:4136) to NAD83
+* stpaul - St. Paul Is., Alaska. St. Paul Island (EPSG:4137) to NAD83
 
 ### USA: NAD83 -> NAD83 (HARN/HPGN)
 
