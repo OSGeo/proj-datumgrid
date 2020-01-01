@@ -98,7 +98,7 @@ Prerequisites:
 9.1.4. Check contents of tarball and zip:
 
     $ tar tvf proj-datumgrid-oceania-*.tar.gz
-    $ unzip -l proj-datumgrid-oceania-*.tar.gz
+    $ unzip -l proj-datumgrid-oceania-*.zip
 
 9.1.5. Upload the files to download.osgeo.org/proj
 
