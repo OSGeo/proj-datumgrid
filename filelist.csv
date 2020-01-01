@@ -120,8 +120,8 @@ gvr2000.gtx,VERTICAL_OFFSET_GEOGRAPHIC_TO_VERTICAL,Greenland,,EPSG:4909,EPSG:826
 alhpgn.gsb,HORIZONTAL_OFFSET,USA - Alabama,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 arhpgn.gsb,HORIZONTAL_OFFSET,USA - Arkansas,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 azhpgn.gsb,HORIZONTAL_OFFSET,USA - Arizona,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
-c1hpgn.gsb,HORIZONTAL_OFFSET,USA - Guam - Saipan,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
-c2hpgn.gsb,HORIZONTAL_OFFSET,USA - Guam - Rota,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
+c1hpgn.gsb,HORIZONTAL_OFFSET,USA - Guam - Saipan,,EPSG:4675,EPSG:4152,,us_noaa,NOAA,Public Domain
+c2hpgn.gsb,HORIZONTAL_OFFSET,USA - Guam - Rota,,EPSG:4675,EPSG:4152,,us_noaa,NOAA,Public Domain
 cnhpgn.gsb,HORIZONTAL_OFFSET,USA - California - North,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 cohpgn.gsb,HORIZONTAL_OFFSET,USA - Colorado,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain
 cshpgn.gsb,HORIZONTAL_OFFSET,USA - California - South,,EPSG:4269,EPSG:4152,,us_noaa,NOAA,Public Domain

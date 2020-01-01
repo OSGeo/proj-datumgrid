@@ -140,4 +140,4 @@ done
 # Reunion grille RAR
 i='https://geodesie.ign.fr/contenu/fichiers/documentation/grilles/outremer/RAR07_bl.gra'
 wget $i
-gdal_translate -ot Float32 -of GTX `basename $i` `basename $i .gra`.gtx
+gdal_translate `basename $i` tmp.tif -a_nodata 9999 -ot Float32 && gdalwarp tmp.tif `basename $i .gra`.gtx -dstnodata -88.8888015747070312 -of GTX && rm tmp.tif
