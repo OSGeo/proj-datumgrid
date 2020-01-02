@@ -31,6 +31,7 @@
 import copy
 import os
 import sys
+import numpy as np
 from osgeo import gdal
 
 # dummy object to hold options
@@ -71,8 +72,9 @@ def Usage():
 def TranslateLOSLAS(los, ntv2_filename, options):
 
     # Open the LOS and LAS files.
-    los_filename = los[:-4] + '.los'
-    las_filename = los[:-4] + '.las'
+    los_radix = los[:-4]
+    los_filename = los_radix + '.los'
+    las_filename = los_radix + '.las'
 
     los_db = gdal.Open(los_filename)
     las_db = gdal.Open(las_filename)
@@ -88,18 +90,40 @@ def TranslateLOSLAS(los, ntv2_filename, options):
                                  4, gdal.GDT_Float32, create_options)
 
     # Copy georeferencing
-    ntv2_db.SetGeoTransform(los_db.GetGeoTransform())
+    gt = los_db.GetGeoTransform()
 
-    # Copy offsets.
-    data = las_db.ReadAsArray()
-    if options.negate:
-        data = -1 * data
-    ntv2_db.GetRasterBand(1).WriteArray(data)
+    # American Samoan grids have issues with georeferencing
+    if os.path.basename(los_radix) in ('wshpgn', 'eshpgn'):
+        print('Special case fo American Samoan HARN grids')
+        gt = [gt[0], gt[1], 0, -(gt[3] + gt[5] * los_db.RasterYSize), 0, gt[5]]
+        assert gt[3] < 0
+        assert not options.negate
+        ntv2_db.SetGeoTransform(gt)
 
-    data = los_db.ReadAsArray()
-    if options.negate:
-        data = -1 * data
-    ntv2_db.GetRasterBand(2).WriteArray(data)
+        data = las_db.ReadAsArray()
+        # Mirror and negate
+        data = -np.flip(data, 0)
+        ntv2_db.GetRasterBand(1).WriteArray(data)
+
+        data = los_db.ReadAsArray()
+        # Mirror
+        data = np.flip(data, 0)
+        ntv2_db.GetRasterBand(2).WriteArray(data)
+        options.metadata['SYSTEM_F'] = 'AS62'
+
+    else:
+        ntv2_db.SetGeoTransform(gt)
+
+        # Copy offsets.
+        data = las_db.ReadAsArray()
+        if options.negate:
+            data = -1 * data
+        ntv2_db.GetRasterBand(1).WriteArray(data)
+
+        data = los_db.ReadAsArray()
+        if options.negate:
+            data = -1 * data
+        ntv2_db.GetRasterBand(2).WriteArray(data)
 
     if options.metadata:
         ntv2_db.SetMetadata([k + "=" + options.metadata[k] for k in options.metadata])
