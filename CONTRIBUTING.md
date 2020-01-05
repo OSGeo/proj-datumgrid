@@ -8,7 +8,7 @@ This document focuses on how to specifically contribute a new grid to proj-datum
 Preliminary:
 * The grid must be in one of the formats understood by PROJ, typically NTv2 (.gsb) for horizontal shift
 grids and GTX for vertical shift grids
-* The grid must be freely licensed as mentionned in [README.DATUMGRID](README.DATUMGR   ID).
+* The grid must be freely licensed as mentionned in [README.DATUMGRID](README.DATUMGRID).
 * We consider that you are familiar with the basic [GitHub workflow to submit a pull request](https://help.github.com/en/articles/creating-a-pull-request)
 
 Determine the geographic scope of the grid. We have one sub directory for
