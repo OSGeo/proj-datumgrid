@@ -60,9 +60,11 @@ ISN93_ISN2016.gsb
 ISN93_ISN2016.gtx
 ISN_vel_beta.ct2
 ISN_vel_beta.gtx
+naptrans2018.gtx
 NKG
 nkgrf03vel_realigned_xy.ct2
 nkgrf03vel_realigned_z.gtx
+nlgeo2018.gtx
 NTv2_SN.gsb
 OSGM15_Belfast.gtx
 OSGM15_Malin.gtx
@@ -78,6 +80,8 @@ RAMART2016.gtx
 RAMG2016.gtx
 RAR07_bl.gtx
 RASPM2018.gtx
+rdcorr2018.gsb
+rdtrans2018.gsb
 README.EUROPE
 SeTa2016.gsb
 SWEN17_RH2000.gtx
