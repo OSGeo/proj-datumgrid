@@ -108,7 +108,7 @@ The first value (`original_grid_name`) describes the grid name as in the grid_tr
 The second value (`proj_grid_name`) describe the grid name as effectively found in the PROJ grid package. This may be the same value as original_grid_name, or another one
 The third value (`proj_grid_format`) describe the grid format: NTv2 or GTX
 The fourth value (`proj_method`) describes the type of grid: `hgridshift` for horizontal shift grids or `vgridshift` for vertical shift grids
-The fifth value (`inverse_direction`) may be 0 or 1. 1 means that the actual grid in the PROJ grid package operates in the reverse direction as the record in grid_transformation. This is always the case for .gtx files
+The fifth value (`inverse_direction`) may be 0 or 1. 1 means that the actual grid in the PROJ grid package operates in the reverse direction as the record in grid_transformation.
 The sixth value (`package_name`) should be the PROJ package grid where the grid is located: `proj-datumgrid-europe`, `proj-datumgrid-north-america`, `proj-datumgrid-oceania`
 Other values should be set to NULL.
 
