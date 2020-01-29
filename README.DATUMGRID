@@ -1,5 +1,8 @@
 # PROJ-DATUMGRID
 
+NOTE: This repository is only to be used with PROJ < 7. For PROJ 7 or later,
+use the [PROJ-data](https://github.com/OSGeo/PROJ-data) repository.
+
 The files in this package can be unpacked in the PROJ data directory.
 For an installed PROJ this may be /usr/local/share/proj or /usr/share/proj
 on unix style operating systems.
